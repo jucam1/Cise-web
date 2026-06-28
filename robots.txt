@@ -1,0 +1,5 @@
+# ACTUALIZA la URL del sitemap cuando tengas el dominio real
+User-agent: *
+Allow: /
+
+Sitemap: https://ciseoaxaca.com/sitemap.xml

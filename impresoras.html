@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo-icono.png" />
+
+  <!-- SEO -->
+  <title>Reparación de Impresoras en Oaxaca | Atascos y Fallas | Cise Laptop</title>
+  <meta name="description" content="Reparamos impresoras en Oaxaca: atascos de papel, no imprime, rayas, cabezal tapado y más. HP, Epson, Canon, Brother. Diagnóstico desde $150 MXN. Escríbenos al WhatsApp." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- ACTUALIZA esta URL cuando tengas el dominio real -->
+  <link rel="canonical" href="https://ciseoaxaca.com/impresoras" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Reparación de Impresoras en Oaxaca | Atascos y Fallas | Cise Laptop" />
+  <meta property="og:description" content="Reparamos impresoras en Oaxaca: atascos de papel, no imprime, rayas, cabezal tapado y más. HP, Epson, Canon, Brother. Diagnóstico desde $150 MXN." />
+  <!-- ACTUALIZA og:url y og:image cuando tengas el dominio real -->
+  <meta property="og:url" content="https://ciseoaxaca.com/impresoras" />
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+
+    :root {
+      --brand-navy: #1D2E8C;
+      --brand-navy-hover: #152270;
+      --brand-red: #C8272E;
+    }
+
+    .header-shadow { box-shadow: 0 2px 12px rgba(0,0,0,0.10); }
+
+    @keyframes wa-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+      50%       { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+    }
+    .wa-float { animation: wa-pulse 2.4s ease-in-out infinite; }
+
+    .btn-primary {
+      background-color: var(--brand-navy);
+      color: #fff;
+      transition: background-color 0.2s;
+    }
+    .btn-primary:hover { background-color: var(--brand-navy-hover); }
+
+    .btn-outline {
+      border: 2px solid var(--brand-navy);
+      color: var(--brand-navy);
+      transition: background-color 0.2s;
+    }
+    .btn-outline:hover { background-color: #eef0fa; }
+
+    .icon-bg { background-color: #e8eaf6; }
+
+    /* Acordeón FAQ */
+    .faq-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+    }
+    .faq-body.open { max-height: 500px; }
+    .faq-arrow { transition: transform 0.3s ease; }
+    .faq-arrow.open { transform: rotate(180deg); }
+
+    /* Número de paso */
+    .step-number {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1;
+      color: #e8eaf6;
+    }
+
+    /* Badge de marca */
+    .brand-badge {
+      border: 2px solid #e8eaf6;
+      color: #1D2E8C;
+      background-color: #fff;
+      transition: border-color 0.2s, background-color 0.2s;
+    }
+    .brand-badge:hover {
+      border-color: #1D2E8C;
+      background-color: #f0f2fb;
+    }
+  </style>
+
+  <!-- Schema.org JSON-LD: BreadcrumbList + Service + FAQPage -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://ciseoaxaca.com"},
+        {"@type": "ListItem", "position": 2, "name": "Reparación de Impresoras", "item": "https://ciseoaxaca.com/impresoras"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Reparación de impresoras en Oaxaca",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Cise Laptop",
+        "telephone": "+529515473068",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle Leandro Valle 222",
+          "addressLocality": "Oaxaca de Juárez",
+          "addressRegion": "Oaxaca",
+          "addressCountry": "MX"
+        }
+      },
+      "areaServed": "Oaxaca de Juárez",
+      "offers": {
+        "@type": "Offer",
+        "price": "150",
+        "priceCurrency": "MXN",
+        "description": "Diagnóstico desde $150 MXN, se descuenta si se autoriza la reparación."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta reparar una impresora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El diagnóstico cuesta $150 MXN y se descuenta del total si autorizas la reparación. El costo de la reparación depende de la falla específica — te damos el presupuesto exacto antes de empezar. Si el costo no justifica la reparación, te lo decimos con el diagnóstico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan con impresoras de tinta y láser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trabajamos con impresoras de inyección de tinta (HP, Epson, Canon, Brother) y revisamos fallas de impresoras láser según el modelo. Escríbenos con tu modelo y te confirmamos al momento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Pueden venir a reparar la impresora a mi oficina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Por el momento el servicio es en taller. Trae la impresora a Leandro Valle 222, Centro, Oaxaca. Si tienes varias impresoras o eres empresa, escríbenos para ver opciones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi impresora tiene atasco de papel pero yo ya intenté sacarlo, ¿igual la llevo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, y es importante que vengas aunque creas haberlo resuelto. Los atascos de papel mal atendidos suelen dañar los rodillos internos con el tiempo. Lo revisamos para asegurarnos de que no haya daño secundario."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda la reparación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de la falla. Limpiezas de cabezal y atascos simples pueden quedar el mismo día o al día siguiente. Reparaciones de mecanismo interno pueden tardar más. Te damos el tiempo estimado con el diagnóstico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tienen garantía los servicios de impresora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. 35 días de garantía en mano de obra en todas nuestras reparaciones. Las refacciones tienen garantía según el proveedor. El software y configuración no tienen garantía incluida."
+          }
+        }
+      ]
+    }
+  ]
+  </script>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+  <!-- =============================================
+       BOTÓN FLOTANTE WHATSAPP
+       ============================================= -->
+  <a
+    href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Escríbenos al WhatsApp"
+    title="Escríbenos al WhatsApp"
+    class="wa-float fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform hover:scale-110"
+    style="background-color:#25D366;"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30" height="30" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+    </svg>
+  </a>
+
+
+  <!-- =============================================
+       HEADER — sticky, sombra al scroll
+       ============================================= -->
+  <header id="header" class="bg-white sticky top-0 z-40 transition-shadow duration-300">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+
+      <a href="index.html" aria-label="Cise Laptop – Inicio">
+        <img
+          src="img/logo-ciselaptop.png"
+          alt="Cise Laptop"
+          class="h-9 sm:h-12 w-auto"
+          loading="eager"
+        />
+      </a>
+
+      <a
+        href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18" height="18" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+        </svg>
+        Escríbenos al WhatsApp
+      </a>
+    </div>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="border-t border-gray-100 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2">
+        <ol class="flex items-center gap-1.5 text-xs text-gray-500">
+          <li><a href="index.html" class="hover:underline" style="color:#1D2E8C;">Inicio</a></li>
+          <li aria-hidden="true">›</li>
+          <li class="text-gray-700 font-medium">Reparación de Impresoras</li>
+        </ol>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- =============================================
+         SECCIÓN 1 — HERO
+         ============================================= -->
+    <section class="bg-white pt-12 pb-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto text-center">
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+          Reparación de impresoras<br class="hidden sm:block" /> en Oaxaca
+        </h1>
+
+        <p class="text-lg sm:text-xl text-gray-500 font-medium mb-8 max-w-2xl mx-auto leading-relaxed">
+          Atascos de papel, rayas, cabezal tapado o que no imprime.<br class="hidden sm:block" />
+          Diagnóstico desde $150 MXN — se descuenta si autorizas la reparación.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+          <a
+            href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center justify-center gap-2 text-base font-bold px-7 py-4 rounded-xl shadow-md"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+            </svg>
+            Escríbenos al WhatsApp →
+          </a>
+
+          <a
+            href="#fallas"
+            class="btn-outline inline-flex items-center justify-center gap-2 text-base font-bold px-7 py-4 rounded-xl"
+          >
+            Ver fallas que resolvemos ↓
+          </a>
+        </div>
+
+        <!-- Badges -->
+        <div class="flex flex-col sm:flex-row gap-3 justify-center flex-wrap">
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background-color:#e8eaf6; color:#1D2E8C;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            HP · Epson · Canon · Brother
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background-color:#e8eaf6; color:#1D2E8C;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            Diagnóstico $150 MXN
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background-color:#e8eaf6; color:#1D2E8C;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            +15 años en Oaxaca
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 2 — FALLAS QUE RESOLVEMOS
+         ============================================= -->
+    <section id="fallas" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">¿Cuál es el problema de tu impresora?</h2>
+        <p class="text-center text-gray-500 mb-10">Identificamos la falla con el diagnóstico y te damos una solución concreta.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- Falla 1: Atasco de papel -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Atasco de papel</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">El papel se atasca dentro y no puedes sacarlo. Revisamos rodillos, sensores y mecanismo de alimentación.</p>
+          </div>
+
+          <!-- Falla 2: No imprime o no responde -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">No imprime o no responde</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">La impresora enciende pero no hace nada al mandar documentos. Revisamos conexión, drivers y cabezal.</p>
+          </div>
+
+          <!-- Falla 3: Rayas o líneas -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Imprime con rayas o líneas</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Rayas horizontales o verticales en cada impresión. Limpiamos y alineamos el cabezal de impresión.</p>
+          </div>
+
+          <!-- Falla 4: Cabezal tapado -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Cabezal tapado o sin tinta</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">La tinta no sale aunque el cartucho esté lleno. Limpieza profunda de cabezal y sistema de tinta.</p>
+          </div>
+
+          <!-- Falla 5: Hace ruido pero no imprime -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Hace ruido pero no imprime</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Mecanismo dañado o engrane roto. Revisamos piezas internas y rodillos.</p>
+          </div>
+
+          <!-- Falla 6: Borroso o desalineado -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Imprime borroso o desalineado</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Texto o imágenes que salen torcidos o borrosos. Calibración y limpieza del sistema de impresión.</p>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-8">
+          <p class="text-gray-500 text-sm mb-4">
+            ¿Tu falla no está en la lista?
+            <a
+              href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-semibold hover:underline"
+              style="color:#1D2E8C;"
+            >Escríbenos</a>,
+            es muy probable que ya la hayamos resuelto antes.
+          </p>
+          <a
+            href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2 font-bold px-7 py-3 rounded-xl shadow-md"
+          >
+            Describir mi problema por WhatsApp →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 3 — MARCAS QUE ATENDEMOS
+         ============================================= -->
+    <section id="marcas" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Marcas con las que trabajamos</h2>
+        <p class="text-center text-gray-500 mb-10">Las más comunes del mercado, atendidas en el taller.</p>
+
+        <div class="flex flex-wrap gap-3 justify-center mb-8">
+          <span class="brand-badge font-bold text-sm px-5 py-3 rounded-xl">HP</span>
+          <span class="brand-badge font-bold text-sm px-5 py-3 rounded-xl">Epson</span>
+          <span class="brand-badge font-bold text-sm px-5 py-3 rounded-xl">Canon</span>
+          <span class="brand-badge font-bold text-sm px-5 py-3 rounded-xl">Brother</span>
+          <span class="brand-badge font-bold text-sm px-5 py-3 rounded-xl">Samsung</span>
+          <span class="brand-badge font-bold text-sm px-5 py-3 rounded-xl">Lexmark</span>
+          <span class="brand-badge font-bold text-sm px-5 py-3 rounded-xl">Xerox</span>
+        </div>
+
+        <p class="text-center text-gray-400 text-sm">
+          ¿Tu marca no está en la lista?
+          <a
+            href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-semibold hover:underline"
+            style="color:#1D2E8C;"
+          >Escríbenos el modelo</a>
+          y verificamos si podemos atenderla.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 3b — GALERÍA DE TRABAJOS
+         ============================================= -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-2xl font-bold text-center mb-10">
+          Algunos de nuestros trabajos en impresoras
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <img src="img/prueba-impresion-impresora-oaxaca.png"
+            alt="Prueba de calidad de impresión en reparación de impresora en Cise Laptop Oaxaca"
+            loading="lazy" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/cambio-almohadillas-impresora-ciselaptop.png"
+            alt="Revisión y cambio de almohadillas de tinta de impresora en Cise Laptop Oaxaca"
+            loading="lazy" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/mantenimiento-cabezal-impresora-oaxaca.png"
+            alt="Mantenimiento interno y ajuste de cabezal de impresora en Oaxaca"
+            loading="lazy" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/repuesto-almohadillas-tinta-oaxaca.png"
+            alt="Repuestos nuevos de almohadillas para mantenimiento de impresora en Oaxaca"
+            loading="lazy" class="w-full h-48 object-cover rounded-lg">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 4 — PROCESO
+         ============================================= -->
+    <section id="proceso" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">¿Cómo funciona el servicio?</h2>
+        <p class="text-center text-gray-500 mb-12">Sin sorpresas. Sin cobros sin avisarte.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">01</div>
+            <h3 class="font-bold text-gray-900 mb-2">Llevas la impresora al taller</h3>
+            <p class="text-sm text-gray-500">Sin cita previa. Lunes a viernes 9:30–20:00, sábados 10:00–15:00.</p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">02</div>
+            <h3 class="font-bold text-gray-900 mb-2">Diagnóstico por $150 MXN</h3>
+            <p class="text-sm text-gray-500">Revisamos la falla a fondo y te damos un presupuesto exacto antes de reparar. El diagnóstico se descuenta si autorizas el servicio.</p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">03</div>
+            <h3 class="font-bold text-gray-900 mb-2">Reparación autorizada por ti</h3>
+            <p class="text-sm text-gray-500">No hacemos nada sin tu aprobación. Te explicamos qué falló y cuánto cuesta arreglarlo.</p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">04</div>
+            <h3 class="font-bold text-gray-900 mb-2">Recoges tu impresora funcionando</h3>
+            <p class="text-sm text-gray-500">Lista para trabajar, con garantía de 35 días en mano de obra.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 5 — PRECIOS
+         ============================================= -->
+    <section id="precios" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Precios del servicio</h2>
+        <p class="text-center text-gray-500 mb-10">Sabes cuánto pagarás antes de que empecemos.</p>
+
+        <div class="overflow-hidden rounded-2xl border border-gray-100 shadow-sm">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="text-white" style="background-color:#1D2E8C;">
+                <th class="text-left px-6 py-4 font-semibold">Concepto</th>
+                <th class="text-right px-6 py-4 font-semibold whitespace-nowrap">Precio</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">
+                  Diagnóstico de impresora
+                  <span class="block text-xs text-gray-400 font-normal mt-0.5">Se descuenta si autorizas la reparación</span>
+                </td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">$150 MXN *</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Limpieza de cabezal</td>
+                <td class="px-6 py-4 text-right text-gray-500 whitespace-nowrap">Cotización tras diagnóstico</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Reparación de atasco / rodillos</td>
+                <td class="px-6 py-4 text-right text-gray-500 whitespace-nowrap">Cotización tras diagnóstico</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Reparación de mecanismo interno</td>
+                <td class="px-6 py-4 text-right text-gray-500 whitespace-nowrap">Cotización tras diagnóstico</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Garantía en mano de obra</td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">35 días</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-5 space-y-1.5 text-xs text-gray-400 px-1">
+          <p>* El diagnóstico se descuenta del total si autorizas la reparación.</p>
+          <p>Las refacciones se cotizan según disponibilidad y modelo. Precio + IVA donde aplique.</p>
+        </div>
+
+        <div class="text-center mt-8">
+          <a
+            href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl shadow-md"
+          >
+            Consultar precio de mi reparación →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 6 — ¿VALE LA PENA REPARAR?
+         ============================================= -->
+    <section id="reparar" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">¿Vale la pena reparar tu impresora?</h2>
+        <p class="text-center text-gray-500 mb-10">En la mayoría de los casos, sí. Aquí te explicamos por qué.</p>
+
+        <div class="space-y-5">
+
+          <!-- Punto 1 -->
+          <div class="flex gap-5 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900 mb-1">Una impresora nueva cuesta entre $1,500 y $5,000 MXN</h3>
+              <p class="text-sm text-gray-500 leading-relaxed">La mayoría de las fallas comunes cuestan mucho menos de reparar. El diagnóstico de $150 MXN te dice si conviene antes de que gastes en algo nuevo.</p>
+            </div>
+          </div>
+
+          <!-- Punto 2 -->
+          <div class="flex gap-5 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900 mb-1">Pierdes tu configuración y suministros actuales</h3>
+              <p class="text-sm text-gray-500 leading-relaxed">Cartuchos, tintas y configuraciones de red que ya tienes funcionando. Con la reparación, todo sigue igual.</p>
+            </div>
+          </div>
+
+          <!-- Punto 3 -->
+          <div class="flex gap-5 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900 mb-1">Si no tiene solución, te lo decimos</h3>
+              <p class="text-sm text-gray-500 leading-relaxed">Si el costo de reparación no justifica el equipo, te lo decimos honestamente antes de cobrar la reparación.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-8">
+          <a
+            href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl shadow-md"
+          >
+            Verificar si vale la pena reparar la mía →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 7 — FAQ
+         ============================================= -->
+    <section id="faq" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Preguntas frecuentes sobre reparación de impresoras</h2>
+        <p class="text-center text-gray-500 mb-10">Todo lo que necesitas saber antes de traer tu equipo.</p>
+
+        <div class="space-y-3" id="faq-list">
+
+          <!-- FAQ 1 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Cuánto cuesta reparar una impresora?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                El diagnóstico cuesta $150 MXN y se descuenta del total si autorizas la reparación. El costo de la reparación depende de la falla específica — te damos el presupuesto exacto antes de empezar. Si el costo no justifica la reparación, te lo decimos con el diagnóstico.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Trabajan con impresoras de tinta y láser?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Trabajamos con impresoras de inyección de tinta (HP, Epson, Canon, Brother) y revisamos fallas de impresoras láser según el modelo. Escríbenos con tu modelo y te confirmamos al momento.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Pueden venir a reparar la impresora a mi oficina?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Por el momento el servicio es en taller. Trae la impresora a Leandro Valle 222, Centro, Oaxaca. Si tienes varias impresoras o eres empresa, escríbenos para ver opciones.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>Mi impresora tiene atasco de papel pero yo ya intenté sacarlo, ¿igual la llevo?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Sí, y es importante que vengas aunque creas haberlo resuelto. Los atascos de papel mal atendidos suelen dañar los rodillos internos con el tiempo. Lo revisamos para asegurarnos de que no haya daño secundario.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Cuánto tiempo tarda la reparación?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Depende de la falla. Limpiezas de cabezal y atascos simples pueden quedar el mismo día o al día siguiente. Reparaciones de mecanismo interno pueden tardar más. Te damos el tiempo estimado con el diagnóstico.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Tienen garantía los servicios de impresora?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Sí. 35 días de garantía en mano de obra en todas nuestras reparaciones. Las refacciones tienen garantía según el proveedor. El software y configuración no tienen garantía incluida.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 8 — CTA FINAL
+         ============================================= -->
+    <section class="py-16 px-4 sm:px-6" style="background-color:#1D2E8C;">
+      <div class="max-w-3xl mx-auto text-center">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">
+          ¿Tu impresora está fallando?
+        </h2>
+        <p class="text-blue-200 text-base sm:text-lg mb-8 leading-relaxed">
+          Tráela al taller. Diagnóstico desde $150 MXN,<br class="hidden sm:block" />
+          presupuesto antes de reparar, garantía en mano de obra.
+        </p>
+
+        <a
+          href="https://wa.me/529515473068?text=Hola%20Cise%20Laptop%2C%20tengo%20un%20problema%20con%20mi%20impresora"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 bg-white hover:bg-gray-100 font-bold text-base px-8 py-4 rounded-xl shadow-lg transition-colors"
+          style="color:#1D2E8C;"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="#1D2E8C" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp →
+        </a>
+
+        <p class="mt-5 text-blue-200 text-sm">
+          Leandro Valle 222, Centro, Oaxaca &nbsp;·&nbsp; Lun–Vie 9:30–20:00 &nbsp;·&nbsp; Sáb 10:00–15:00
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 9 — OTROS SERVICIOS
+         ============================================= -->
+    <section class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">También reparamos</h2>
+        <p class="text-center text-gray-500 mb-10">Más servicios especializados en Cise Laptop.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+
+          <!-- Actualización SSD -->
+          <a
+            href="actualizacion.html"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Actualización SSD y RAM</p>
+              <p class="text-xs text-gray-400 mt-0.5">Desde $1,400 MXN</p>
+            </div>
+          </a>
+
+          <!-- Bisagras -->
+          <a
+            href="bisagras.html"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Bisagras y carcasas</p>
+              <p class="text-xs text-gray-400 mt-0.5">Desde $650 MXN</p>
+            </div>
+          </a>
+
+          <!-- Nivel componente -->
+          <!-- página próximamente -->
+          <a
+            href="#"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Reparación a nivel componente</p>
+              <p class="text-xs text-gray-400 mt-0.5">Placa base y más</p>
+            </div>
+          </a>
+
+        </div>
+
+        <p class="text-center text-gray-400 text-sm mt-6">
+          ¿Otro problema?
+          <a
+            href="https://wa.me/529515473068?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-semibold hover:underline"
+            style="color:#1D2E8C;"
+          >Escríbenos</a>
+          — si no lo hacemos, te decimos honestamente.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 10 — CÓMO LLEGAR
+         ============================================= -->
+    <section id="ubicacion" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-10">Visítanos en el taller</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
+
+          <!-- Dirección -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Dirección</h3>
+            <p class="text-sm text-gray-600 mb-3 leading-relaxed">
+              Calle Leandro Valle 222, Centro, Oaxaca<br />
+              <span class="text-gray-400">(antes de la marisquería La RED,<br />entre Hidalgo y Guerrero, local azul)</span>
+            </p>
+            <a
+              href="https://maps.app.goo.gl/NqfJtXPDHGuxMCtD6"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-semibold text-sm hover:underline"
+              style="color:#1D2E8C;"
+            >Ver en Google Maps →</a>
+          </div>
+
+          <!-- Horarios -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Horarios</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li class="flex justify-between"><span>Lunes – Viernes</span><span class="font-medium">9:30 – 20:00</span></li>
+              <li class="flex justify-between"><span>Sábados</span><span class="font-medium">10:00 – 15:00</span></li>
+              <li class="flex justify-between"><span>Domingos</span><span class="font-medium" style="color:#C8272E;">Cerrado</span></li>
+            </ul>
+          </div>
+
+          <!-- Pago -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Métodos de pago</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Efectivo
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Transferencia bancaria (SPEI)
+              </li>
+              <li class="flex items-center gap-2 mt-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+                <span class="text-gray-400">No aceptamos tarjeta</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Google Maps embed -->
+        <!-- ACTUALIZA el src del iframe si consigues un embed key o ajusta coordenadas -->
+        <div class="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.5!2d-96.72!3d17.063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c7228b8e4d9b07%3A0xb34b2e7b67d3!2sCalle%20Leandro%20Valle%20222%2C%20Centro%2C%2068000%20Oaxaca%20de%20Ju%C3%A1rez%2C%20Oax.!5e0!3m2!1ses-419!2smx!4v1700000000000"
+            width="100%"
+            height="360"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación Cise Laptop en Google Maps"
+          ></iframe>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="py-12 px-4 sm:px-6" style="background-color:#111827;">
+    <div class="max-w-5xl mx-auto">
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+
+        <div>
+          <img src="img/logo-ciselaptop.png" alt="Cise Laptop" class="h-10 w-auto mb-3" loading="lazy" />
+          <p class="text-sm text-gray-400 leading-relaxed">
+            Taller de cómputo en Oaxaca<br />desde hace más de 15 años.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-3">Contacto</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li>
+              <a
+                href="https://wa.me/529515473068?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white transition-colors"
+              >WhatsApp: +52 951 547 3068</a>
+            </li>
+            <li class="leading-relaxed">Calle Leandro Valle 222, Centro<br />Oaxaca de Juárez, Oax.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-3">Páginas del sitio</h4>
+          <ul class="space-y-1 text-sm text-gray-400">
+            <li><a href="index.html" class="hover:text-white transition-colors">Inicio</a></li>
+            <li><a href="bisagras.html" class="hover:text-white transition-colors">Bisagras y carcasas</a></li>
+            <li><a href="actualizacion.html" class="hover:text-white transition-colors">Actualización SSD / RAM</a></li>
+            <li><a href="impresoras.html" class="hover:text-white transition-colors">Reparación de impresoras</a></li>
+            <!-- página próximamente -->
+            <li><a href="#" class="hover:text-white transition-colors">Reparación a nivel componente</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-gray-700 pt-6 text-center text-xs text-gray-500">
+        <!-- ACTUALIZA el año si es necesario -->
+        © 2025 Cise Laptop · Todos los derechos reservados
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- =============================================
+       JS: Sombra header + Acordeón FAQ
+       ============================================= -->
+  <script>
+    (function () {
+      var header = document.getElementById('header');
+      function updateHeader() {
+        header.classList.toggle('header-shadow', window.scrollY > 10);
+      }
+      window.addEventListener('scroll', updateHeader, { passive: true });
+    })();
+
+    (function () {
+      var buttons = document.querySelectorAll('.faq-btn');
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var body  = btn.nextElementSibling;
+          var arrow = btn.querySelector('.faq-arrow');
+          var isOpen = body.classList.contains('open');
+
+          document.querySelectorAll('.faq-body').forEach(function (b) { b.classList.remove('open'); });
+          document.querySelectorAll('.faq-arrow').forEach(function (a) { a.classList.remove('open'); });
+          document.querySelectorAll('.faq-btn').forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+
+          if (!isOpen) {
+            body.classList.add('open');
+            arrow.classList.add('open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
