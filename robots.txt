@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ciseoaxaca.com/sitemap.xml
+Sitemap: https://ciselaptop.com/sitemap.xml
