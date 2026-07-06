@@ -118,6 +118,9 @@
   </style>
 
   <!-- Schema.org JSON-LD — LocalBusiness -->
+  <!-- PENDIENTE: Confirmar con el dueño las coordenadas exactas del pin de Google Maps
+       y el link "Compartir" de la ficha de Google Business Profile para completar
+       los campos "geo" y "hasMap" marcados con PENDIENTE_CONFIRMAR. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -135,6 +138,12 @@
       "postalCode": "68000",
       "addressCountry": "MX"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "PENDIENTE_CONFIRMAR",
+      "longitude": "PENDIENTE_CONFIRMAR"
+    },
+    "hasMap": "PENDIENTE_LINK_GOOGLE_MAPS",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -149,10 +158,27 @@
         "closes": "15:00"
       }
     ],
-    "areaServed": "Oaxaca de Juárez, Oaxaca",
+    "areaServed": {
+      "@type": "City",
+      "name": "Oaxaca de Juárez"
+    },
     "sameAs": [
-      "https://wa.me/529518486056"
-    ]
+      "https://wa.me/529518486056",
+      "https://www.facebook.com/Ciselaptop"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Servicios Cise Laptop",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación de bisagras y carcasas de laptop" }, "priceCurrency": "MXN", "price": "650" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Actualización a SSD + Windows + paquetería básica" }, "priceCurrency": "MXN", "price": "1400" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diagnóstico general de laptop" }, "priceCurrency": "MXN", "price": "150" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diagnóstico profundo (no enciende o mojada)" }, "priceCurrency": "MXN", "price": "250" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Formateo de laptop" }, "priceCurrency": "MXN", "price": "350" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diagnóstico de impresoras" }, "priceCurrency": "MXN", "price": "150" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación a nivel componente" } }
+      ]
+    }
   }
   </script>
 </head>
@@ -311,7 +337,7 @@
     <section id="servicios" class="py-16 px-4 sm:px-6 bg-white">
       <div class="max-w-6xl mx-auto">
 
-        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Nuestros servicios principales</h2>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Reparación de laptops y computadoras en Oaxaca</h2>
         <p class="text-center text-gray-500 mb-10">Haz clic en cualquier servicio para ver detalles y precios</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
