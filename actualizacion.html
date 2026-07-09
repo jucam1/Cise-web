@@ -1182,5 +1182,199 @@
     })();
   </script>
 
+  <!-- =============================================
+       POPUP PROMOCIÓN — Actualización a SSD
+       ============================================= -->
+  <style>
+    .cise-popup-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+      z-index: 9000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 4%;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .cise-popup-overlay.visible {
+      opacity: 1;
+    }
+    .cise-popup-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+      border-top: 4px solid #1D2E8C;
+      width: 100%;
+      max-width: 480px;
+      overflow: hidden;
+      transform: scale(0.9);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .cise-popup-overlay.visible .cise-popup-card {
+      transform: scale(1);
+      opacity: 1;
+    }
+    .cise-popup-header {
+      background: #1D2E8C;
+      color: #fff;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+    .cise-popup-close {
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 1.4rem;
+      line-height: 1;
+      cursor: pointer;
+      padding: 0 2px;
+      flex-shrink: 0;
+    }
+    .cise-popup-close:hover { opacity: 0.8; }
+    .cise-popup-body {
+      padding: 20px 24px 24px;
+      color: #374151;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .cise-popup-body p { margin: 0 0 12px; }
+    .cise-popup-body ul {
+      margin: 0 0 12px;
+      padding-left: 0;
+      list-style: none;
+    }
+    .cise-popup-body ul li {
+      padding-left: 16px;
+      position: relative;
+      margin-bottom: 6px;
+    }
+    .cise-popup-body ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+    }
+    .cise-popup-price {
+      display: inline-block;
+      background: #1D2E8C;
+      color: #FFD700;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 1rem;
+    }
+    .cise-popup-warning {
+      background: #fef9ec;
+      border-left: 3px solid #f59e0b;
+      padding: 10px 12px;
+      border-radius: 4px;
+      font-size: 0.88rem;
+      color: #92400e;
+      margin-bottom: 12px;
+    }
+    .cise-popup-btn-wa {
+      display: block;
+      width: 100%;
+      background: #25D366;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1rem;
+      text-align: center;
+      padding: 13px 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 16px;
+      transition: background 0.2s;
+    }
+    .cise-popup-btn-wa:hover { background: #1ebe5d; }
+    .cise-popup-btn-close {
+      display: block;
+      width: 100%;
+      background: none;
+      border: none;
+      color: #9ca3af;
+      font-size: 0.88rem;
+      cursor: pointer;
+      padding: 10px 0 0;
+      text-align: center;
+    }
+    .cise-popup-btn-close:hover { color: #6b7280; }
+  </style>
+
+  <div id="cise-promo-ssd" class="cise-popup-overlay" role="dialog" aria-modal="true" aria-label="Promoción actualización a SSD" style="display:none;">
+    <div class="cise-popup-card">
+      <div class="cise-popup-header">
+        <span>⚡ Promoción: Actualización a SSD</span>
+        <button class="cise-popup-close" aria-label="Cerrar promoción">✕</button>
+      </div>
+      <div class="cise-popup-body">
+        <p>Dale una segunda vida a tu laptop.</p>
+        <p>Nuestra promoción desde <span class="cise-popup-price">$1,400.00 MXN + IVA</span> incluye:</p>
+        <ul>
+          <li><strong>SSD de 240GB</strong> instalado</li>
+          <li><strong>Windows y paquetería básica</strong> listos para usar</li>
+          <li><strong>50% de descuento</strong> en limpieza del sistema de enfriamiento y cambio de pasta térmica<br>
+            <span style="font-size:0.85rem;color:#6b7280;">(servicio que normalmente cuesta $550)</span></li>
+          <li>Revisión <strong>SIN COSTO</strong> de compatibilidad con expansión de Memoria RAM<br>
+            <span style="font-size:0.85rem;color:#6b7280;">(la memoria RAM es un costo adicional si se requiere)</span></li>
+        </ul>
+        <div class="cise-popup-warning">
+          ⚠️ Este servicio <strong>NO incluye</strong> respaldo de información personal (fotos, documentos). Puedes hacer tu respaldo antes de traerlo o cotizarlo aparte.
+        </div>
+        <a
+          href="https://wa.me/529518486056?text=Hola%2C%20vi%20la%20promoci%C3%B3n%20de%20actualizaci%C3%B3n%20a%20SSD%20desde%20%241%2C400%20y%20me%20interesa%20saber%20m%C3%A1s"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cise-popup-btn-wa"
+          id="cise-promo-ssd-wa"
+        >📱 Cotizar por WhatsApp</a>
+        <button class="cise-popup-btn-close" id="cise-promo-ssd-cerrar">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var STORAGE_KEY = 'promo_ssd_vista';
+      if (sessionStorage.getItem(STORAGE_KEY)) return;
+
+      var overlay = document.getElementById('cise-promo-ssd');
+
+      function showPopup() {
+        sessionStorage.setItem(STORAGE_KEY, '1');
+        overlay.style.display = 'flex';
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            overlay.classList.add('visible');
+          });
+        });
+      }
+
+      function hidePopup() {
+        overlay.classList.remove('visible');
+        setTimeout(function () { overlay.style.display = 'none'; }, 220);
+      }
+
+      setTimeout(showPopup, 4000);
+
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) hidePopup();
+      });
+      overlay.querySelector('.cise-popup-close').addEventListener('click', hidePopup);
+      document.getElementById('cise-promo-ssd-cerrar').addEventListener('click', hidePopup);
+      document.getElementById('cise-promo-ssd-wa').addEventListener('click', function () {
+        setTimeout(hidePopup, 150);
+      });
+    })();
+  </script>
+
 </body>
 </html>
