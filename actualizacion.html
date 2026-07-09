@@ -1307,6 +1307,117 @@
       text-align: center;
     }
     .cise-popup-btn-close:hover { color: #6b7280; }
+    .cise-urgencia {
+      background: #fff8e1;
+      border-bottom: 1px solid #ffe082;
+      padding: 12px 20px;
+      text-align: center;
+    }
+    .cise-badge-oferta {
+      display: inline-block;
+      background: #C8272E;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+    }
+    .cise-timer-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .cise-timer-label {
+      font-size: 12px;
+      color: #555;
+      font-weight: 500;
+    }
+    .cise-timer-display {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.3s;
+    }
+    .cise-timer-bloque {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #1D2E8C;
+      border-radius: 8px;
+      padding: 6px 14px;
+      min-width: 54px;
+    }
+    .cise-timer-num {
+      font-size: 28px;
+      font-weight: 800;
+      color: #FFD700;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 1px;
+    }
+    .cise-timer-unit {
+      font-size: 10px;
+      color: #aac4ff;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 2px;
+    }
+    .cise-timer-sep {
+      font-size: 28px;
+      font-weight: 800;
+      color: #1D2E8C;
+      line-height: 1;
+      margin-bottom: 14px;
+    }
+    .cise-timer-bloque.urgente {
+      background: #C8272E;
+      animation: cise-pulso 0.8s infinite;
+    }
+    .cise-timer-bloque.urgente .cise-timer-num { color: #fff; }
+    .cise-timer-bloque.urgente .cise-timer-unit { color: #ffc0c0; }
+    .cise-timer-sep.urgente {
+      color: #C8272E;
+      animation: cise-pulso-sep 0.8s infinite;
+    }
+    @keyframes cise-pulso {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+    }
+    @keyframes cise-pulso-sep {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .cise-expirado-msg {
+      display: none;
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 13px;
+      color: #856404;
+      text-align: center;
+      margin-top: 8px;
+      font-weight: 600;
+    }
+    .cise-popup-btn-wa.expirado {
+      background: #aaa !important;
+      cursor: not-allowed;
+      pointer-events: none;
+      opacity: 0.7;
+    }
+    .cise-urgencia-texto {
+      font-size: 12px;
+      font-weight: 700;
+      color: #C8272E;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      letter-spacing: 0.2px;
+    }
   </style>
 
   <div id="cise-promo-ssd" class="cise-popup-overlay" role="dialog" aria-modal="true" aria-label="Promoción actualización a SSD" style="display:none;">
@@ -1314,6 +1425,24 @@
       <div class="cise-popup-header">
         <span>⚡ Promoción: Actualización a SSD</span>
         <button class="cise-popup-close" aria-label="Cerrar promoción">✕</button>
+      </div>
+      <!-- Bloque de urgencia -->
+      <div class="cise-urgencia">
+        <span class="cise-badge-oferta">🔥 Oferta por tiempo limitado</span>
+        <div class="cise-timer-wrap">
+          <span class="cise-timer-label">Esta promoción expira en:</span>
+          <div class="cise-timer-display" id="cise-timer-ssd">
+            <div class="cise-timer-bloque">
+              <span class="cise-timer-num" id="cise-min-ssd">05</span>
+              <span class="cise-timer-unit">min</span>
+            </div>
+            <span class="cise-timer-sep">:</span>
+            <div class="cise-timer-bloque">
+              <span class="cise-timer-num" id="cise-seg-ssd">00</span>
+              <span class="cise-timer-unit">seg</span>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="cise-popup-body">
         <p>Dale una segunda vida a tu laptop.</p>
@@ -1329,13 +1458,14 @@
         <div class="cise-popup-warning">
           ⚠️ Este servicio <strong>NO incluye</strong> respaldo de información personal (fotos, documentos). Puedes hacer tu respaldo antes de traerlo o cotizarlo aparte.
         </div>
+        <p class="cise-urgencia-texto">⚡ Solo para clientes que contacten hoy — cupos limitados.</p>
         <a
           href="https://wa.me/529518486056?text=Hola%2C%20vi%20la%20promoci%C3%B3n%20de%20actualizaci%C3%B3n%20a%20SSD%20desde%20%241%2C400%20y%20me%20interesa%20saber%20m%C3%A1s"
           target="_blank"
           rel="noopener noreferrer"
           class="cise-popup-btn-wa"
-          id="cise-promo-ssd-wa"
-        >📱 Cotizar por WhatsApp</a>
+          id="cise-btn-ws-ssd"
+        >📱 Obtener Promoción</a>
         <button class="cise-popup-btn-close" id="cise-promo-ssd-cerrar">Cerrar</button>
       </div>
     </div>
@@ -1348,12 +1478,52 @@
 
       var overlay = document.getElementById('cise-promo-ssd');
 
+      function iniciarTimerPromo(idSufijo, btnElement) {
+        var segundosRestantes = 5 * 60;
+        var elMin = document.getElementById('cise-min-' + idSufijo);
+        var elSeg = document.getElementById('cise-seg-' + idSufijo);
+        var bloques = document.querySelectorAll('#cise-timer-' + idSufijo + ' .cise-timer-bloque');
+        var sep = document.querySelector('#cise-timer-' + idSufijo + ' .cise-timer-sep');
+        var msg = document.createElement('p');
+        msg.className = 'cise-expirado-msg';
+        msg.id = 'cise-expirado-' + idSufijo;
+        msg.innerHTML = '&#9200; Esta oferta expiró — escríbenos igual, podemos ayudarte.';
+        document.getElementById('cise-timer-' + idSufijo).parentNode.appendChild(msg);
+
+        function actualizarDisplay() {
+          var m = Math.floor(segundosRestantes / 60);
+          var s = segundosRestantes % 60;
+          elMin.textContent = ('0' + m).slice(-2);
+          elSeg.textContent = ('0' + s).slice(-2);
+          if (segundosRestantes <= 60 && segundosRestantes > 0) {
+            bloques.forEach(function (b) { b.classList.add('urgente'); });
+            if (sep) sep.classList.add('urgente');
+          }
+          if (segundosRestantes <= 0) {
+            clearInterval(intervalo);
+            bloques.forEach(function (b) { b.classList.add('urgente'); });
+            elMin.textContent = '00';
+            elSeg.textContent = '00';
+            var expMsg = document.getElementById('cise-expirado-' + idSufijo);
+            if (expMsg) expMsg.style.display = 'block';
+            if (btnElement) btnElement.classList.add('expirado');
+            return;
+          }
+          segundosRestantes--;
+        }
+
+        actualizarDisplay();
+        var intervalo = setInterval(actualizarDisplay, 1000);
+        return intervalo;
+      }
+
       function showPopup() {
         sessionStorage.setItem(STORAGE_KEY, '1');
         overlay.style.display = 'flex';
         requestAnimationFrame(function () {
           requestAnimationFrame(function () {
             overlay.classList.add('visible');
+            iniciarTimerPromo('ssd', document.getElementById('cise-btn-ws-ssd'));
           });
         });
       }
@@ -1370,7 +1540,7 @@
       });
       overlay.querySelector('.cise-popup-close').addEventListener('click', hidePopup);
       document.getElementById('cise-promo-ssd-cerrar').addEventListener('click', hidePopup);
-      document.getElementById('cise-promo-ssd-wa').addEventListener('click', function () {
+      document.getElementById('cise-btn-ws-ssd').addEventListener('click', function () {
         setTimeout(hidePopup, 150);
       });
     })();
