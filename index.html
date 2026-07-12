@@ -179,7 +179,52 @@
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diagnóstico de impresoras" }, "priceCurrency": "MXN", "price": "150" },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación a nivel componente" } }
       ]
-    }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "25",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Betzabe Vicente Martinez" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Excelente servicio."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Hilda Concepción López" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Buen servicio, mi impresora quedó al 100."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Kaled Ram Agui" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Excelente servicio, muy profesionales y atentos. Repararon mi computadora de manera rápida y eficiente, explicándome todo el proceso. Muy recomendable por su buen trabajo y confianza."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Mildred Ivonne Ricardez Reyes" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Muy buena la atención y el resultado me gustó, mi laptop quedó como nueva."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Adriana M." },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Excelente servicio, rápido y me solucionó el problema. Además el precio fue justo. Sin duda lo recomiendo."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Medardo" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Buen servicio, lo recomiendo ampliamente."
+      }
+    ]
   }
   </script>
 
@@ -644,6 +689,141 @@
         </div>
       </div>
     </section>
+
+
+    <!-- SECCIÓN: Reseñas de clientes -->
+    <section id="resenas" class="py-16 bg-gray-50">
+      <div class="max-w-5xl mx-auto px-4">
+
+        <!-- Encabezado con calificación global -->
+        <div class="text-center mb-10">
+          <h2 class="text-2xl font-bold text-gray-900 mb-2">
+            Lo que dicen nuestros clientes
+          </h2>
+          <div class="flex items-center justify-center gap-2 mt-3">
+            <span class="text-4xl font-bold text-gray-900">5.0</span>
+            <div class="flex text-yellow-400 text-2xl" aria-label="5 de 5 estrellas">
+              ★★★★★
+            </div>
+          </div>
+          <p class="text-gray-500 mt-1 text-sm">Basado en 25 reseñas en Google Maps</p>
+          <a href="https://maps.app.goo.gl/NqfJtXPDHGuxMCtD6"
+             target="_blank"
+             rel="noopener"
+             class="inline-block mt-3 text-sm text-blue-600 hover:underline">
+            Ver todas las reseñas en Google →
+          </a>
+        </div>
+
+        <!-- Tarjetas de reseñas -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- Reseña 1 -->
+          <article class="bg-white rounded-xl shadow-sm p-5 border border-gray-100">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-800 font-bold text-sm flex-shrink-0">
+                BV
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm leading-tight">Betzabe Vicente Martinez</p>
+                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              "Excelente servicio."
+            </p>
+          </article>
+
+          <!-- Reseña 2 -->
+          <article class="bg-white rounded-xl shadow-sm p-5 border border-gray-100">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-800 font-bold text-sm flex-shrink-0">
+                HL
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm leading-tight">Hilda Concepción López</p>
+                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              "Buen servicio, mi impresora quedó al 100."
+            </p>
+          </article>
+
+          <!-- Reseña 3 -->
+          <article class="bg-white rounded-xl shadow-sm p-5 border border-gray-100">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-800 font-bold text-sm flex-shrink-0">
+                KR
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm leading-tight">Kaled Ram Agui</p>
+                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              "Excelente servicio, muy profesionales y atentos. Repararon mi computadora de manera rápida y eficiente, explicándome todo el proceso. Muy recomendable por su buen trabajo y confianza."
+            </p>
+          </article>
+
+          <!-- Reseña 4 -->
+          <article class="bg-white rounded-xl shadow-sm p-5 border border-gray-100">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-800 font-bold text-sm flex-shrink-0">
+                MR
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm leading-tight">Mildred Ivonne Ricardez Reyes</p>
+                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              "Muy buena la atención y el resultado me gustó, mi laptop quedó como nueva."
+            </p>
+          </article>
+
+          <!-- Reseña 5 -->
+          <article class="bg-white rounded-xl shadow-sm p-5 border border-gray-100">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-800 font-bold text-sm flex-shrink-0">
+                AM
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm leading-tight">Adriana M.
+                  <span class="font-normal text-gray-400 text-xs">· Local Guide</span>
+                </p>
+                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              "Excelente servicio, rápido y me solucionó el problema. Además el precio fue justo. Sin duda lo recomiendo."
+            </p>
+          </article>
+
+          <!-- Reseña 6 -->
+          <article class="bg-white rounded-xl shadow-sm p-5 border border-gray-100">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-800 font-bold text-sm flex-shrink-0">
+                ME
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm leading-tight">Medardo
+                  <span class="font-normal text-gray-400 text-xs">· Local Guide</span>
+                </p>
+                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              "Buen servicio, lo recomiendo ampliamente."
+            </p>
+          </article>
+
+        </div>
+        <!-- fin grid reseñas -->
+
+      </div>
+    </section>
+    <!-- FIN SECCIÓN: Reseñas de clientes -->
 
 
     <!-- =============================================
