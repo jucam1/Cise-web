@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+  <!-- SEO -->
+  <title>Blog de Reparación de Laptops | Cise Laptop</title>
+  <meta name="description" content="Guías y consejos de reparación de laptops en Oaxaca. Aprende sobre fallas comunes, precios y soluciones del taller Cise Laptop con +15 años de experiencia." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.ciselaptop.com/blog" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Blog de Reparación de Laptops | Cise Laptop" />
+  <meta property="og:description" content="Guías y consejos de reparación de laptops en Oaxaca. Aprende sobre fallas comunes, precios y soluciones del taller Cise Laptop." />
+  <meta property="og:url" content="https://www.ciselaptop.com/blog" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Blog de Reparación de Laptops | Cise Laptop" />
+  <meta name="twitter:description" content="Guías prácticas sobre reparación de laptops en Oaxaca por Cise Laptop." />
+  <meta name="twitter:image"       content="https://ciselaptop.com/img/logo-ciselaptop.webp" />
+  <meta name="author"              content="Cise Laptop" />
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    :root {
+      --brand-navy: #1D2E8C;
+      --brand-navy-hover: #152270;
+      --brand-red: #C8272E;
+    }
+    @keyframes wa-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+      50%       { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+    }
+    .wa-float { animation: wa-pulse 2.4s ease-in-out infinite; }
+    header { background: #ffffff; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .dark-section {
+      background-color: #1D2E8C;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.10) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    footer.dark-section p, footer.dark-section a,
+    footer.dark-section li { color: rgba(255,255,255,0.70); }
+    footer.dark-section h3 { color: #ffffff; }
+    footer.dark-section a:hover { color: #ffffff !important; }
+    footer.dark-section .border-gray-700 { border-color: rgba(255,255,255,0.15) !important; }
+    .icon-bg { background-color: #e8eaf6; }
+    @media (hover: hover) {
+      .card-lift { transition: all 0.2s ease; }
+      .card-lift:hover {
+        box-shadow: 0 8px 24px rgba(29,46,140,0.14) !important;
+        transform: translateY(-3px);
+      }
+    }
+  </style>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-36TPZGNZSN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-36TPZGNZSN');
+  </script>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+  <!-- Botón flotante WhatsApp -->
+  <a
+    href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico"
+    onclick="gtag('event','whatsapp_click',{'page':'blog'})"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Escríbenos al WhatsApp"
+    class="wa-float fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform hover:scale-110"
+    style="background-color: #25D366;"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30" height="30" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+    </svg>
+  </a>
+
+  <!-- HEADER -->
+  <header id="header" class="sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
+
+      <a href="/" aria-label="Cise Laptop – Inicio">
+        <img src="/img/logo-ciselaptop.webp" alt="Cise Laptop" class="h-9 sm:h-12 w-auto" loading="eager" />
+      </a>
+
+      <nav class="hidden md:flex items-center gap-5 text-sm font-medium flex-1" aria-label="Menú principal">
+        <a href="/" class="text-gray-500 hover:text-gray-900 transition-colors">Inicio</a>
+        <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="text-gray-500 hover:text-gray-900 transition-colors">Bisagras</a>
+        <a href="/actualizacion" title="Actualización a SSD y RAM" class="text-gray-500 hover:text-gray-900 transition-colors">Actualización</a>
+        <a href="/impresoras" title="Reparación de impresoras" class="text-gray-500 hover:text-gray-900 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" title="Reparación a nivel componente" class="text-gray-500 hover:text-gray-900 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="font-semibold" style="color:#1D2E8C;">Blog</a>
+        <a href="/quienes-somos" class="text-gray-500 hover:text-gray-900 transition-colors">Nosotros</a>
+      </nav>
+
+      <div class="ml-auto flex items-center gap-3">
+        <button id="menu-btn" class="md:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors" aria-label="Abrir menú" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <a
+          href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico"
+          onclick="gtag('event','whatsapp_click',{'page':'blog'})"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18" height="18" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- Menú móvil -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 bg-white">
+      <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-1" aria-label="Menú móvil">
+        <a href="/" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Inicio</a>
+        <a href="/bisagras" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Bisagras</a>
+        <a href="/actualizacion" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Actualización</a>
+        <a href="/impresoras" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="py-2 px-3 rounded-lg text-sm font-semibold" style="color:#1D2E8C; background-color:#e8eaf6;">Blog</a>
+        <a href="/quienes-somos" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Nosotros</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="dark-section pt-20 pb-16 px-4 sm:px-6 text-center">
+      <div class="max-w-3xl mx-auto">
+        <div style="width:48px; height:4px; background:#C8272E; border-radius:2px; margin:0 auto 16px;"></div>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight mb-4">
+          Blog de Cise Laptop
+        </h1>
+        <p class="text-lg" style="color:rgba(255,255,255,0.80);">
+          Guías prácticas sobre reparación y mantenimiento de laptops en Oaxaca
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ARTÍCULOS -->
+    <section class="py-16 px-4 sm:px-6 bg-white">
+      <div class="max-w-5xl mx-auto">
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+
+          <!-- Post 1: Laptop lenta -->
+          <a href="/blog/laptop-lenta-oaxaca" class="group block rounded-2xl border border-gray-100 shadow-sm overflow-hidden card-lift">
+            <div class="h-48 overflow-hidden" style="background-color:#e8eaf6;">
+              <img
+                src="/img/actualizacion-3.webp"
+                alt="Laptop lenta en Oaxaca — actualización con SSD"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+            </div>
+            <div class="p-6">
+              <span class="inline-block text-xs font-semibold px-2 py-1 rounded-full mb-3" style="background-color:#e8eaf6; color:#1D2E8C;">Actualización</span>
+              <h2 class="text-lg font-bold text-gray-900 mb-2 leading-snug group-hover:text-blue-800 transition-colors">
+                ¿Por qué está lenta tu laptop? La solución con SSD en Oaxaca
+              </h2>
+              <p class="text-sm text-gray-500 leading-relaxed mb-4">
+                Un SSD puede triplicar la velocidad de arranque. Te explicamos cuándo conviene, cuánto cuesta y qué pasa con tus archivos.
+              </p>
+              <div class="flex items-center gap-2 mt-4 text-sm text-gray-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#1D2E8C]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.88 6.196M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <a href="/quienes-somos" class="text-[#1D2E8C] font-medium hover:underline">Cise Laptop</a>
+                <span>·</span>
+                <span>15 de julio de 2025</span>
+              </div>
+              <span class="text-sm font-semibold" style="color:#1D2E8C;">Leer artículo →</span>
+            </div>
+          </a>
+
+          <!-- Post 2: Bisagra rota -->
+          <a href="/blog/bisagra-laptop-oaxaca" class="group block rounded-2xl border border-gray-100 shadow-sm overflow-hidden card-lift">
+            <div class="h-48 overflow-hidden" style="background-color:#fde8e8;">
+              <img
+                src="/img/bisagra-danada-2.webp"
+                alt="Bisagra de laptop rota en Oaxaca — reparación"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+            </div>
+            <div class="p-6">
+              <span class="inline-block text-xs font-semibold px-2 py-1 rounded-full mb-3" style="background-color:#fde8e8; color:#C8272E;">Bisagras</span>
+              <h2 class="text-lg font-bold text-gray-900 mb-2 leading-snug group-hover:text-blue-800 transition-colors">
+                Bisagra de laptop rota en Oaxaca: qué hacer y cuánto cuesta
+              </h2>
+              <p class="text-sm text-gray-500 leading-relaxed mb-4">
+                ¿La tapa cruje o no cierra bien? Reparamos bisagras de todas las marcas. Conoce las señales de daño y los precios en Oaxaca.
+              </p>
+              <div class="flex items-center gap-2 mt-4 text-sm text-gray-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#1D2E8C]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.88 6.196M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <a href="/quienes-somos" class="text-[#1D2E8C] font-medium hover:underline">Cise Laptop</a>
+                <span>·</span>
+                <span>15 de julio de 2025</span>
+              </div>
+              <span class="text-sm font-semibold" style="color:#1D2E8C;">Leer artículo →</span>
+            </div>
+          </a>
+
+          <!-- Post 3: No enciende -->
+          <a href="/blog/laptop-no-enciende-oaxaca" class="group block rounded-2xl border border-gray-100 shadow-sm overflow-hidden card-lift">
+            <div class="h-48 overflow-hidden" style="background-color:#e8eaf6;">
+              <img
+                src="/img/nivel-componente-4.webp"
+                alt="Laptop que no enciende en Oaxaca — diagnóstico nivel componente"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+            </div>
+            <div class="p-6">
+              <span class="inline-block text-xs font-semibold px-2 py-1 rounded-full mb-3" style="background-color:#e8eaf6; color:#1D2E8C;">Diagnóstico</span>
+              <h2 class="text-lg font-bold text-gray-900 mb-2 leading-snug group-hover:text-blue-800 transition-colors">
+                Laptop que no enciende en Oaxaca: causas y diagnóstico
+              </h2>
+              <p class="text-sm text-gray-500 leading-relaxed mb-4">
+                Pantalla negra, no arranca, no carga. Te explicamos las 4 causas más comunes y cómo hacemos el diagnóstico a nivel componente.
+              </p>
+              <div class="flex items-center gap-2 mt-4 text-sm text-gray-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#1D2E8C]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.88 6.196M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <a href="/quienes-somos" class="text-[#1D2E8C] font-medium hover:underline">Cise Laptop</a>
+                <span>·</span>
+                <span>15 de julio de 2025</span>
+              </div>
+              <span class="text-sm font-semibold" style="color:#1D2E8C;">Leer artículo →</span>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="dark-section py-14 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-2xl font-extrabold text-white mb-3">¿Tienes una falla que no encuentras en el blog?</h2>
+        <p class="mb-6" style="color:rgba(255,255,255,0.80);">Escríbenos directamente — respondemos en minutos.</p>
+        <a
+          href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico"
+          onclick="gtag('event','whatsapp_click',{'page':'blog'})"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 font-bold text-base px-7 py-4 rounded-xl shadow-lg"
+          style="background:#C8272E; color:#ffffff;"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="white" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="dark-section py-12 px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto">
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+        <div>
+          <span style="font-size: 22px; font-weight: 700; color: #FFFFFF; letter-spacing: -0.5px;">Cise <span style="color: #C8272E;">Laptop</span></span>
+          <p class="text-sm text-gray-400 leading-relaxed mt-1">
+            Taller de cómputo en Oaxaca<br />desde hace más de 15 años.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Contacto</h3>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li>
+              <a href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'blog'})" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">
+                WhatsApp: +52 951 848 6056
+              </a>
+            </li>
+            <li class="leading-relaxed">Calle Leandro Valle 222, Centro<br />Oaxaca de Juárez, Oax.</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="space-y-1 text-sm text-gray-400">
+            <li class="flex justify-between gap-4"><span>Lun – Vie</span><span class="text-gray-300">9:30 – 20:00</span></li>
+            <li class="flex justify-between gap-4"><span>Sábados</span><span class="text-gray-300">10:00 – 15:00</span></li>
+            <li class="flex justify-between gap-4"><span>Domingos</span><span style="color:#C8272E;">Cerrado</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 pt-6 text-center text-xs text-gray-500">
+        <nav class="flex flex-wrap justify-center gap-x-3 gap-y-1 mb-3">
+          <a href="/" class="hover:text-white transition-colors">Inicio</a>
+          <span aria-hidden="true">·</span>
+          <a href="/bisagras" class="hover:text-white transition-colors">Bisagras</a>
+          <span aria-hidden="true">·</span>
+          <a href="/actualizacion" class="hover:text-white transition-colors">Actualización</a>
+          <span aria-hidden="true">·</span>
+          <a href="/impresoras" class="hover:text-white transition-colors">Impresoras</a>
+          <span aria-hidden="true">·</span>
+          <a href="/nivel-componente" class="hover:text-white transition-colors">Nivel Componente</a>
+          <span aria-hidden="true">·</span>
+          <a href="/blog" class="hover:text-white transition-colors">Blog</a>
+          <span aria-hidden="true">·</span>
+          <a href="/quienes-somos" class="hover:text-white transition-colors">Nosotros</a>
+        </nav>
+        © 2025 Cise Laptop · Todos los derechos reservados
+      </div>
+
+      <div class="border-t border-gray-700 mt-6 pt-4 text-center">
+        <p class="text-xs text-gray-400 leading-relaxed">
+          Cise Laptop es un nombre comercial operado por Juan López Hernández.
+          RFC: LOHJ710712I54. Domicilio fiscal: Leandro Valle 222, Centro,
+          Oaxaca de Juárez, Oax., C.P. 68000.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script>
+    (function () {
+      var btn = document.getElementById('menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', function () {
+          var hidden = menu.classList.toggle('hidden');
+          btn.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
