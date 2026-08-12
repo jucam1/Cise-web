@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+  <!-- SEO -->
+  <title>Actualización de SSD para Laptop en Oaxaca | Ciselaptop</title>
+  <meta name="description" content="¿Laptop lenta? Cambiamos tu disco a SSD desde $1,400 + IVA con Windows incluido. Centro de Oaxaca. Cotiza por WhatsApp ahora." />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://www.ciselaptop.com/actualizacion" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Laptop Lenta en Oaxaca | SSD y RAM | Ciselaptop" />
+  <meta property="og:description" content="¿Laptop lenta en Oaxaca? Actualizamos a SSD desde $1,400 con Windows incluido. Revisión de RAM sin costo. +15 años de experiencia. ¡Cotiza!" />
+  <meta property="og:url" content="https://www.ciselaptop.com/actualizacion" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Laptop Lenta en Oaxaca | SSD y RAM | Ciselaptop" />
+  <meta name="twitter:description" content="¿Laptop lenta? Actualización a SSD y RAM en Oaxaca desde $1,400. Windows incluido." />
+  <meta name="twitter:image"       content="https://ciselaptop.com/img/logo-ciselaptop.webp" />
+  <meta property="og:image" content="https://www.ciselaptop.com/img/logo-ciselaptop.webp" />
+  <meta name="author"              content="Ciselaptop" />
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+
+    /* Colores de marca */
+    :root {
+      --brand-navy: #1D2E8C;
+      --brand-navy-hover: #152270;
+      --brand-red: #C8272E;
+    }
+
+    /* Header */
+    .header-shadow { box-shadow: 0 2px 12px rgba(0,0,0,0.10); }
+
+    /* WhatsApp flotante */
+    @keyframes wa-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+      50%       { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+    }
+    .wa-float { animation: wa-pulse 2.4s ease-in-out infinite; }
+
+    /* Botones */
+    .btn-primary {
+      background-color: var(--brand-navy);
+      color: #fff;
+      transition: background-color 0.2s;
+    }
+    .btn-primary:hover { background-color: var(--brand-navy-hover); }
+
+    .btn-outline {
+      border: 2px solid var(--brand-navy);
+      color: var(--brand-navy);
+      transition: background-color 0.2s;
+    }
+    .btn-outline:hover { background-color: #eef0fa; }
+
+    /* Fondo suave para íconos */
+    .icon-bg { background-color: #e8eaf6; }
+
+    /* Acordeón FAQ */
+    .faq-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+    }
+    .faq-body.open { max-height: 500px; }
+    .faq-arrow { transition: transform 0.3s ease; }
+    .faq-arrow.open { transform: rotate(180deg); }
+
+    /* Tarjetas de síntoma */
+    .symptom-card { border-left: 4px solid var(--brand-red); }
+
+    /* Número de paso grande */
+    .step-number {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1;
+      color: #e8eaf6;
+    }
+
+    /* Columna ganadora en tabla comparativa */
+    .col-winner {
+      background-color: #f0f2fb;
+      border-top: 3px solid var(--brand-navy);
+    }
+    .col-winner-head {
+      background-color: var(--brand-navy);
+      color: #fff;
+    }
+
+    /* ── Header estático ─────────────────────────── */
+    header { background: #ffffff; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+
+    /* ── Fondo oscuro con patrón de puntos ───────── */
+    .dark-section {
+      background-color: #1D2E8C;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.10) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    /* ── Textos en footer oscuro ─────────────────── */
+    footer.dark-section p, footer.dark-section a,
+    footer.dark-section li { color: rgba(255,255,255,0.70); }
+    footer.dark-section h4 { color: #ffffff; }
+    footer.dark-section a:hover { color: #ffffff !important; }
+    footer.dark-section .border-gray-700 { border-color: rgba(255,255,255,0.15) !important; }
+    footer.dark-section .text-gray-500 { color: rgba(255,255,255,0.55) !important; }
+    footer.dark-section .header-logo { filter: brightness(0) invert(1); }
+
+    /* ── Hover en cards (solo dispositivos con puntero) ── */
+    @media (hover: hover) {
+      .card-lift { transition: all 0.2s ease; }
+      .card-lift:hover {
+        box-shadow: 0 6px 20px rgba(29,46,140,0.14) !important;
+        transform: translateY(-2px);
+      }
+      .btn-hero-primary { transition: background 0.2s; }
+      .btn-hero-primary:hover { background: #a81f25 !important; }
+      .btn-hero-outline { transition: background 0.2s; }
+      .btn-hero-outline:hover { background: rgba(255,255,255,0.10) !important; }
+    }
+  </style>
+
+  <!-- Schema.org JSON-LD: BreadcrumbList + Service + FAQPage -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.ciselaptop.com"},
+        {"@type": "ListItem", "position": 2, "name": "Actualización de Equipos", "item": "https://ciselaptop.com/actualizacion"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Actualización de laptops con SSD y RAM en Oaxaca",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Ciselaptop",
+        "telephone": "+529518486056",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle Leandro Valle 222",
+          "addressLocality": "Oaxaca de Juárez",
+          "addressRegion": "Oaxaca",
+          "addressCountry": "MX"
+        }
+      },
+      "areaServed": "Oaxaca de Juárez",
+      "offers": {
+        "@type": "Offer",
+        "price": "1400",
+        "priceCurrency": "MXN",
+        "description": "Desde $1,400 MXN + IVA. Incluye SSD 240GB, Windows y paquetería básica de oficina."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta actualizar mi laptop con SSD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La actualización SSD tiene un precio desde $1,400 MXN + IVA e incluye el SSD de 240GB, Windows original y paquetería básica de oficina. El precio exacto depende del modelo de tu equipo. El diagnóstico inicial es sin costo — tráenosla y te confirmamos el precio antes de comenzar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Pierdo mis archivos, fotos o programas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Instalamos el SSD como disco principal y dejamos intacto tu disco duro original con todos tus archivos. Al recoger tu laptop, tienes acceso a todo lo que tenías antes, pero el sistema arranca desde el SSD nuevo y va mucho más rápido."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tarda el servicio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El tiempo de entrega lo definimos tras el diagnóstico, según las condiciones del equipo. En la mayoría de los casos el servicio es rápido; te informamos el plazo exacto antes de comenzar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Funciona en cualquier laptop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funciona en la gran mayoría de laptops HP, Dell, Lenovo, Asus, Acer, Toshiba, Samsung y Sony. No trabajamos con equipos Apple. Si tienes duda sobre tu modelo específico, escríbenos con el modelo y te decimos al momento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Vale la pena si mi laptop tiene más de 5 años?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la mayoría de los casos sí. Si el equipo enciende bien y el resto del hardware está en orden, la actualización puede darle 3 a 5 años más de vida útil por una fracción del costo de un equipo nuevo. Te lo confirmamos con el diagnóstico gratuito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si además de lenta tiene otro problema?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lo revisamos todo junto. Si tiene bisagra dañada, teclado fallando o cualquier otro problema físico, podemos atenderlo en el mismo servicio y te damos un presupuesto integral. Así no tienes que venir dos veces."
+          }
+        }
+      ]
+    }
+  ]
+  </script>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-36TPZGNZSN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-36TPZGNZSN');
+  </script>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+  <!-- =============================================
+       BOTÓN FLOTANTE WHATSAPP
+       ============================================= -->
+  <a
+    href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Escríbenos al WhatsApp"
+    title="Escríbenos al WhatsApp"
+    class="wa-float fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform hover:scale-110"
+    style="background-color:#25D366;"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30" height="30" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+    </svg>
+  </a>
+
+
+  <!-- =============================================
+       HEADER — sticky, sombra al scroll
+       ============================================= -->
+  <header id="header" class="sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
+
+      <a href="/" aria-label="Ciselaptop – Inicio">
+        <img
+          src="img/logo-ciselaptop.webp"
+          alt="Ciselaptop"
+          class="header-logo h-9 sm:h-12 w-auto"
+          loading="eager"
+        />
+      </a>
+
+      <!-- Navegación principal -->
+      <nav class="hidden lg:flex items-center gap-5 text-sm font-medium flex-1" aria-label="Menú principal">
+        <a href="/" class="text-gray-500 hover:text-gray-900 transition-colors">Inicio</a>
+        <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="text-gray-500 hover:text-gray-900 transition-colors">Bisagras</a>
+        <a href="/actualizacion" title="Actualización a SSD y RAM" class="font-semibold" style="color:#1D2E8C;">Actualización</a>
+        <a href="/impresoras" title="Reparación de impresoras" class="text-gray-500 hover:text-gray-900 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" title="Reparación a nivel componente" class="text-gray-500 hover:text-gray-900 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="text-gray-500 hover:text-gray-900 transition-colors">Blog</a>
+        <a href="/quienes-somos" class="text-gray-500 hover:text-gray-900 transition-colors">Nosotros</a>
+      </nav>
+
+      <div class="ml-auto flex items-center gap-3">
+        <button id="menu-btn" class="lg:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors" aria-label="Abrir menú" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <a
+          href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="wa-header-btn inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18" height="18" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- Menú móvil -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+      <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-1" aria-label="Menú móvil">
+        <a href="/" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Inicio</a>
+        <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Bisagras</a>
+        <a href="/actualizacion" title="Actualización a SSD y RAM" class="py-2 px-3 rounded-lg text-sm font-semibold" style="color:#1D2E8C; background-color:#e8eaf6;">Actualización</a>
+        <a href="/impresoras" title="Reparación de impresoras" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" title="Reparación a nivel componente" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Blog</a>
+        <a href="/quienes-somos" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Nosotros</a>
+      </nav>
+    </div>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="border-t border-gray-100 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2">
+        <ol class="flex items-center gap-1.5 text-xs text-gray-500">
+          <li><a href="/" class="hover:underline" style="color:#1D2E8C;">Inicio</a></li>
+          <li aria-hidden="true">›</li>
+          <li class="text-gray-700 font-medium">Actualización de Equipos</li>
+        </ol>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- =============================================
+         SECCIÓN 1 — HERO
+         ============================================= -->
+    <section class="dark-section pt-24 pb-20 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto text-center">
+
+        <div style="width:48px; height:4px; background:#C8272E; border-radius:2px; margin:0 auto 16px;"></div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+          ¿Tu laptop está lenta?<br class="hidden sm:block" /> Dale una segunda vida en Oaxaca
+        </h1>
+
+        <p class="text-lg sm:text-xl font-medium mb-8" style="color:rgba(255,255,255,0.80);">
+          Actualizamos tu equipo con <span style="color:#FFD700; font-weight:600;">SSD desde $1,400 MXN + IVA</span>.<br class="hidden sm:block" />
+          Incluye Windows y paquetería básica de oficina.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+          <a
+            href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-hero-primary inline-flex items-center justify-center gap-2 text-base font-bold px-7 py-4 rounded-xl shadow-md" style="background:#C8272E; color:#ffffff;"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+            </svg>
+            Consultar por WhatsApp →
+          </a>
+
+          <a
+            href="#proceso"
+            class="btn-hero-outline inline-flex items-center justify-center gap-2 text-base font-bold px-7 py-4 rounded-xl" style="background:transparent; color:#ffffff; border:1.5px solid rgba(255,255,255,0.60);"
+          >
+            Ver cómo funciona ↓
+          </a>
+        </div>
+
+        <!-- Badges -->
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); color:#ffffff;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            Hasta 5× más rápida
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); color:#ffffff;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            Incluye Windows y paquetería de oficina
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); color:#ffffff;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            +15 años en Oaxaca
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 2 — COMPARATIVA
+         ============================================= -->
+    <section id="comparativa" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Antes de comprar una laptop nueva, lee esto</h2>
+        <p class="text-center text-gray-500 mb-10">La mayoría de las laptops "lentas" solo necesitan una actualización.</p>
+
+        <!-- Tabla comparativa — scroll horizontal en móvil -->
+        <div class="overflow-x-auto rounded-2xl shadow-sm border border-gray-100">
+          <table class="w-full text-sm min-w-[520px]">
+            <thead>
+              <tr>
+                <th class="text-left px-5 py-4 bg-gray-100 text-gray-500 font-semibold w-[34%]">Criterio</th>
+                <th class="px-5 py-4 bg-gray-100 text-gray-700 font-semibold text-center w-[33%]">Comprar laptop nueva</th>
+                <th class="col-winner-head px-5 py-4 font-semibold text-center w-[33%] rounded-tl-none" style="background-color:#1D2E8C; color:#fff;">
+                  ✓ Actualizar con nosotros
+                </th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              <tr class="bg-white">
+                <td class="px-5 py-4 font-medium text-gray-700">Costo</td>
+                <td class="px-5 py-4 text-center text-gray-500">$8,000 – $15,000 MXN</td>
+                <td class="col-winner px-5 py-4 text-center font-bold" style="color:#1D2E8C;">Desde $1,400 MXN + IVA</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-5 py-4 font-medium text-gray-700">Tiempo</td>
+                <td class="px-5 py-4 text-center text-gray-500">1–2 días de configuración</td>
+                <td class="col-winner px-5 py-4 text-center font-semibold text-gray-800">Lo definimos tras el diagnóstico</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-5 py-4 font-medium text-gray-700">Tus archivos</td>
+                <td class="px-5 py-4 text-center text-gray-500">Los migras tú</td>
+                <td class="col-winner px-5 py-4 text-center font-semibold text-gray-800">Se quedan intactos</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-5 py-4 font-medium text-gray-700">Windows y Office</td>
+                <td class="px-5 py-4 text-center text-gray-500">De pago extra</td>
+                <td class="col-winner px-5 py-4 text-center font-semibold text-gray-800">Incluidos</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-5 py-4 font-medium text-gray-700">Resultado</td>
+                <td class="px-5 py-4 text-center text-gray-500">Equipo nuevo que aprender</td>
+                <td class="col-winner px-5 py-4 text-center font-semibold text-gray-800">Tu equipo, pero rápido</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="text-center text-gray-500 text-sm mt-6 mb-6 max-w-xl mx-auto">
+          Si tu laptop tiene menos de 8 años y enciende bien, casi siempre vale más la pena actualizarla. Te lo confirmamos con un diagnóstico gratuito.
+        </p>
+
+        <div class="text-center">
+          <a
+            href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl shadow-md"
+          >
+            Pregúntanos si vale la pena actualizar la tuya →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 3 — QUÉ INCLUYE
+         ============================================= -->
+    <section id="incluye" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Actualización de Laptop a SSD en Oaxaca</h2>
+        <p class="text-center text-gray-500 mb-10">Un solo servicio, todo incluido.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+          <!-- Card 1: SSD -->
+          <div class="flex gap-4 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900 mb-1">SSD de 240 GB instalado</h3>
+              <p class="text-sm text-gray-500">Reemplazamos tu disco duro lento por un SSD de estado sólido. La diferencia se siente desde el primer encendido.</p>
+            </div>
+          </div>
+
+          <!-- Card 2: Windows -->
+          <div class="flex gap-4 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900 mb-1">Windows original instalado</h3>
+              <p class="text-sm text-gray-500">Instalamos Windows limpio y activado. Sin versiones piratas, sin publicidad, sin lentitud desde el día uno.</p>
+            </div>
+          </div>
+
+          <!-- Card 3: Office -->
+          <div class="flex gap-4 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900 mb-1">Paquetería básica de oficina incluida</h3>
+              <p class="text-sm text-gray-500">Lista para usar desde el primer encendido. Sin suscripciones ni pagos adicionales.</p>
+            </div>
+          </div>
+
+          <!-- Card 4: RAM -->
+          <div class="flex gap-4 bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-gray-900 mb-1">Revisión de RAM sin costo</h3>
+              <p class="text-sm text-gray-500">Revisamos tu memoria RAM y te decimos si conviene ampliarla para sacarle más jugo al equipo.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="text-center text-gray-400 text-sm mt-8">
+          ¿Ya tienes SSD pero tu laptop sigue lenta? Puede ser la RAM.
+          <a
+            href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-semibold hover:underline"
+            style="color:#1D2E8C;"
+          >Escríbenos y lo revisamos.</a>
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 4 — PROCESO
+         ============================================= -->
+    <section id="proceso" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Así funciona la actualización</h2>
+        <p class="text-center text-gray-500 mb-12">Cuatro pasos. Sin complicaciones.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">01</div>
+            <h3 class="font-bold text-gray-900 mb-2">Traes tu laptop al taller</h3>
+            <p class="text-sm text-gray-500">Sin cita. Lunes a viernes 9:30–20:00, sábados 10:00–15:00.</p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">02</div>
+            <h3 class="font-bold text-gray-900 mb-2">Revisamos tu equipo sin costo</h3>
+            <p class="text-sm text-gray-500">Checamos si el equipo es candidato ideal para la actualización y te confirmamos el precio exacto antes de empezar.</p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">03</div>
+            <h3 class="font-bold text-gray-900 mb-2">Instalamos SSD, Windows y paquetería de oficina</h3>
+            <p class="text-sm text-gray-500">Todo en un mismo servicio. Tus archivos existentes los dejamos igual — no borramos nada sin tu autorización.</p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="step-number mb-2" aria-hidden="true">04</div>
+            <h3 class="font-bold text-gray-900 mb-2">Recoges tu equipo listo</h3>
+            <p class="text-sm text-gray-500">El plazo lo confirmamos tras el diagnóstico. Tu laptop más rápida, con garantía de 35 días en mano de obra.</p>
+          </div>
+
+        </div>
+
+        <div class="mt-8 text-center">
+          <img src="img/mantenimiento-actualizacion-laptop-samsung.webp"
+            alt="Laptop Samsung encendida y optimizada en mesa de trabajo de Ciselaptop Oaxaca"
+            loading="lazy"
+            class="w-full max-w-lg mx-auto h-64 object-cover rounded-xl">
+          <p class="text-sm text-gray-500 mt-2">
+            Resultado final — laptop lista para entregar al cliente
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 5 — SÍNTOMAS
+         ============================================= -->
+    <section id="sintomas" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">¿Tu laptop tiene alguno de estos síntomas?</h2>
+        <p class="text-center text-gray-500 mb-10">Si identificas 2 o más, la actualización con SSD puede resolver todo de raíz.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <div class="symptom-card bg-white rounded-r-xl p-5 shadow-sm border border-gray-100">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+              <p class="text-sm font-medium text-gray-800">Tarda más de 3 minutos en encender</p>
+            </div>
+          </div>
+
+          <div class="symptom-card bg-white rounded-r-xl p-5 shadow-sm border border-gray-100">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+              <p class="text-sm font-medium text-gray-800">Se congela o tarda en abrir programas básicos</p>
+            </div>
+          </div>
+
+          <div class="symptom-card bg-white rounded-r-xl p-5 shadow-sm border border-gray-100">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+              <p class="text-sm font-medium text-gray-800">El navegador va lento aunque tengas buena internet</p>
+            </div>
+          </div>
+
+          <div class="symptom-card bg-white rounded-r-xl p-5 shadow-sm border border-gray-100">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+              <p class="text-sm font-medium text-gray-800">Ya no le caben más actualizaciones de Windows</p>
+            </div>
+          </div>
+
+          <div class="symptom-card bg-white rounded-r-xl p-5 shadow-sm border border-gray-100">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+              <p class="text-sm font-medium text-gray-800">Sientes que "ya está vieja" pero enciende bien</p>
+            </div>
+          </div>
+
+          <div class="symptom-card bg-white rounded-r-xl p-5 shadow-sm border border-gray-100">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+              <p class="text-sm font-medium text-gray-800">Los programas tardan en cargar o se cierran solos</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-8">
+          <a
+            href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl shadow-md"
+          >
+            Verificar si mi laptop tiene solución →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 5b — GALERÍA DE TRABAJOS
+         ============================================= -->
+    <section id="galeria" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Algunos de nuestros trabajos de actualización</h2>
+        <p class="text-center text-gray-500 mb-10">Laptops actualizadas con SSD y Windows en nuestro taller.</p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          <img src="img/actualizacion-1.webp" alt="Actualización de laptop (SSD y Windows) en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/actualizacion-2.webp" alt="Actualización de laptop (SSD y Windows) en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/actualizacion-3.webp" alt="Actualización de laptop (SSD y Windows) en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/actualizacion-4.webp" alt="Actualización de laptop (SSD y Windows) en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/actualizacion-5.webp" alt="Actualización de laptop (SSD y Windows) en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/actualizacion-6.webp" alt="Actualización de laptop (SSD y Windows) en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover rounded-lg">
+          <img src="img/actualizacion-7.webp" alt="Actualización de laptop (SSD y Windows) en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover rounded-lg">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 6 — PRECIO
+         ============================================= -->
+    <section id="precio" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-lg mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Inversión: lo que incluye y lo que cuesta</h2>
+        <p class="text-center text-gray-500 mb-10">Todo claro antes de que empieces.</p>
+
+        <!-- Card destacada -->
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden" style="border: 2px solid #1D2E8C;">
+          <!-- Cabecera de la card -->
+          <div class="px-6 py-5 text-center" style="background-color:#1D2E8C;">
+            <p class="text-blue-200 text-sm font-medium mb-1">Actualización SSD completa</p>
+            <p class="text-white text-4xl font-extrabold">desde $1,400</p>
+            <p class="text-blue-200 text-sm mt-1">MXN + IVA</p>
+          </div>
+
+          <!-- Detalle -->
+          <ul class="divide-y divide-gray-100">
+            <li class="flex items-center gap-3 px-6 py-4">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-sm text-gray-800">SSD 240GB instalado</span>
+            </li>
+            <li class="flex items-center gap-3 px-6 py-4">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-sm text-gray-800">Windows original instalado y activado</span>
+            </li>
+            <li class="flex items-center gap-3 px-6 py-4">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-sm text-gray-800">Paquetería básica de oficina incluida</span>
+            </li>
+            <li class="flex items-center gap-3 px-6 py-4">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-sm text-gray-800">Revisión de RAM sin costo adicional</span>
+            </li>
+            <li class="flex items-center gap-3 px-6 py-4">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-sm text-gray-800">Plazo de entrega definido tras el diagnóstico</span>
+            </li>
+            <li class="flex items-center gap-3 px-6 py-4">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-sm text-gray-800">Garantía de 35 días en mano de obra</span>
+            </li>
+            <li class="flex items-center gap-3 px-6 py-4">
+              <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-sm text-gray-800">Pago: efectivo o transferencia bancaria</span>
+            </li>
+          </ul>
+
+          <div class="px-6 pb-6">
+            <a
+              href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-primary w-full inline-flex items-center justify-center gap-2 font-bold px-7 py-4 rounded-xl shadow-md"
+            >
+              Quiero actualizar mi laptop →
+            </a>
+          </div>
+        </div>
+
+        <p class="text-center text-xs text-gray-400 mt-4">
+          El precio puede variar según el modelo del equipo. El diagnóstico inicial es sin costo.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 7 — FAQ
+         ============================================= -->
+    <section id="faq" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Preguntas frecuentes sobre actualización de laptops</h2>
+        <p class="text-center text-gray-500 mb-10">Todo lo que necesitas saber antes de traer tu equipo.</p>
+
+        <div class="space-y-3" id="faq-list">
+
+          <!-- FAQ 1 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Cuánto cuesta actualizar mi laptop con SSD?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                La actualización SSD tiene un precio desde $1,400 MXN + IVA e incluye el SSD de 240GB, Windows original y paquetería básica de oficina. El precio exacto depende del modelo de tu equipo. El diagnóstico inicial es sin costo — tráenosla y te confirmamos el precio antes de comenzar.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Pierdo mis archivos, fotos o programas?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                No. Instalamos el SSD como disco principal y dejamos intacto tu disco duro original con todos tus archivos. Al recoger tu laptop, tienes acceso a todo lo que tenías antes, pero el sistema arranca desde el SSD nuevo y va mucho más rápido.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Cuánto tarda el servicio?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                El tiempo de entrega lo definimos tras el diagnóstico, según las condiciones del equipo. Te informamos el plazo exacto antes de comenzar para que puedas organizarte.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Funciona en cualquier laptop?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Funciona en la gran mayoría de laptops HP, Dell, Lenovo, Asus, Acer, Toshiba, Samsung y Sony. No trabajamos con equipos Apple. Si tienes duda sobre tu modelo específico, escríbenos con el modelo y te decimos al momento.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Vale la pena si mi laptop tiene más de 5 años?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                En la mayoría de los casos sí. Si el equipo enciende bien y el resto del hardware está en orden, la actualización puede darle 3 a 5 años más de vida útil por una fracción del costo de un equipo nuevo. Te lo confirmamos con el diagnóstico gratuito.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Qué pasa si además de lenta tiene otro problema?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Lo revisamos todo junto. Si tiene bisagra dañada, teclado fallando o cualquier otro problema físico, podemos atenderlo en el mismo servicio y te damos un presupuesto integral. Así no tienes que venir dos veces.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 8 — CTA FINAL
+         ============================================= -->
+    <section class="dark-section py-16 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto text-center">
+
+        <div style="width:48px; height:4px; background:#C8272E; border-radius:2px; margin:0 auto 16px;"></div>
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">
+          ¿Tu laptop está lenta? Tiene solución.
+        </h2>
+        <p class="text-base sm:text-lg mb-8 leading-relaxed" style="color:rgba(255,255,255,0.80);">
+          Tráenosla al taller. Diagnóstico sin costo,<br class="hidden sm:block" />
+          presupuesto antes de empezar, plazo definido tras el diagnóstico.
+        </p>
+
+        <a
+          href="https://wa.me/529518486056?text=Hola%20Cise%20Laptop%2C%20quiero%20informes%20sobre%20actualizaci%C3%B3n%20de%20mi%20equipo" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-hero-primary inline-flex items-center gap-2 font-bold text-base px-8 py-4 rounded-xl shadow-lg"
+          style="background:#C8272E; color:#ffffff;"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="white" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp →
+        </a>
+
+        <p class="mt-5 text-blue-200 text-sm">
+          Leandro Valle 222, Centro, Oaxaca &nbsp;·&nbsp; Lun–Vie 9:30–20:00 &nbsp;·&nbsp; Sáb 10:00–15:00
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 9 — OTROS SERVICIOS
+         ============================================= -->
+    <section class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">También reparamos</h2>
+        <p class="text-center text-gray-500 mb-10">Más servicios especializados en Ciselaptop.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+
+          <!-- Bisagras -->
+          <a
+            href="/bisagras" title="Reparación de bisagras rotas de laptop"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Bisagras y carcasas</p>
+              <p class="text-xs text-gray-400 mt-0.5">Desde $650 MXN + IVA</p>
+            </div>
+          </a>
+
+          <!-- Impresoras -->
+          <a
+            href="/impresoras"
+            title="Reparación de impresoras"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Reparación de impresoras</p>
+              <p class="text-xs text-gray-400 mt-0.5">Todas las marcas</p>
+            </div>
+          </a>
+
+          <!-- Nivel componente -->
+          <a
+            href="/nivel-componente"
+            title="Reparación a nivel componente"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Reparación a nivel componente</p>
+              <p class="text-xs text-gray-400 mt-0.5">Placa base y más</p>
+            </div>
+          </a>
+
+        </div>
+
+        <p class="text-center text-gray-400 text-sm mt-6">
+          ¿Otro problema?
+          <a
+            href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-semibold hover:underline"
+            style="color:#1D2E8C;"
+          >Escríbenos</a>
+          — si no lo hacemos, te decimos honestamente.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         SECCIÓN 10 — CÓMO LLEGAR
+         ============================================= -->
+    <section id="ubicacion" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-10">Visítanos en el taller</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
+
+          <!-- Dirección -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Dirección</h3>
+            <p class="text-sm text-gray-600 mb-3 leading-relaxed">
+              Calle Leandro Valle 222, Centro, Oaxaca<br />
+              <span class="text-gray-400">(antes de la marisquería La RED,<br />entre Hidalgo y Guerrero, local azul)</span>
+            </p>
+            <a
+              href="https://maps.app.goo.gl/NqfJtXPDHGuxMCtD6"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-semibold text-sm hover:underline"
+              style="color:#1D2E8C;"
+            >
+              Ver en Google Maps →
+            </a>
+          </div>
+
+          <!-- Horarios -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Horarios</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li class="flex justify-between"><span>Lunes – Viernes</span><span class="font-medium">9:30 – 20:00</span></li>
+              <li class="flex justify-between"><span>Sábados</span><span class="font-medium">10:00 – 15:00</span></li>
+              <li class="flex justify-between"><span>Domingos</span><span class="font-medium" style="color:#C8272E;">Cerrado</span></li>
+            </ul>
+          </div>
+
+          <!-- Pago -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Métodos de pago</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Efectivo
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Transferencia bancaria (SPEI)
+              </li>
+              <li class="flex items-center gap-2 mt-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+                <span class="text-gray-400">No aceptamos tarjeta</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Google Maps embed -->
+        <div class="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="dark-section py-12 px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto">
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+
+        <div>
+          <span style="font-size: 22px; font-weight: 700; color: #FFFFFF; letter-spacing: -0.5px;">Cise<span style="color: #C8272E;">laptop</span></span>
+          <p class="text-sm text-gray-400 leading-relaxed">
+            Taller de cómputo en Oaxaca<br />desde hace más de 15 años.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-3">Contacto</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li>
+              <a
+                href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white transition-colors"
+              >WhatsApp: +52 951 848 6056</a>
+            </li>
+            <li class="leading-relaxed">Calle Leandro Valle 222, Centro<br />Oaxaca de Juárez, Oax.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-3">Páginas del sitio</h4>
+          <ul class="space-y-1 text-sm text-gray-400">
+            <li><a href="/" class="hover:text-white transition-colors">Inicio</a></li>
+            <li><a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="hover:text-white transition-colors">Bisagras y carcasas</a></li>
+            <li><a href="/actualizacion" title="Actualización a SSD y RAM" class="hover:text-white transition-colors">Actualización SSD / RAM</a></li>
+            <li><a href="/impresoras"       title="Reparación de impresoras"       class="hover:text-white transition-colors">Reparación de impresoras</a></li>
+            <li><a href="/nivel-componente" title="Reparación a nivel componente" class="hover:text-white transition-colors">Reparación a nivel componente</a></li>
+            <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+            <li><a href="/quienes-somos" class="hover:text-white transition-colors">Nosotros</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-gray-700 pt-6 text-center text-xs text-gray-500">
+        <nav class="flex flex-wrap justify-center gap-x-3 gap-y-1 mb-3">
+          <a href="/" class="hover:text-white transition-colors">Inicio</a>
+          <span aria-hidden="true">·</span>
+          <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="hover:text-white transition-colors">Bisagras</a>
+          <span aria-hidden="true">·</span>
+          <a href="/actualizacion" title="Actualización a SSD y RAM" class="hover:text-white transition-colors">Actualización</a>
+          <span aria-hidden="true">·</span>
+          <a href="/impresoras" title="Reparación de impresoras" class="hover:text-white transition-colors">Impresoras</a>
+          <span aria-hidden="true">·</span>
+          <a href="/nivel-componente" title="Reparación a nivel componente" class="hover:text-white transition-colors">Nivel Componente</a>
+          <span aria-hidden="true">·</span>
+          <a href="/blog" class="hover:text-white transition-colors">Blog</a>
+          <span aria-hidden="true">·</span>
+          <a href="/quienes-somos" class="hover:text-white transition-colors">Nosotros</a>
+        </nav>
+        © 2026 Ciselaptop · Todos los derechos reservados
+      </div>
+
+      <!-- Leyenda legal nombre comercial -->
+      <div class="border-t border-gray-700 mt-6 pt-4 text-center">
+        <p class="text-xs text-gray-400 leading-relaxed">
+          Ciselaptop es un nombre comercial operado por Juan López Hernández.
+          RFC: LOHJ710712I54. Domicilio fiscal: Leandro Valle 222, Centro,
+          Oaxaca de Juárez, Oax., C.P. 68000.
+        </p>
+      </div>
+      <!-- Fin leyenda legal -->
+
+    </div>
+  </footer>
+
+
+  <!-- =============================================
+       JS: Sombra header + Acordeón FAQ
+       ============================================= -->
+  <script>
+
+    // Acordeón FAQ — un ítem abierto a la vez
+    (function () {
+      var buttons = document.querySelectorAll('.faq-btn');
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var body  = btn.nextElementSibling;
+          var arrow = btn.querySelector('.faq-arrow');
+          var isOpen = body.classList.contains('open');
+
+          document.querySelectorAll('.faq-body').forEach(function (b) { b.classList.remove('open'); });
+          document.querySelectorAll('.faq-arrow').forEach(function (a) { a.classList.remove('open'); });
+          document.querySelectorAll('.faq-btn').forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+
+          if (!isOpen) {
+            body.classList.add('open');
+            arrow.classList.add('open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+    })();
+
+    // Hamburguesa — menú móvil
+    (function () {
+      var btn = document.getElementById('menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', function () {
+          var hidden = menu.classList.toggle('hidden');
+          btn.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+        });
+      }
+    })();
+  </script>
+
+  <!-- =============================================
+       POPUP PROMOCIÓN — Actualización a SSD
+       ============================================= -->
+  <style>
+    .cise-popup-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+      z-index: 9000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 4%;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .cise-popup-overlay.visible {
+      opacity: 1;
+    }
+    .cise-popup-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+      border-top: 4px solid #1D2E8C;
+      width: 100%;
+      max-width: 480px;
+      overflow: hidden;
+      position: relative;
+      transform: scale(0.9);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .cise-popup-overlay.visible .cise-popup-card {
+      transform: scale(1);
+      opacity: 1;
+    }
+    .cise-popup-header {
+      background: #1D2E8C;
+      color: #fff;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .cise-popup-titulo {
+      flex: 1;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.3;
+    }
+    @media (max-width: 400px) {
+      .cise-popup-titulo { font-size: 13px; }
+    }
+    .cise-popup-cerrar {
+      flex-shrink: 0;
+      background: transparent;
+      border: none;
+      color: #ffffff;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+    }
+    .cise-popup-cerrar:hover { opacity: 0.8; }
+    .cise-popup-body {
+      padding: 20px 24px 24px;
+      color: #374151;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .cise-popup-body p { margin: 0 0 12px; }
+    .cise-popup-body ul {
+      margin: 0 0 12px;
+      padding-left: 0;
+      list-style: none;
+    }
+    .cise-popup-body ul li {
+      padding-left: 16px;
+      position: relative;
+      margin-bottom: 6px;
+    }
+    .cise-popup-body ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+    }
+    .cise-popup-price {
+      display: inline-block;
+      background: #1D2E8C;
+      color: #FFD700;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 1rem;
+    }
+    .cise-popup-warning {
+      background: #fef9ec;
+      border-left: 3px solid #f59e0b;
+      padding: 10px 12px;
+      border-radius: 4px;
+      font-size: 0.88rem;
+      color: #92400e;
+      margin-bottom: 12px;
+    }
+    .cise-popup-btn-wa {
+      display: block;
+      width: 100%;
+      background: #25D366;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1rem;
+      text-align: center;
+      padding: 13px 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 16px;
+      transition: background 0.2s;
+    }
+    .cise-popup-btn-wa:hover { background: #1ebe5d; }
+    .cise-popup-btn-close {
+      display: block;
+      width: 100%;
+      background: none;
+      border: none;
+      color: #9ca3af;
+      font-size: 0.88rem;
+      cursor: pointer;
+      padding: 10px 0 0;
+      text-align: center;
+    }
+    .cise-popup-btn-close:hover { color: #6b7280; }
+    .cise-urgencia { display: none; }
+    .cise-timer-chip {
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 4px 8px;
+    }
+    .cise-timer-emoji { font-size: 13px; line-height: 1; }
+    .cise-timer-inline { display: flex; align-items: center; gap: 3px; }
+    .cise-timer-num-small {
+      font-size: 15px;
+      font-weight: 800;
+      color: #FFD700;
+      font-variant-numeric: tabular-nums;
+      line-height: 1;
+    }
+    .cise-timer-sep-small {
+      font-size: 15px;
+      font-weight: 800;
+      color: #FFD700;
+      line-height: 1;
+      margin-bottom: 1px;
+    }
+    .cise-timer-label-small {
+      font-size: 9px;
+      color: #aac4ff;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      white-space: nowrap;
+    }
+    .cise-timer-num-small.urgente {
+      color: #ff6b6b;
+      animation: cise-pulso-num 0.8s infinite;
+    }
+    @keyframes cise-pulso-num {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .cise-expirado-msg {
+      display: none;
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 13px;
+      color: #856404;
+      text-align: center;
+      margin-top: 8px;
+      font-weight: 600;
+    }
+    .cise-popup-btn-wa.expirado {
+      background: #aaa !important;
+      cursor: not-allowed;
+      pointer-events: none;
+      opacity: 0.7;
+    }
+    .cise-urgencia-texto {
+      font-size: 12px;
+      font-weight: 700;
+      color: #C8272E;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      letter-spacing: 0.2px;
+    }
+    .cise-promo-highlight {
+      background: linear-gradient(135deg, #1D2E8C 0%, #2a3fa8 100%);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 12px 0;
+    }
+    .cise-promo-highlight-inner {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .cise-promo-highlight-badge {
+      background: #FFD700;
+      color: #1D2E8C;
+      font-size: 16px;
+      font-weight: 900;
+      padding: 6px 10px;
+      border-radius: 8px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      letter-spacing: 0.5px;
+    }
+    .cise-promo-highlight-texto {
+      color: #ffffff;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    .cise-promo-highlight-texto strong {
+      font-size: 14px;
+      color: #FFD700;
+    }
+    .cise-promo-highlight-sub {
+      font-size: 11px;
+      color: #aac4ff;
+    }
+    .cise-nota-precio {
+      font-size: 12px;
+      color: #444;
+      font-weight: 600;
+      background: #fff8e1;
+      border-left: 3px solid #FFD700;
+      padding: 7px 10px;
+      border-radius: 0 6px 6px 0;
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+  </style>
+
+  <div id="cise-promo-ssd" class="cise-popup-overlay" role="dialog" aria-modal="true" aria-label="Promoción actualización a SSD" style="display:none;">
+    <div class="cise-popup-card">
+      <div class="cise-popup-header">
+        <div class="cise-timer-chip">
+          <span class="cise-timer-emoji">⏱️</span>
+          <div>
+            <div class="cise-timer-inline">
+              <span class="cise-timer-num-small" id="cise-min-ssd">05</span>
+              <span class="cise-timer-sep-small">:</span>
+              <span class="cise-timer-num-small" id="cise-seg-ssd">00</span>
+            </div>
+            <div class="cise-timer-label-small">oferta expira</div>
+          </div>
+        </div>
+        <h3 class="cise-popup-titulo">⚡ Promoción: Actualización a SSD</h3>
+        <button class="cise-popup-cerrar" id="cise-cerrar-ssd" aria-label="Cerrar promoción">✕</button>
+      </div>
+      <div class="cise-popup-body">
+        <p>Dale una segunda vida a tu laptop.</p>
+        <p>Nuestra promoción desde <span class="cise-popup-price">$1,400.00 MXN + IVA</span> incluye:</p>
+        <ul>
+          <li><strong>SSD de 240GB</strong> instalado</li>
+          <li><strong>Windows y paquetería básica</strong> listos para usar</li>
+          <li>Revisión <strong>SIN COSTO</strong> de compatibilidad con expansión de Memoria RAM<br>
+            <span style="font-size:0.85rem;color:#6b7280;">(la memoria RAM es un costo adicional si se requiere)</span></li>
+        </ul>
+        <div class="cise-promo-highlight">
+          <div class="cise-promo-highlight-inner">
+            <span class="cise-promo-highlight-badge">50% OFF</span>
+            <div class="cise-promo-highlight-texto">
+              <strong>Limpieza del sistema de enfriamiento</strong><br>
+              <span>y cambio de pasta térmica incluidos</span><br>
+              <span class="cise-promo-highlight-sub">(servicio que normalmente cuesta $550)</span>
+            </div>
+          </div>
+        </div>
+        <div class="cise-popup-warning">
+          ⚠️ Este servicio <strong>NO incluye</strong> respaldo de información personal (fotos, documentos). Puedes hacer tu respaldo antes de traerlo o cotizarlo aparte.
+        </div>
+        <p class="cise-urgencia-texto">⚡ Solo para clientes que contacten hoy — cupos limitados.</p>
+        <a
+          href="https://wa.me/529518486056?text=Hola%2C%20vi%20la%20promoci%C3%B3n%20de%20actualizaci%C3%B3n%20a%20SSD%20desde%20%241%2C400%20y%20me%20interesa%20saber%20m%C3%A1s" onclick="gtag('event','whatsapp_click',{'page':'actualizacion'})"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cise-popup-btn-wa"
+          id="cise-btn-ws-ssd"
+        >📱 Obtener Promoción</a>
+        <button class="cise-popup-btn-close" id="cise-promo-ssd-cerrar">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var STORAGE_KEY = 'promo_ssd_vista';
+      if (sessionStorage.getItem(STORAGE_KEY)) return;
+
+      var overlay = document.getElementById('cise-promo-ssd');
+
+      function iniciarTimerPromo(idSufijo, btnElement) {
+        var segundosRestantes = 5 * 60;
+        var elMin = document.getElementById('cise-min-' + idSufijo);
+        var elSeg = document.getElementById('cise-seg-' + idSufijo);
+        var msg = document.createElement('p');
+        msg.className = 'cise-expirado-msg';
+        msg.id = 'cise-expirado-' + idSufijo;
+        msg.innerHTML = '&#9200; Esta oferta expiró — escríbenos igual, podemos ayudarte.';
+        overlay.querySelector('.cise-popup-body').appendChild(msg);
+
+        function actualizarDisplay() {
+          var m = Math.floor(segundosRestantes / 60);
+          var s = segundosRestantes % 60;
+          elMin.textContent = ('0' + m).slice(-2);
+          elSeg.textContent = ('0' + s).slice(-2);
+          if (segundosRestantes <= 60 && segundosRestantes > 0) {
+            elMin.classList.add('urgente');
+            elSeg.classList.add('urgente');
+          }
+          if (segundosRestantes <= 0) {
+            clearInterval(intervalo);
+            elMin.classList.add('urgente');
+            elSeg.classList.add('urgente');
+            elMin.textContent = '00';
+            elSeg.textContent = '00';
+            var expMsg = document.getElementById('cise-expirado-' + idSufijo);
+            if (expMsg) expMsg.style.display = 'block';
+            if (btnElement) btnElement.classList.add('expirado');
+            return;
+          }
+          segundosRestantes--;
+        }
+
+        actualizarDisplay();
+        var intervalo = setInterval(actualizarDisplay, 1000);
+        return intervalo;
+      }
+
+      function showPopup() {
+        sessionStorage.setItem(STORAGE_KEY, '1');
+        overlay.style.display = 'flex';
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            overlay.classList.add('visible');
+            iniciarTimerPromo('ssd', document.getElementById('cise-btn-ws-ssd'));
+          });
+        });
+      }
+
+      function hidePopup() {
+        overlay.classList.remove('visible');
+        setTimeout(function () { overlay.style.display = 'none'; }, 220);
+      }
+
+      setTimeout(showPopup, 4000);
+
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) hidePopup();
+      });
+      overlay.querySelector('.cise-popup-cerrar').addEventListener('click', hidePopup);
+      document.getElementById('cise-promo-ssd-cerrar').addEventListener('click', hidePopup);
+      document.getElementById('cise-btn-ws-ssd').addEventListener('click', function () {
+        setTimeout(hidePopup, 150);
+      });
+    })();
+  </script>
+
+</body>
+</html>
