@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <title>Microsoft Surface formateo — Windows 10 y touch Oaxaca | Ciselaptop</title>
+  <meta name="description" content="Microsoft Surface con formateo sin respaldo previo. Desactivación de Secure Boot, drivers específicos, configuración touch y Windows 10 en Oaxaca. Garantía 35 días." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.ciselaptop.com/blog/reparacion-microsoft-surface-oaxaca" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Microsoft Surface formateo — Windows 10 y touch Oaxaca | Ciselaptop" />
+  <meta property="og:description" content="Microsoft Surface con formateo sin respaldo. Secure Boot, drivers, touch y Windows 10 en Oaxaca. Garantía 35 días." />
+  <meta property="og:url" content="https://www.ciselaptop.com/blog/reparacion-microsoft-surface-oaxaca" />
+  <meta property="og:image" content="https://www.ciselaptop.com/img/blog/reparacion-microsoft-surface-oaxaca/hero.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Microsoft Surface formateo — Windows 10 y touch Oaxaca | Ciselaptop" />
+  <meta name="twitter:description" content="Microsoft Surface con formateo sin respaldo. Secure Boot, drivers, touch y Windows 10 en Oaxaca. Garantía 35 días." />
+  <meta name="twitter:image" content="https://www.ciselaptop.com/img/blog/reparacion-microsoft-surface-oaxaca/hero.webp" />
+  <meta name="author" content="Ciselaptop" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    :root { --brand-navy: #1D2E8C; --brand-red: #C8272E; }
+    @keyframes wa-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0.5); }
+      50%       { box-shadow: 0 0 0 12px rgba(37,211,102,0); }
+    }
+    .wa-float { animation: wa-pulse 2.4s ease-in-out infinite; }
+    header { background: #ffffff; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .dark-section { background-color:#1D2E8C; background-image:radial-gradient(circle,rgba(255,255,255,0.10) 1px,transparent 1px); background-size:20px 20px; }
+    footer.dark-section p, footer.dark-section a, footer.dark-section li { color:rgba(255,255,255,0.70); }
+    footer.dark-section h3 { color:#ffffff; }
+    footer.dark-section a:hover { color:#ffffff !important; }
+    footer.dark-section .border-gray-700 { border-color:rgba(255,255,255,0.15) !important; }
+    .prose-article h2 { font-size:1.5rem; font-weight:700; color:#1D2E8C; margin-top:2rem; margin-bottom:0.75rem; }
+    .prose-article h3 { font-size:1.15rem; font-weight:600; color:#1f2937; margin-top:1.5rem; margin-bottom:0.5rem; }
+    .prose-article p  { color:#4b5563; line-height:1.75; margin-bottom:1rem; }
+    .prose-article ul { list-style:disc; padding-left:1.5rem; color:#4b5563; margin-bottom:1rem; }
+    .prose-article ul li { margin-bottom:0.35rem; line-height:1.7; }
+    .answer-capsule { border-left:4px solid #1D2E8C; background:#f0f2fc; padding:1rem 1.25rem; border-radius:0 0.75rem 0.75rem 0; margin-bottom:2rem; }
+    .answer-capsule p { margin-bottom:0; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-36TPZGNZSN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-36TPZGNZSN');
+  </script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2">
+        <img src="/img/logo.webp" alt="Ciselaptop" class="h-9 w-auto" />
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700">
+        <a href="/bisagras" class="hover:text-[#1D2E8C] transition-colors">Bisagras</a>
+        <a href="/actualizacion" class="hover:text-[#1D2E8C] transition-colors">Actualización</a>
+        <a href="/impresoras" class="hover:text-[#1D2E8C] transition-colors">Impresoras</a>
+        <a href="/nivel-componente" class="hover:text-[#1D2E8C] transition-colors">Nivel componente</a>
+        <a href="/blog" class="hover:text-[#1D2E8C] transition-colors">Blog</a>
+      </nav>
+      <a href="https://wa.me/529515255444?text=Hola%2C%20quiero%20informes%20sobre%20formateo%20de%20laptop"
+         target="_blank" rel="noopener"
+         class="wa-float flex items-center gap-2 bg-[#25D366] text-white text-sm font-semibold px-4 py-2 rounded-full shadow-md hover:bg-[#1ebe5b] transition-colors">
+        <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative bg-gray-900 text-white">
+    <img src="/img/blog/reparacion-microsoft-surface-oaxaca/hero.webp"
+         alt="Microsoft Surface para formateo en Oaxaca — Ciselaptop"
+         class="absolute inset-0 w-full h-full object-cover opacity-40" />
+    <div class="relative max-w-4xl mx-auto px-4 py-20 text-center">
+      <span class="inline-block bg-white/20 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wider">Software y sistema</span>
+      <h1 class="text-3xl md:text-5xl font-extrabold leading-tight mb-4">
+        Microsoft Surface — Formateo, Secure Boot<br class="hidden md:block"/> y configuración de pantalla táctil en Oaxaca
+      </h1>
+      <p class="text-lg text-white/80 max-w-2xl mx-auto">
+        El Surface requería formateo sin respaldo previo. El proceso incluyó desactivar Secure Boot en BIOS, descargar los drivers específicos del fabricante y configurar correctamente la pantalla táctil tras la instalación de Windows 10.
+      </p>
+    </div>
+  </section>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-4xl mx-auto px-4 py-3 text-sm text-gray-500" aria-label="Breadcrumb">
+    <ol class="flex items-center gap-2">
+      <li><a href="/" class="hover:text-[#1D2E8C]">Inicio</a></li>
+      <li><span class="text-gray-300">/</span></li>
+      <li><a href="/blog" class="hover:text-[#1D2E8C]">Blog</a></li>
+      <li><span class="text-gray-300">/</span></li>
+      <li class="text-gray-700 font-medium">Microsoft Surface — Formateo y touch</li>
+    </ol>
+  </nav>
+
+  <!-- CONTENT -->
+  <main class="max-w-4xl mx-auto px-4 py-10 prose-article">
+
+    <p>
+      El Microsoft Surface es una familia de dispositivos 2-en-1 que combina pantalla táctil, lápiz óptico y teclado magnético. Formatear un Surface es considerablemente más complejo que formatear una laptop convencional: requiere desactivar el Secure Boot en la UEFI/BIOS del fabricante, descargar los controladores específicos desde el sitio de Microsoft y configurar la pantalla táctil para que funcione correctamente tras la instalación del sistema operativo. El cliente solicitó el servicio sin respaldo previo, confirmando que no había información importante en el equipo.
+    </p>
+
+    <div class="answer-capsule">
+      <p>
+        <strong>¿Qué se hizo?</strong> Se realizó el formateo completo del Microsoft Surface sin respaldo, siguiendo el proceso específico para este dispositivo: descarga de drivers oficiales de Microsoft, desactivación de Secure Boot en la UEFI, instalación de Windows 10, configuración de la pantalla táctil y Office. El equipo quedó completamente funcional incluyendo todas las características táctiles.
+      </p>
+    </div>
+
+    <h2>Por qué el Surface requiere un proceso especial</h2>
+    <p>
+      A diferencia de una laptop estándar, el Surface de Microsoft utiliza Secure Boot activo de fábrica, lo que impide arrancar desde medios externos sin configuración previa. Además, los drivers del Surface — especialmente los del panel táctil, el lápiz y los sensores — no están incluidos en la instalación estándar de Windows 10 y deben descargarse por separado desde el sitio oficial de Microsoft antes o después de la instalación. Sin estos drivers, la pantalla táctil y otras características del equipo no funcionan.
+    </p>
+
+    <h2>Proceso del servicio</h2>
+
+    <h3>1. Confirmación del formateo sin respaldo</h3>
+    <p>
+      Antes de iniciar, se confirmó con el cliente que el formateo se realizaría sin respaldo de información. Este paso es fundamental: un formateo elimina de forma permanente todos los archivos del disco. El cliente confirmó la decisión y se procedió. Siempre recomendamos hacer respaldo previo como buena práctica, aunque en este caso no fue posible o necesario para el cliente.
+    </p>
+
+    <h3>2. Descarga de drivers oficiales de Microsoft</h3>
+    <p>
+      Antes de iniciar la instalación, se descargaron los drivers específicos del modelo Surface desde el sitio oficial de Microsoft Surface Support. Estos drivers incluyen los controladores del panel táctil, el sensor de posición, la cámara frontal y trasera, el lápiz óptico y la conectividad. Tenerlos listos antes de la instalación agiliza el proceso de configuración posterior.
+    </p>
+
+    <h3>3. Configuración de la UEFI y desactivación de Secure Boot</h3>
+    <p>
+      Se accedió a la UEFI del Surface (interfaz de firmware equivalente al BIOS en equipos convencionales) mediante la combinación de teclas específica del dispositivo. Dentro de la configuración de seguridad, se desactivó Secure Boot para permitir el arranque desde el medio de instalación de Windows 10. Este paso es necesario en el Surface ya que, a diferencia de otras laptops, su Secure Boot no permite excepciones sin desactivarlo temporalmente.
+    </p>
+
+    <h3>4. Instalación de Windows 10</h3>
+    <p>
+      Se instaló Windows 10 desde medio de instalación limpia. Se seleccionó la partición correcta, se eliminaron las particiones anteriores y se realizó una instalación nueva. Al completar la instalación base, el equipo arrancó correctamente aunque sin los drivers del fabricante activos.
+    </p>
+
+    <h3>5. Instalación de drivers y configuración de pantalla táctil</h3>
+    <p>
+      Se instalaron los drivers descargados previamente. El proceso de instalación de los drivers de Surface requiere reiniciar el equipo en varias ocasiones. Una vez completado, se verificó que la pantalla táctil respondiera correctamente en todos los puntos de la pantalla, que el lápiz (si aplica) funcionara y que los gestos táctiles de Windows respondieran sin retraso.
+    </p>
+
+    <h3>6. Instalación de Office y actualizaciones</h3>
+    <p>
+      Se instaló Microsoft Office y se ejecutaron las actualizaciones de Windows 10 para dejar el sistema en su versión más reciente disponible. Se verificó el funcionamiento general del equipo antes de la entrega.
+    </p>
+
+    <!-- GALLERY -->
+    <h2>Evidencia fotográfica</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-6">
+      <img src="/img/blog/reparacion-microsoft-surface-oaxaca/hero.webp"
+           alt="Microsoft Surface al ingreso al taller — Ciselaptop Oaxaca"
+           class="rounded-xl w-full object-cover h-48" loading="lazy" />
+      <img src="/img/blog/reparacion-microsoft-surface-oaxaca/foto-1.webp"
+           alt="Microsoft Surface — Configuración UEFI y Secure Boot — Ciselaptop Oaxaca"
+           class="rounded-xl w-full object-cover h-48" loading="lazy" />
+      <img src="/img/blog/reparacion-microsoft-surface-oaxaca/foto-2.webp"
+           alt="Microsoft Surface — Windows 10 instalado y pantalla táctil funcionando — Ciselaptop Oaxaca"
+           class="rounded-xl w-full object-cover h-48" loading="lazy" />
+    </div>
+
+    <!-- TABLA DE REFERENCIA -->
+    <h2>Referencia de precios y tiempos</h2>
+    <div class="overflow-x-auto rounded-xl border border-gray-200 shadow-sm my-6">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-[#1D2E8C] text-white">
+            <th class="px-4 py-3 text-left font-semibold">Concepto</th>
+            <th class="px-4 py-3 text-right font-semibold">Detalle</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          <tr class="hover:bg-gray-50">
+            <td class="px-4 py-3 text-gray-800">Diagnóstico general<br><span class="text-xs text-gray-400">Se descuenta si se autoriza la reparación · 48 h hábiles</span></td>
+            <td class="px-4 py-3 text-right font-bold text-gray-900">$150 MXN + IVA</td>
+          </tr>
+          <tr class="hover:bg-gray-50">
+            <td class="px-4 py-3 text-gray-800">Formateo + Windows 10 + drivers Surface + Office</td>
+            <td class="px-4 py-3 text-right text-gray-700">Cotización tras diagnóstico</td>
+          </tr>
+          <tr class="hover:bg-gray-50">
+            <td class="px-4 py-3 text-gray-800">Garantía — software</td>
+            <td class="px-4 py-3 text-right text-gray-700">Sin garantía (naturaleza del servicio)</td>
+          </tr>
+          <tr class="hover:bg-gray-50">
+            <td class="px-4 py-3 text-gray-800">Garantía mano de obra</td>
+            <td class="px-4 py-3 text-right text-gray-700">35 días naturales</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-xs text-gray-400 -mt-4 mb-6">* Precios en pesos mexicanos. El IVA se agrega al monto indicado. La cotización definitiva se entrega tras el diagnóstico.</p>
+
+    <!-- CTA INTERMEDIO -->
+    <div class="rounded-2xl p-8 my-10 text-center" style="background-color:#f0f2fc;">
+      <h3 class="text-xl font-bold text-[#1D2E8C] mb-2">¿Necesitas formatear tu Microsoft Surface?</h3>
+      <p class="text-gray-600 mb-5 max-w-md mx-auto">El Surface tiene un proceso de instalación diferente al de una laptop estándar. Contamos con experiencia en este modelo y sus particularidades de BIOS y drivers.</p>
+      <a href="https://wa.me/529515255444?text=Hola%2C%20necesito%20formatear%20mi%20Microsoft%20Surface%20y%20quiero%20informes"
+         target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 bg-[#1D2E8C] text-white font-semibold px-7 py-3 rounded-full shadow hover:bg-[#16236e] transition-colors">
+        <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Consultar por WhatsApp
+      </a>
+    </div>
+
+    <!-- FAQ -->
+    <h2>Preguntas frecuentes</h2>
+
+    <h3>¿Por qué es diferente formatear un Microsoft Surface que una laptop normal?</h3>
+    <p>
+      El Surface tiene Secure Boot activo de fábrica que impide arrancar desde medios externos, y sus drivers — incluyendo los de la pantalla táctil — no están en la instalación estándar de Windows. Requieren descarga manual desde el sitio oficial de Microsoft e instalación separada. Sin este paso, el equipo queda sin pantalla táctil funcional.
+    </p>
+
+    <h3>¿Se puede hacer respaldo de datos antes del formateo del Surface?</h3>
+    <p>
+      Sí, siempre recomendamos hacer respaldo antes de cualquier formateo. Podemos asistir con el respaldo de documentos, fotos y otros archivos antes de iniciar la instalación. Una vez realizado el formateo, los datos anteriores no se pueden recuperar. Si no tienes respaldo, infórmanos antes de traer el equipo.
+    </p>
+
+    <h3>¿El formateo desactiva el lápiz óptico del Surface?</h3>
+    <p>
+      No, siempre y cuando se instalen los drivers correctos después del formateo. Los drivers del Surface incluyen los controladores del lápiz óptico. Si no se instalan, el lápiz no funciona aunque el hardware esté en buen estado. Nosotros instalamos el paquete completo de drivers para que el equipo quede igual que de fábrica.
+    </p>
+
+    <h3>¿Cuánto cuesta el formateo de un Microsoft Surface en Oaxaca?</h3>
+    <p>
+      El diagnóstico general cuesta $150 MXN + IVA (48 h hábiles, descontable si autorizas el servicio). La cotización del formateo completo se entrega tras el diagnóstico, ya que el precio varía según el modelo exacto del Surface y los servicios adicionales requeridos.
+    </p>
+
+  </main>
+
+  <!-- CTA FINAL -->
+  <section class="dark-section text-white py-16 px-4 mt-10 text-center">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-3xl font-extrabold mb-3">¿Tu Surface necesita formateo o reinstalación?</h2>
+      <p class="text-white/75 mb-7 text-lg">Tráelo al taller en Oaxaca. Manejamos el proceso completo: Secure Boot, drivers de Microsoft y configuración de pantalla táctil.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://wa.me/529515255444?text=Hola%2C%20necesito%20formatear%20mi%20Surface%20y%20quiero%20informes"
+           target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center gap-2 bg-[#C8272E] text-white font-bold px-8 py-4 rounded-full shadow-lg hover:bg-red-700 transition-colors text-base">
+          <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Escribir por WhatsApp
+        </a>
+        <a href="/blog" class="inline-flex items-center justify-center gap-2 border border-white/40 text-white font-semibold px-8 py-4 rounded-full hover:bg-white/10 transition-colors text-base">
+          Ver más casos
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="dark-section py-12 px-4">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <img src="/img/logo.webp" alt="Ciselaptop" class="h-9 w-auto mb-3" />
+        <p class="text-sm">Taller de reparación de laptops e impresoras en Oaxaca de Juárez. Servicio profesional con garantía.</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-sm uppercase tracking-wider mb-3">Servicios</h3>
+        <ul class="space-y-1 text-sm">
+          <li><a href="/bisagras" class="hover:text-white transition-colors">Reparación de bisagras</a></li>
+          <li><a href="/actualizacion" class="hover:text-white transition-colors">Actualización de RAM y SSD</a></li>
+          <li><a href="/impresoras" class="hover:text-white transition-colors">Reparación de impresoras</a></li>
+          <li><a href="/nivel-componente" class="hover:text-white transition-colors">Diagnóstico nivel componente</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-sm uppercase tracking-wider mb-3">Contacto</h3>
+        <ul class="space-y-1 text-sm">
+          <li><a href="https://wa.me/529515255444" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: 951 525 5444</a></li>
+          <li><a href="/quienes-somos" class="hover:text-white transition-colors">Quiénes somos</a></li>
+          <li><a href="/blog" class="hover:text-white transition-colors">Blog técnico</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto mt-8 pt-6 border-t border-gray-700 text-center text-xs text-white/50">
+      © 2026 Ciselaptop — Oaxaca de Juárez, México
+    </div>
+  </footer>
+
+  <!-- WA FLOAT -->
+  <a href="https://wa.me/529515255444?text=Hola%2C%20quiero%20informes%20sobre%20formateo%20de%20laptop"
+     target="_blank" rel="noopener" aria-label="WhatsApp"
+     class="wa-float fixed bottom-6 right-6 z-50 bg-[#25D366] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:bg-[#1ebe5b] transition-colors">
+    <svg class="w-7 h-7 fill-white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Microsoft Surface — Formateo, Secure Boot y configuración de pantalla táctil en Oaxaca",
+        "description": "Microsoft Surface con formateo sin respaldo. Descarga de drivers, desactivación de Secure Boot, instalación de Windows 10 y configuración de pantalla táctil en Oaxaca.",
+        "image": "https://www.ciselaptop.com/img/blog/reparacion-microsoft-surface-oaxaca/hero.webp",
+        "datePublished": "2026-08-13",
+        "dateModified": "2026-08-13",
+        "author": { "@type": "Organization", "name": "Ciselaptop" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Ciselaptop",
+          "logo": { "@type": "ImageObject", "url": "https://www.ciselaptop.com/img/logo.webp" }
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.ciselaptop.com/blog/reparacion-microsoft-surface-oaxaca" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Por qué es diferente formatear un Microsoft Surface que una laptop normal?",
+            "acceptedAnswer": { "@type": "Answer", "text": "El Surface tiene Secure Boot activo y drivers específicos no incluidos en la instalación estándar de Windows. Sin instalar los drivers del fabricante, la pantalla táctil y otras características no funcionan." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se puede hacer respaldo de datos antes del formateo del Surface?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí, siempre recomendamos hacer respaldo antes de cualquier formateo. Podemos asistir con el respaldo de archivos antes de iniciar la instalación. Una vez realizado el formateo, los datos no se pueden recuperar." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿El formateo desactiva el lápiz óptico del Surface?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No, siempre que se instalen los drivers correctos después del formateo. Instalamos el paquete completo de drivers de Microsoft para que el equipo quede igual que de fábrica." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta el formateo de un Microsoft Surface en Oaxaca?",
+            "acceptedAnswer": { "@type": "Answer", "text": "El diagnóstico general cuesta $150 MXN + IVA (48 h hábiles, descontable si autorizas el servicio). La cotización del formateo se entrega tras el diagnóstico." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+</body>
+</html>
