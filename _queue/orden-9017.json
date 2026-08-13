@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9017",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-hp-14-dq-oaxaca",
+  "categoria": "Software y sistema",
+  "marca": "HP",
+  "modelo": "14-dq",
+  "falla": "Se calienta",
+  "solucion": "Se da Mantto al sistema de ventilación pasta térmica ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9017/recepcion/1783386352122-17833863044112920118149222938943.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190048Z&X-Amz-Expires=172800&X-Amz-Signature=125a232b8ecfa9d1363860fd698ecb2e2501b461e13c0c8004d4d06373028468&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 14-dq — Se calienta — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9017/evidencias_general/1783451059554-IMG_2988.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190048Z&X-Amz-Expires=172800&X-Amz-Signature=aab80474678e15165a97cb5befcf65d086897833f5edec9acd3079326f2a08c4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 14-dq — Se calienta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9017/evidencias_general/1783451059745-IMG_2986.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190048Z&X-Amz-Expires=172800&X-Amz-Signature=3065989a63b2d8784aaa1f7f89bac8ebdf6e42e728082ae11fac25737423f1a7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 14-dq — Se calienta — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
