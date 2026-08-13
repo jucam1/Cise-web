@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "ordenId": "9051",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-epson-l395-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Epson",
+  "modelo": "L395",
+  "falla": "No imprime negro",
+  "solucion": "Limpieza purgado de mangueras y cabezales las gomas están bien y también las almohadas",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9051/recepcion/1784658880444-17846588347863113904687458348638.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184257Z&X-Amz-Expires=172800&X-Amz-Signature=9db72ba3020a0ae5c85f9d299ea48268dfaab230478aff5c9f3c3e1569d8b73c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L395 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9051/evidencias_general/1784682857930-17846828459197421715482868154301.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184257Z&X-Amz-Expires=172800&X-Amz-Signature=d14752e6842a7fe109ecee8ca831a65ded04655369b404588b49cf83e1f2ab66&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L395 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9051/evidencias_general/1784682923984-1784682917519759067860121628460.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184257Z&X-Amz-Expires=172800&X-Amz-Signature=d192594a30f4170fa08cc9899d07248e641c2a344fe4245b08a5bb9d4add92ff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L395 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9051/evidencias_general/1784685238411-17846852214505385249471901671963.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184257Z&X-Amz-Expires=172800&X-Amz-Signature=4aceb2648715d318954fb656807612339ead6006be976951a5d236b2e93b8e69&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L395 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9051/evidencias_general/1784685287055-17846852732107110490894260407817.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184257Z&X-Amz-Expires=172800&X-Amz-Signature=2354639e8f60bd8333eb192e70a93ff696504c323c41f418ad10df285d5f5aff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L395 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9051/evidencias_general/1784685619726-17846856098444767301042561570104.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184257Z&X-Amz-Expires=172800&X-Amz-Signature=f499e61bea0c7383447815177e5392fc7d152fd6a4438db927fb817376c8a556&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L395 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9051/evidencias_general/1784685273651-17846852576936416821354760318301.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184257Z&X-Amz-Expires=172800&X-Amz-Signature=41998df7bd11bb868ce09af9687aca4da34a813fa6d9049d10a9afe3641dc6ab&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L395 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
