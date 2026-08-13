@@ -3,3 +3,6 @@
 
 # Separate Next.js app (has its own git repo)
 ciseflow/
+
+# No versionar JSONs procesados de la cola (solo la carpeta)
+# Los JSONs los pone CISEFLOW y Code los borra al procesar
