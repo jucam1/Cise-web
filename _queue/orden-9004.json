@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9004",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-hp-15-p20-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "HP",
+  "modelo": "15-P20",
+  "falla": "Bisagra rotas y la batería no carga",
+  "solucion": "Se repara bisagra se refuerza con malla y grapas ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9004/recepcion/1783120564566-IMG_2931.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190129Z&X-Amz-Expires=172800&X-Amz-Signature=41ed7764d3eabb9aa53e8fe8f96bd018db2e3e24fc61b786ab4a0c893e757342&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 15-P20 — Bisagra rotas y la batería no carga — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9004/recepcion/1783120564966-IMG_2932.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190129Z&X-Amz-Expires=172800&X-Amz-Signature=8cf0b4ae0033498cb079111b820c936b11372664d32faeba52be861bb3fc91fa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 15-P20 — Bisagra rotas y la batería no carga — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9004/evidencias_general/1783120938805-IMG_2940.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190129Z&X-Amz-Expires=172800&X-Amz-Signature=0894d0723e90f9728a91bce285ecc539ebcb96c29309da7ca6689a94e8447734&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 15-P20 — Bisagra rotas y la batería no carga — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9004/evidencias_general/1783120939446-IMG_2936.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190129Z&X-Amz-Expires=172800&X-Amz-Signature=e769ea7f173c1e4e8974cf4729ea3088fd0f0a6773e98d802c5cbcd25025909a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 15-P20 — Bisagra rotas y la batería no carga — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9004/refacciones/1783120939615-IMG_2938.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190129Z&X-Amz-Expires=172800&X-Amz-Signature=e9f3b16e9a6f47d8cbbfa149e52472a3de64586696d168b624e07cba60950ea2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 15-P20 — Bisagra rotas y la batería no carga — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9004/reingreso_1/1783453666531-IMG_2941.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T190129Z&X-Amz-Expires=172800&X-Amz-Signature=241b47253136b4415b5c213a93a42d9a28deaf3a679706cfba071a8741cee7b3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 15-P20 — Bisagra rotas y la batería no carga — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
