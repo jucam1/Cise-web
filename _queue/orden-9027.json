@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "ordenId": "9027",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-hp-i5-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "HP",
+  "modelo": "I5",
+  "falla": "Bisagra izquierda dañada",
+  "solucion": "reparación de bisagra izquierda y cambio de pasta térmica ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9027/recepcion/1783708454310-17837084052744600930813787491757.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185504Z&X-Amz-Expires=172800&X-Amz-Signature=0edaa63c9bd9fc066fb97f8fb66270bf2a4727fb9029fa1dac5324ded708fc66&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — Bisagra izquierda dañada — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9027/recepcion/1783708454645-17837084238027370258746452568783.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185504Z&X-Amz-Expires=172800&X-Amz-Signature=a39c5ce1949ca639ea0ead90febae9644dc4a51918198ca9f27bc8cb68bad586&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — Bisagra izquierda dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9027/evidencias_general/1783713387292-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185504Z&X-Amz-Expires=172800&X-Amz-Signature=dbde57fe367c23cdcb3cd847a0f78eddd3b2b660c4a379d5ca3b4eebf5a64a66&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — Bisagra izquierda dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9027/reingreso_1/1783729398682-17837293911772083312467240321142.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185504Z&X-Amz-Expires=172800&X-Amz-Signature=80b2e355721001586610e4e226be5d972d6e97e6aff24c449c50fcc266c7c93e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — Bisagra izquierda dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
