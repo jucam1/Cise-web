@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "ordenId": "9001",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-canon-g510-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Canon",
+  "modelo": "G510",
+  "falla": "Problema de lmpresion",
+  "solucion": "Limpieza purgado de mangueras y cambio de cabezales ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9001/recepcion/1783116848740-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185100Z&X-Amz-Expires=172800&X-Amz-Signature=c81294574774e63af6323ab8867c3534dc146cf8324990e494a451d11b50b8c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G510 — Problema de lmpresion — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9001/evidencias_general/1783467709016-17834676926003546625430907788109.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185100Z&X-Amz-Expires=172800&X-Amz-Signature=bcb50262bd0d631efe7cd4c14487c178023715c316f4ab8fafb52b4c533a27fa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G510 — Problema de lmpresion — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9001/evidencias_general/1783468004713-178346799532760875043627894870.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185100Z&X-Amz-Expires=172800&X-Amz-Signature=befa460b055a7053c42d00f4904ae905dc531d55f0d428cf580ec4c0db194ba2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G510 — Problema de lmpresion — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9001/evidencias_general/1784160728191-17841607096658231649602618691862.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185100Z&X-Amz-Expires=172800&X-Amz-Signature=29e288b95292dcdaab9800c2655ba8735ee8b398dd74a9682e0285dcbb878602&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G510 — Problema de lmpresion — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9001/evidencias_general/1784158373655-17841583663444754420520188052344.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185100Z&X-Amz-Expires=172800&X-Amz-Signature=fb54f17b1ef4ead38050bd55e4350b74dd3eaa80b88a825319637ddb28d22a05&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G510 — Problema de lmpresion — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9001/evidencias_general/1784160741843-1784160727300947051520919990405.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185100Z&X-Amz-Expires=172800&X-Amz-Signature=a8531bf79f1ff67a1ee5ba019efc9545bb97b3263c470866e35fd2087ed51201&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G510 — Problema de lmpresion — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9001/refacciones/1783468024728-17834680096076968759306985516181.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185100Z&X-Amz-Expires=172800&X-Amz-Signature=8cee168c284ed4586e42d332f62c9a0e2fdd3eed1f007f3da0347308b5e3f180&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G510 — Problema de lmpresion — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
