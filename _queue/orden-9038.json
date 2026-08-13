@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9038",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-pc-ensamble-oaxaca",
+  "categoria": "Reparación",
+  "marca": "PC",
+  "modelo": "Ensamble",
+  "falla": "Configuracion del BIOS",
+  "solucion": "Se arma y se configura Bios ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9038/recepcion/1784219936173-1784219881379243194579129111627.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185015Z&X-Amz-Expires=172800&X-Amz-Signature=7abd62ac3e2745a1c16ed88cd066b59d1c80f5f74c0cec8f795ce210fbccbd2d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "PC Ensamble — Configuracion del BIOS — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9038/reingreso_1/1784321874872-IMG_3089.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185015Z&X-Amz-Expires=172800&X-Amz-Signature=6c08f54ba78e632f41df3dbae74290db33d01a45a56f39f053da4d03a9b575c0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "PC Ensamble — Configuracion del BIOS — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9038/reingreso_1/1784321876069-IMG_3088.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185015Z&X-Amz-Expires=172800&X-Amz-Signature=b37cda3ed236674c95f653b818505df2f8e7d85f7279eda033a00536aa2bd383&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "PC Ensamble — Configuracion del BIOS — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
