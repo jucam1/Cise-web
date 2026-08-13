@@ -55,6 +55,36 @@ for i, foto in enumerate(data["fotos"]):
 
 ### PASO 3 — Generar el HTML del artículo
 
+#### POLÍTICAS FIJAS — usar siempre, nunca inventar datos distintos
+
+##### Diagnóstico
+- General (equipo que enciende): $150 MXN + IVA · 48 horas hábiles.
+  Se descuenta del total si el cliente autoriza la reparación.
+- Nivel componente (no enciende o mojado): $250 MXN + IVA · 5 días hábiles.
+  NO se descuenta de la reparación — es un trabajo de mayor profundidad.
+
+##### Tiempos de entrega (post-diagnóstico)
+- Refacciones nacionales: 5 a 10 días hábiles.
+- Refacciones internacionales: 30 a 40 días hábiles.
+- No poner tiempos exactos si no se sabe el origen de la refacción.
+  Usar: "El tiempo depende de la disponibilidad de refacciones."
+- Pueden aparecer fallas ocultas distintas a la reportada —
+  en ese caso se envía una nueva cotización antes de continuar.
+
+##### Garantía
+- Mano de obra: 35 días naturales.
+- Refacciones: según política del fabricante.
+- Software: sin garantía.
+
+##### Reglas de contenido
+- Si el JSON trae precio → mostrarlo como referencia.
+- Si el JSON NO trae precio → decir "cotización tras diagnóstico", sin inventar cifras.
+- Nunca poner tiempos de entrega específicos que no vengan en el JSON.
+- Nunca decir que el diagnóstico fue gratis — explicar la política real.
+- No mencionar datos del cliente (nombre, teléfono, RFC).
+
+---
+
 Usa `blog/bisagra-laptop-oaxaca.html` como template estructural.
 Genera `blog/{slug}.html` con:
 
