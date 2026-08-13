@@ -1,0 +1,118 @@
+name: Publicar artículo del día
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # 10:00 AM hora Ciudad de México (UTC-6)
+  workflow_dispatch:        # permite disparo manual desde GitHub si hace falta
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verificar si ya se publicó hoy
+        id: check_today
+        run: |
+          TODAY=$(TZ="America/Mexico_City" date +%Y-%m-%d)
+          echo "Fecha hoy: $TODAY"
+          PUBLISHED=$(git log --oneline --after="$TODAY 00:00:00" --before="$TODAY 23:59:59" | grep "Auto-publish:" | wc -l)
+          echo "Publicaciones hoy: $PUBLISHED"
+          echo "already_published=$([[ $PUBLISHED -gt 0 ]] && echo true || echo false)" >> $GITHUB_OUTPUT
+
+      - name: Verificar si hay artículos en cola
+        id: check_queue
+        if: steps.check_today.outputs.already_published == 'false'
+        run: |
+          COUNT=$(ls _queue/listos/*.html 2>/dev/null | wc -l)
+          echo "Artículos en cola: $COUNT"
+          echo "has_articles=$([[ $COUNT -gt 0 ]] && echo true || echo false)" >> $GITHUB_OUTPUT
+          if [ $COUNT -gt 0 ]; then
+            NEXT_HTML=$(ls _queue/listos/*.html 2>/dev/null | sort | head -1)
+            NEXT_JSON="${NEXT_HTML%.html}.json"
+            echo "Siguiente artículo: $NEXT_HTML"
+            echo "next_html=$NEXT_HTML" >> $GITHUB_OUTPUT
+            echo "next_json=$NEXT_JSON" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Instalar dependencias Python
+        if: |
+          steps.check_today.outputs.already_published == 'false' &&
+          steps.check_queue.outputs.has_articles == 'true'
+        run: pip install beautifulsoup4 lxml
+
+      - name: Publicar artículo
+        if: |
+          steps.check_today.outputs.already_published == 'false' &&
+          steps.check_queue.outputs.has_articles == 'true'
+        id: publish
+        env:
+          NEXT_HTML: ${{ steps.check_queue.outputs.next_html }}
+          NEXT_JSON: ${{ steps.check_queue.outputs.next_json }}
+        run: |
+          # Leer metadatos
+          SLUG=$(python3 -c "import json; d=json.load(open('$NEXT_JSON')); print(d['slug'])")
+          TITULO=$(python3 -c "import json; d=json.load(open('$NEXT_JSON')); print(d['titulo'])")
+          FECHA=$(TZ="America/Mexico_City" date +%Y-%m-%d)
+
+          echo "Publicando: $SLUG"
+
+          # Mover HTML a blog/
+          cp "$NEXT_HTML" "blog/${SLUG}.html"
+
+          # Actualizar sitemap y blog.html con scripts Python
+          python3 .github/scripts/actualizar_sitemap.py "$NEXT_JSON" "$FECHA"
+          python3 .github/scripts/actualizar_blog_index.py "$NEXT_JSON"
+
+          # Eliminar archivos procesados de listos/
+          rm "$NEXT_HTML" "$NEXT_JSON"
+
+          # Commit y push
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add .
+          git commit -m "Auto-publish: $SLUG [$FECHA]"
+          git push
+
+          # Exportar slug para el email
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+          echo "titulo=$TITULO" >> $GITHUB_OUTPUT
+
+      - name: Enviar notificación por email
+        if: |
+          steps.check_today.outputs.already_published == 'false' &&
+          steps.check_queue.outputs.has_articles == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USER }}
+          password: ${{ secrets.EMAIL_PASS }}
+          to: ${{ secrets.EMAIL_TO }}
+          from: Ciselaptop Blog <${{ secrets.EMAIL_USER }}>
+          subject: "✅ Artículo publicado — ${{ steps.publish.outputs.titulo }}"
+          body: |
+            Se publicó un nuevo artículo en ciselaptop.com.
+
+            Artículo: ${{ steps.publish.outputs.titulo }}
+            URL: https://www.ciselaptop.com/blog/${{ steps.publish.outputs.slug }}
+
+            ─────────────────────────────
+            ACCIÓN REQUERIDA — Indexar en Search Console:
+            https://search.google.com/search-console
+
+            1. Abre el enlace de arriba
+            2. Inspección de URL → pega la URL del artículo
+            3. Probar URL en directo → Solicitar indexación
+
+            ─────────────────────────────
+            Artículos restantes en cola: revisa _queue/listos/ en GitHub
+            ─────────────────────────────
+            Ciselaptop · Oaxaca · 951 848 6056
