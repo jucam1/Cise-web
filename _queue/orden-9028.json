@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "ordenId": "9028",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-hp-5820-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "5820",
+  "falla": "No se ve el panel de control",
+  "solucion": "Se cambia panel y cable ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/recepcion/1783712544512-17837125145803816080880262976493.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=c13a4e233ffc8cfa7ca62bd1ac40feeff667fff3cb9244b427fd31be2833e33c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/evidencias_general/1783730404419-17837303941126176282836919543895.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=ca9dde119c86d3928b0cd4d5ca192ae7eb469973f0f8e1a4a6c9fa93af6b6b3b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/evidencias_general/1783734114083-1783734106308352755731926440095.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=5c694bed119e4c57c21399de7f8917c9ea6589c2e2c438d0334ab2ed6e5bff02&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/evidencias_general/1783734127622-17837341218517093402806838361678.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=477a6f3de34d116e8c55d4ce902bb055e59c4075a52e0b3384f85bd85dc17539&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/refacciones/1783989908635-17839898897519141544573112048107.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=b9721d4d7c05f218b4a46de5266cc7c246cbbcf0186b25b1652c6ac3a6bcc139&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/refacciones/1783989924739-1783989918445368975728897638985.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=75304b9902d111c7632a333b56c0300c27f2fd6d9e2a7cfd1ff305ddc98098e5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/evidencias_general/1783990191630-17839901808107516984276655369159.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=ab9c9d79eab266bc8ea5ab9282d4ff0065a2bb1dee016c0b0703cb09c862ce3b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9028/evidencias_general/1783989933185-17839899266368726566500750560231.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184801Z&X-Amz-Expires=172800&X-Amz-Signature=83c7a63b6617f629585eead40ac0e26e5215dddd76b3d0f528af5a27b7f8bc58&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 5820 — No se ve el panel de control — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
