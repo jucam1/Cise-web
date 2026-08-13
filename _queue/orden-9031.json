@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9031",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-microsoft-surface-oaxaca",
+  "categoria": "Software y sistema",
+  "marca": "Microsoft",
+  "modelo": "surface",
+  "falla": "Formatear sin respaldo",
+  "solucion": "Se baja driver se deshabilita Bios seguro se configura touch Windows 10 y office",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9031/recepcion/1783789929417-17837899021559177834042554583899.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185205Z&X-Amz-Expires=172800&X-Amz-Signature=533eaa4a24d66acd6e8031b2cfba58ff29d6f561f96ab345ba8b1adadc620ebe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Microsoft surface — Formatear sin respaldo — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9031/evidencias_general/1784058254593-IMG_3053.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185205Z&X-Amz-Expires=172800&X-Amz-Signature=fcc437fd8f0192352afd5df971529b8e07c14e9e4b64dd5a045f8f61ccd2991a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Microsoft surface — Formatear sin respaldo — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9031/evidencias_general/1784058254859-IMG_3048.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T185205Z&X-Amz-Expires=172800&X-Amz-Signature=7da3721292c904f51c13bd5442b36e82043e1e61ea8c22eb4e8378b8f3e74272&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Microsoft surface — Formatear sin respaldo — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
