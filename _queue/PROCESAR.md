@@ -6,7 +6,13 @@
 
 ### PASO 1 — Detectar órdenes en cola
 
-Lista todos los archivos JSON en _queue/ (ignorar .gitkeep y .md):
+Primero sincroniza con el repositorio remoto para recibir los JSONs que CISEFLOW haya depositado:
+
+```bash
+git pull origin main
+```
+
+Luego lista todos los archivos JSON en _queue/ (ignorar .gitkeep y .md):
 
 ```bash
 ls _queue/*.json 2>/dev/null || echo "Cola vacía"
