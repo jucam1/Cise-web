@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9039",
+  "fecha": "2026-08-13",
+  "slug": "reparacion-acer-lite-14-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "Acer",
+  "modelo": "Lite 14",
+  "falla": "Bisagra carcaza cuarteda",
+  "solucion": "Se reparan bisagras se refuerza con malla de acero",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9039/recepcion/1784231980227-17842319491882448069678026146453.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184019Z&X-Amz-Expires=172800&X-Amz-Signature=eea610903a4620f069c4c77509a35271adddfb560466ad4f4df6feb604c8b298&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer Lite 14 — Bisagra carcaza cuarteda — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9039/evidencias_general/1784239234399-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184019Z&X-Amz-Expires=172800&X-Amz-Signature=11502af315ea5cfc3918b833e55d847e26bbe2a80b33e2679a8cd5bb3f784167&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer Lite 14 — Bisagra carcaza cuarteda — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9039/evidencias_general/1784239253170-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260813T184019Z&X-Amz-Expires=172800&X-Amz-Signature=94800faf8eb7f50645ddd6b2ded2cd555cab684a5e83ca154eb84118b803254d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer Lite 14 — Bisagra carcaza cuarteda — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
