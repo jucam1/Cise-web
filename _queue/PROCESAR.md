@@ -18,7 +18,8 @@ ls _queue/*.json 2>/dev/null || echo "Cola vacía"
 ```
 
 Si no hay JSON, responde: "La cola está vacía. No hay artículos pendientes."
-Si hay JSON, procesa TODOS en orden pero NO los publiques todavía.
+Si hay JSON, procesa los **5 más antiguos** (orden alfabético de nombre de archivo = orden cronológico) pero NO los publiques todavía.
+Si hay más de 5, procesa solo los 5 primeros y al final del PASO 7 indica cuántos quedaron pendientes para la próxima sesión.
 
 ---
 
