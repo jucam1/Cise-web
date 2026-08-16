@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json, sys
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 meta_path = sys.argv[1]
 
@@ -10,18 +11,14 @@ with open(meta_path) as f:
 slug      = meta["slug"]
 titulo    = meta["titulo"]
 categoria = meta["categoria"]
-fecha_iso = meta["fecha"]
 excerpt   = meta["excerpt"]
 imagen    = meta["imagenHero"]
 
-# Formatear fecha legible
-try:
-    meses = {1:"enero",2:"febrero",3:"marzo",4:"abril",5:"mayo",6:"junio",
-             7:"julio",8:"agosto",9:"septiembre",10:"octubre",11:"noviembre",12:"diciembre"}
-    dt = datetime.strptime(fecha_iso, "%Y-%m-%d")
-    fecha_legible = f"{dt.day} de {meses[dt.month]} de {dt.year}"
-except:
-    fecha_legible = fecha_iso
+# Fecha real del día en que corre el script (zona horaria CDMX)
+meses = {1:"enero",2:"febrero",3:"marzo",4:"abril",5:"mayo",6:"junio",
+         7:"julio",8:"agosto",9:"septiembre",10:"octubre",11:"noviembre",12:"diciembre"}
+hoy = datetime.now(ZoneInfo("America/Mexico_City"))
+fecha_legible = f"{hoy.day} de {meses[hoy.month]} de {hoy.year}"
 
 # Colores de badge por categoría
 badge_styles = {
