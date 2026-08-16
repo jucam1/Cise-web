@@ -100,6 +100,33 @@ Genera el HTML completo del artículo basándote en los datos del JSON.
 - Schema JSON-LD: Article + FAQPage
 - Todas las URLs en schema con https://www.ciselaptop.com
 
+#### Fecha visible en el hero — usar `<time>` semántico
+
+La fecha del artículo dentro del hero **siempre** debe usar el tag `<time>` con su atributo `datetime` en formato ISO (`YYYY-MM-DD`). Nunca usar `<span>` para la fecha:
+
+```html
+<span>·</span><time datetime="2026-08-14">14 de agosto de 2026</time>
+```
+
+Ejemplo completo del bloque autor/fecha en el hero:
+
+```html
+<div class="flex items-center gap-2 mt-4 text-sm" style="color:rgba(255,255,255,0.60);">
+  <svg ...icono usuario.../>
+  <a href="/quienes-somos" class="font-medium hover:underline" style="color:#FFD700;">Ciselaptop</a>
+  <span>·</span><time datetime="YYYY-MM-DD">DD de mes de YYYY</time>
+</div>
+```
+
+O en el formato `<p>` alternativo (artículos sin el bloque flex de autor):
+
+```html
+<p class="text-sm mt-4" style="color:rgba(255,255,255,0.60);">
+  <a href="/quienes-somos" class="font-medium hover:underline" style="color:#FFD700;">Ciselaptop</a>
+  <span>·</span><time datetime="YYYY-MM-DD">DD de mes de YYYY</time>
+</p>
+```
+
 **NO guardes el HTML en `blog/` todavía.**
 Guárdalo en `_queue/listos/` con este nombre:
 `{TIMESTAMP}-{slug}.html`
