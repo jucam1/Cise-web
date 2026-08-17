@@ -57,6 +57,23 @@ for i, foto in enumerate(data["fotos"]):
 Usa `blog/bisagra-laptop-oaxaca.html` como template estructural.
 Genera el HTML completo del artículo basándote en los datos del JSON.
 
+#### Regla de logo — obligatoria
+
+El logo del sitio **siempre** debe referenciarse con esta ruta exacta:
+
+```html
+<img src="/img/logo-ciselaptop.webp" ...>
+```
+
+Rutas **prohibidas** (nunca usar):
+- `/img/logo.webp`
+- `/img/logo.png`
+- cualquier otra variante
+
+Esta es la única ruta válida del logo en el repo.
+
+---
+
 #### Políticas fijas — nunca inventar datos distintos a estos
 
 **Diagnóstico:**
@@ -173,6 +190,17 @@ git push origin main
 ---
 
 ### PASO 7 — Reportar al usuario
+
+**Verificación obligatoria antes del commit:**
+
+```bash
+grep -rl "logo.webp" _queue/listos/ | grep -v "logo-ciselaptop"
+```
+
+Si este comando devuelve algún archivo, corrígelo antes de hacer push —
+reemplaza cualquier variante incorrecta por `/img/logo-ciselaptop.webp`.
+
+---
 
 Indica:
 - Cuántos artículos procesaste y sus slugs
