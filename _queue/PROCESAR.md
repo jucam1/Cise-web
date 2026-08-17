@@ -202,6 +202,38 @@ reemplaza cualquier variante incorrecta por `/img/logo-ciselaptop.webp`.
 
 ---
 
+### ADVERTENCIA CRÍTICA — Scripts Python en Windows
+
+**Siempre especifica `encoding="utf-8"` en Python al abrir archivos HTML.**
+
+En Windows, `open(archivo)` usa `cp1252` por defecto. Si lees con cp1252 y escribes con utf-8,
+los caracteres españoles (á é í ó ú ñ ü ¿ ¡ «») quedan **doblemente codificados** y corrompen el archivo.
+
+```python
+# MAL — usa cp1252 en Windows (corrompe acentos)
+with open("archivo.html") as f:
+    content = f.read()
+
+# BIEN — siempre con utf-8 explícito
+with open("archivo.html", encoding="utf-8") as f:
+    content = f.read()
+
+# BIEN — usando pathlib
+from pathlib import Path
+content = Path("archivo.html").read_text(encoding="utf-8")
+```
+
+**Verificación antes de hacer commit:**
+
+```bash
+grep -rl "ActualizaciÃ" blog/ _queue/listos/
+```
+
+Si devuelve archivos, hay corrupción de doble-codificación.
+Para revertirla: `content.encode("cp1252").decode("utf-8")` (lee con `utf-8-sig` para manejar BOM).
+
+---
+
 Indica:
 - Cuántos artículos procesaste y sus slugs
 - Cuántas fotos descargaste en total
