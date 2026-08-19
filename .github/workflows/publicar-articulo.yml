@@ -66,6 +66,9 @@ jobs:
           # Mover HTML a blog/
           cp "$NEXT_HTML" "blog/${SLUG}.html"
 
+          # Estampar fecha real de publicación en el artículo
+          python3 .github/scripts/actualizar_fecha.py "blog/${SLUG}.html"
+
           # Actualizar sitemap y blog.html con scripts Python
           python3 .github/scripts/actualizar_sitemap.py "$NEXT_JSON" "$FECHA"
           python3 .github/scripts/actualizar_blog_index.py "$NEXT_JSON"
