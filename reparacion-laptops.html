@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+  <!-- SEO -->
+  <title>Servicio Técnico de Laptops en Oaxaca | Ciselaptop</title>
+  <meta name="description" content="Reparación de laptops en Oaxaca: pantallas, teclados, tarjetas madre y daños por líquido. Diagnóstico desde $150. +15 años. Garantía 35 días." />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://www.ciselaptop.com/reparacion-laptops" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Servicio Técnico de Laptops en Oaxaca | Ciselaptop" />
+  <meta property="og:description" content="Reparamos laptops HP, Dell, Lenovo, Asus y más. Diagnóstico desde $150 MXN. Centro de Oaxaca. Garantía 35 días en mano de obra." />
+  <meta property="og:url" content="https://www.ciselaptop.com/reparacion-laptops" />
+  <meta property="og:image" content="https://www.ciselaptop.com/img/logo-ciselaptop.webp" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Servicio Técnico de Laptops en Oaxaca | Ciselaptop" />
+  <meta name="twitter:description" content="Reparamos laptops HP, Dell, Lenovo, Asus y más. Diagnóstico desde $150 MXN. Centro de Oaxaca. Garantía 35 días." />
+  <meta name="twitter:image"       content="https://www.ciselaptop.com/img/logo-ciselaptop.webp" />
+  <meta name="author"              content="Ciselaptop" />
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+
+    /* Colores de marca */
+    :root {
+      --brand-navy: #1D2E8C;
+      --brand-navy-hover: #152270;
+      --brand-red: #C8272E;
+    }
+
+    /* Pulso suave para el botón flotante de WhatsApp */
+    @keyframes wa-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+      50%       { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+    }
+    .wa-float { animation: wa-pulse 2.4s ease-in-out infinite; }
+
+    /* Botón primario */
+    .btn-primary {
+      background-color: var(--brand-navy);
+      color: #fff;
+      transition: background-color 0.2s;
+    }
+    .btn-primary:hover { background-color: var(--brand-navy-hover); }
+
+    /* Icono bg suave */
+    .icon-bg { background-color: #e8eaf6; }
+
+    /* Acordeón FAQ */
+    .faq-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+    }
+    .faq-body.open { max-height: 400px; }
+
+    /* Flecha FAQ */
+    .faq-arrow { transition: transform 0.3s ease; }
+    .faq-arrow.open { transform: rotate(180deg); }
+
+    /* Borde izquierdo rojo para tarjetas de síntoma */
+    .alert-card { border-left: 4px solid var(--brand-red); }
+
+    /* Paso del proceso — número grande */
+    .step-number {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1;
+      color: #e8eaf6;
+    }
+
+    /* ── Header estático ─────────────────────────── */
+    header { background: #ffffff; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+
+    /* ── Fondo oscuro con patrón de puntos ───────── */
+    .dark-section {
+      background-color: #1D2E8C;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.10) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    /* ── Textos en footer oscuro ─────────────────── */
+    footer.dark-section p, footer.dark-section a,
+    footer.dark-section li { color: rgba(255,255,255,0.70); }
+    footer.dark-section h4 { color: #ffffff; }
+    footer.dark-section a:hover { color: #ffffff !important; }
+    footer.dark-section .border-gray-700 { border-color: rgba(255,255,255,0.15) !important; }
+    footer.dark-section .text-gray-500 { color: rgba(255,255,255,0.55) !important; }
+    footer.dark-section .header-logo { filter: brightness(0) invert(1); }
+
+    /* ── Hover en cards (solo dispositivos con puntero) ── */
+    @media (hover: hover) {
+      .card-lift { transition: all 0.2s ease; }
+      .card-lift:hover {
+        box-shadow: 0 6px 20px rgba(29,46,140,0.14) !important;
+        transform: translateY(-2px);
+      }
+      .btn-hero-primary { transition: background 0.2s; }
+      .btn-hero-primary:hover { background: #a81f25 !important; }
+      .btn-hero-outline { transition: background 0.2s; }
+      .btn-hero-outline:hover { background: rgba(255,255,255,0.10) !important; }
+    }
+  </style>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-36TPZGNZSN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-36TPZGNZSN');
+  </script>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+  <!-- =============================================
+       BOTÓN FLOTANTE WHATSAPP (siempre visible)
+       ============================================= -->
+  <a
+    href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Escríbenos al WhatsApp"
+    title="Escríbenos al WhatsApp"
+    class="wa-float fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform hover:scale-110"
+    style="background-color: #25D366;"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30" height="30" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+    </svg>
+  </a>
+
+
+  <!-- =============================================
+       HEADER — sticky, sombra al scroll
+       ============================================= -->
+  <header id="header" class="sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
+
+      <!-- Logo -->
+      <a href="/" aria-label="Ciselaptop – Inicio">
+        <img
+          src="/img/logo-ciselaptop.webp"
+          alt="Ciselaptop"
+          class="header-logo h-9 sm:h-12 w-auto"
+          loading="eager"
+        />
+      </a>
+
+      <!-- Navegación principal -->
+      <nav class="hidden lg:flex items-center gap-5 text-sm font-medium flex-1" aria-label="Menú principal">
+        <a href="/" class="text-gray-500 hover:text-gray-900 transition-colors">Inicio</a>
+        <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="text-gray-500 hover:text-gray-900 transition-colors">Bisagras</a>
+        <a href="/actualizacion" title="Actualización a SSD y RAM" class="text-gray-500 hover:text-gray-900 transition-colors">Actualización</a>
+        <a href="/impresoras" title="Reparación de impresoras" class="text-gray-500 hover:text-gray-900 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" title="Reparación a nivel componente" class="text-gray-500 hover:text-gray-900 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="text-gray-500 hover:text-gray-900 transition-colors">Blog</a>
+        <a href="/quienes-somos" class="text-gray-500 hover:text-gray-900 transition-colors">Nosotros</a>
+      </nav>
+
+      <div class="ml-auto flex items-center gap-3">
+        <button id="menu-btn" class="lg:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors" aria-label="Abrir menú" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <a
+          href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18" height="18" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Menú móvil -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+      <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-1" aria-label="Menú móvil">
+        <a href="/" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Inicio</a>
+        <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Bisagras</a>
+        <a href="/actualizacion" title="Actualización a SSD y RAM" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Actualización</a>
+        <a href="/impresoras" title="Reparación de impresoras" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" title="Reparación a nivel componente" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Blog</a>
+        <a href="/quienes-somos" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors">Nosotros</a>
+      </nav>
+    </div>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="border-t border-gray-100 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2">
+        <ol class="flex items-center gap-1.5 text-xs text-gray-500">
+          <li>
+            <a href="/" class="hover:underline" style="color:#1D2E8C;">Inicio</a>
+          </li>
+          <li aria-hidden="true">›</li>
+          <li class="text-gray-700 font-medium">Servicio Técnico de Laptops</li>
+        </ol>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- =============================================
+         HERO
+         ============================================= -->
+    <section class="dark-section pt-24 pb-20 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto text-center">
+
+        <div style="width:48px; height:4px; background:#C8272E; border-radius:2px; margin:0 auto 16px;"></div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+          Servicio técnico de laptops<br class="hidden sm:block" /> y computadoras en Oaxaca
+        </h1>
+
+        <p class="text-lg sm:text-xl font-medium mb-8" style="color:rgba(255,255,255,0.80);">
+          +15 años de experiencia &nbsp;·&nbsp; Diagnóstico desde <span style="color:#FFD700; font-weight:600;">$150 MXN + IVA</span> &nbsp;·&nbsp; Garantía 35 días
+        </p>
+
+        <!-- Botones CTA -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+          <a
+            href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-hero-primary inline-flex items-center justify-center gap-2 text-base font-bold px-7 py-4 rounded-xl shadow-md" style="background:#C8272E; color:#ffffff;"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+            </svg>
+            Cotizar mi reparación por WhatsApp →
+          </a>
+
+          <a
+            href="#diagnostico"
+            class="btn-hero-outline inline-flex items-center justify-center gap-2 text-base font-bold px-7 py-4 rounded-xl" style="background:transparent; color:#ffffff; border:1.5px solid rgba(255,255,255,0.60);"
+          >
+            Ver cómo trabajamos ↓
+          </a>
+        </div>
+
+        <!-- Badges de confianza -->
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); color:#ffffff;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            Diagnóstico profesional
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); color:#ffffff;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            Todas las marcas
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full" style="background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); color:#ffffff;">
+            <svg class="w-4 h-4" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+            Garantía 35 días
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #1 — SÍNTOMAS
+         ============================================= -->
+    <section id="fallas" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">¿Tu laptop tiene alguna de estas fallas?</h2>
+        <p class="text-center text-gray-500 mb-10">Si reconoces alguna, actúa antes de que el problema se agrave.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <div class="alert-card bg-white rounded-r-xl p-5 shadow-sm">
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">Pantalla negra o no enciende</h3>
+            <p class="text-sm text-gray-500">La laptop no da señal aunque conectas el cargador.</p>
+          </div>
+
+          <div class="alert-card bg-white rounded-r-xl p-5 shadow-sm">
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">Pantalla rota o con líneas</h3>
+            <p class="text-sm text-gray-500">Golpe o presión dañó el panel LCD o la pantalla táctil.</p>
+          </div>
+
+          <div class="alert-card bg-white rounded-r-xl p-5 shadow-sm">
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">Teclado o trackpad sin respuesta</h3>
+            <p class="text-sm text-gray-500">Teclas que no registran o el puntero que no se mueve.</p>
+          </div>
+
+          <div class="alert-card bg-white rounded-r-xl p-5 shadow-sm">
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">Laptop muy lenta o se congela</h3>
+            <p class="text-sm text-gray-500">CPU/GPU con pasta térmica seca o disco a punto de fallar.</p>
+          </div>
+
+          <div class="alert-card bg-white rounded-r-xl p-5 shadow-sm">
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">No carga la batería</h3>
+            <p class="text-sm text-gray-500">Conector de carga flojo, IC de carga dañado o batería agotada.</p>
+          </div>
+
+          <div class="alert-card bg-white rounded-r-xl p-5 shadow-sm">
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">Daños por líquidos</h3>
+            <p class="text-sm text-gray-500">Cortocircuito en componentes tras derramar agua, café o refresco.</p>
+          </div>
+
+        </div>
+
+        <div class="mt-8 bg-orange-50 border border-orange-200 rounded-xl p-5 flex gap-3">
+          <span class="text-lg flex-shrink-0" aria-hidden="true">⚠️</span>
+          <p class="text-sm text-orange-900 leading-relaxed">
+            <strong>Si notas alguno de estos síntomas, no esperes a que falle por completo.</strong> El diagnóstico desde $150 MXN + IVA te dice exactamente qué tiene tu laptop antes de que autorices nada.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #2 — SERVICIO TÉCNICO
+         ============================================= -->
+    <section id="servicio" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-8">Servicio técnico de laptops en Oaxaca</h2>
+
+        <!-- Answer capsule -->
+        <div class="rounded-xl p-5 mb-6" style="background-color:#f0f2fb; border-left:4px solid #1D2E8C;">
+          <p class="text-sm sm:text-base text-gray-800 leading-relaxed">
+            El servicio técnico de laptops cubre diagnóstico, reparación de hardware y reemplazo de componentes en modelos HP, Dell, Lenovo, Asus y Acer, entre otras marcas. Cada reparación incluye garantía de 35 días en mano de obra.
+          </p>
+        </div>
+
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Atendemos fallas físicas y electrónicas: pantallas rotas, teclados, tarjetas madre, discos duros, conectores de carga y limpieza térmica. Nuestros técnicos —Luis, Ismael y Juan— tienen más de 15 años reparando laptops en Oaxaca.
+        </p>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          No damos presupuestos sin ver el equipo: primero diagnosticamos, luego cotizamos. Si no autorizas la reparación, solo pagas el diagnóstico. Si la autorizas, ese costo se descuenta del total.
+        </p>
+
+        <a href="/quienes-somos" class="text-sm font-semibold hover:underline inline-flex items-center gap-1" style="color:#1D2E8C;">
+          Conoce al equipo →
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #3 — MARCAS
+         ============================================= -->
+    <section id="marcas" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-4xl mx-auto text-center">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-2">Marcas que atendemos</h2>
+        <p class="text-gray-500 mb-8">Experiencia con la mayoría de las laptops del mercado.</p>
+
+        <div class="flex flex-wrap justify-center gap-3 mb-6">
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">HP</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Dell</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Lenovo</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Asus</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Acer</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Toshiba</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Samsung</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Sony</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">MSI</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Gateway</span>
+          <span class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-gray-200 text-gray-700 shadow-sm">Compaq</span>
+        </div>
+
+        <p class="text-sm text-gray-400">No reparamos MacBook ni equipos Apple.</p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #4 — DIAGNÓSTICO
+         ============================================= -->
+    <section id="diagnostico" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Cómo funciona el diagnóstico</h2>
+        <p class="text-center text-gray-500 mb-10">Dos tipos de diagnóstico según la falla de tu equipo.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+
+          <!-- Card A: General -->
+          <div class="rounded-2xl border-2 p-6 shadow-sm" style="border-color:#1D2E8C;">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background:#1D2E8C;">A</div>
+              <h3 class="font-bold text-gray-900">Diagnóstico general</h3>
+            </div>
+            <p class="text-2xl font-extrabold mb-1" style="color:#1D2E8C;">$150 MXN + IVA</p>
+            <p class="text-xs text-gray-400 mb-4">Entrega del diagnóstico: 48 horas hábiles</p>
+            <div class="text-sm text-gray-600 space-y-1 mb-4">
+              <div class="flex items-start gap-2">
+                <svg class="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Laptop que enciende
+              </div>
+              <div class="flex items-start gap-2">
+                <svg class="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Lentitud, teclado, batería, cargador
+              </div>
+              <div class="flex items-start gap-2">
+                <svg class="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Pantalla, software, virus
+              </div>
+            </div>
+            <p class="text-xs rounded-lg px-3 py-2" style="background:#f0f2fb; color:#1D2E8C;">
+              Se descuenta del total si autorizas la reparación.
+            </p>
+          </div>
+
+          <!-- Card B: Nivel componente -->
+          <div class="rounded-2xl border border-gray-200 p-6 shadow-sm bg-gray-50">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background:#6b7280;">B</div>
+              <h3 class="font-bold text-gray-900">Diagnóstico a nivel componente</h3>
+            </div>
+            <p class="text-2xl font-extrabold mb-1 text-gray-800">$250 MXN + IVA</p>
+            <p class="text-xs text-gray-400 mb-4">Entrega del diagnóstico: 5 días hábiles</p>
+            <div class="text-sm text-gray-600 space-y-1 mb-4">
+              <div class="flex items-start gap-2">
+                <svg class="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="#6b7280" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Laptop que no enciende
+              </div>
+              <div class="flex items-start gap-2">
+                <svg class="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="#6b7280" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Daño por líquidos o cortocircuito
+              </div>
+              <div class="flex items-start gap-2">
+                <svg class="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="#6b7280" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Fallas de tarjeta madre
+              </div>
+            </div>
+            <p class="text-xs rounded-lg px-3 py-2 text-gray-600 bg-gray-100 mb-3">
+              No se descuenta — es trabajo de mayor profundidad.
+            </p>
+            <a href="/nivel-componente" class="text-xs font-semibold hover:underline" style="color:#1D2E8C;">Más información →</a>
+          </div>
+
+        </div>
+
+        <!-- Answer capsule -->
+        <div class="rounded-xl p-5" style="background-color:#f0f2fb; border-left:4px solid #1D2E8C;">
+          <p class="text-sm text-gray-800 leading-relaxed">
+            Llega sin cita de lunes a viernes 9:30–20:00 o sábados 10:00–15:00. Revisamos el equipo, te damos un presupuesto exacto y esperamos tu autorización antes de empezar.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #5 — PRECIOS
+         ============================================= -->
+    <section id="precios" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Precios claros, sin sorpresas</h2>
+        <p class="text-center text-gray-500 mb-10">Sabes cuánto pagarás antes de que empecemos.</p>
+
+        <div class="overflow-hidden rounded-2xl border border-gray-100 shadow-sm">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="text-white" style="background-color:#1D2E8C;">
+                <th class="text-left px-6 py-4 font-semibold">Concepto</th>
+                <th class="text-right px-6 py-4 font-semibold whitespace-nowrap">Detalle</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">
+                  Diagnóstico general
+                  <span class="block text-xs text-gray-400 font-normal mt-0.5">Se descuenta si autorizas la reparación</span>
+                </td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">$150 MXN + IVA</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">
+                  Diagnóstico a nivel componente
+                  <span class="block text-xs text-gray-400 font-normal mt-0.5">No se descuenta</span>
+                </td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">$250 MXN + IVA</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Pantalla rota (panel LCD) *</td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">desde $1,200 MXN + IVA</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Cambio de teclado *</td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">desde $850 MXN + IVA</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Conector de carga / placa</td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">cotización tras diagnóstico</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Limpieza térmica y pasta</td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">desde $350 MXN + IVA</td>
+              </tr>
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="px-6 py-4 text-gray-800 font-medium">Garantía en mano de obra</td>
+                <td class="px-6 py-4 text-right font-bold text-gray-900 whitespace-nowrap">35 días naturales</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-5 space-y-1.5 text-xs text-gray-400 px-1">
+          <p>* El precio exacto depende del modelo. Refacciones nacionales: 5–10 días hábiles. Internacionales: 30–40 días hábiles.</p>
+          <p>Pueden aparecer fallas adicionales durante la reparación — se envía nueva cotización antes de continuar.</p>
+        </div>
+
+        <div class="text-center mt-8">
+          <a
+            href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl shadow-md"
+          >
+            Pedir estimado por WhatsApp →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #6 — GALERÍA
+         ============================================= -->
+    <section id="galeria" class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Algunos trabajos de laptops que hemos reparado</h2>
+        <p class="text-center text-gray-500 mb-10">Fallas reales, resultados reales.</p>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+
+          <figure class="overflow-hidden rounded-xl">
+            <img src="/img/bisagra-danada-1.webp" alt="Laptop HP con pantalla rota reparada en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover">
+            <figcaption class="text-xs text-gray-500 mt-1 px-1">Laptop HP con pantalla rota</figcaption>
+          </figure>
+
+          <figure class="overflow-hidden rounded-xl">
+            <img src="/img/bisagra-danada-2.webp" alt="Sustitución de teclado Lenovo en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover">
+            <figcaption class="text-xs text-gray-500 mt-1 px-1">Sustitución de teclado Lenovo</figcaption>
+          </figure>
+
+          <figure class="overflow-hidden rounded-xl">
+            <img src="/img/bisagra-danada-3.webp" alt="Limpieza térmica Dell en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover">
+            <figcaption class="text-xs text-gray-500 mt-1 px-1">Limpieza térmica Dell XPS</figcaption>
+          </figure>
+
+          <figure class="overflow-hidden rounded-xl">
+            <img src="/img/bisagra-danada-4.webp" alt="Reparación por daño de líquido en laptop en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover">
+            <figcaption class="text-xs text-gray-500 mt-1 px-1">Reparación por daño de líquido</figcaption>
+          </figure>
+
+          <figure class="overflow-hidden rounded-xl">
+            <img src="/img/bisagra-danada-5.webp" alt="Cambio de conector de carga HP en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover">
+            <figcaption class="text-xs text-gray-500 mt-1 px-1">Cambio de conector de carga HP</figcaption>
+          </figure>
+
+          <figure class="overflow-hidden rounded-xl">
+            <img src="/img/bisagra-danada-6.webp" alt="Diagnóstico a nivel componente en Ciselaptop Oaxaca" loading="lazy" width="1200" height="900" class="w-full h-48 object-cover">
+            <figcaption class="text-xs text-gray-500 mt-1 px-1">Diagnóstico a nivel componente</figcaption>
+          </figure>
+
+        </div>
+
+        <div class="text-center mt-8">
+          <p class="text-gray-500 text-sm mb-4">¿Tienes el mismo modelo? Escríbenos — es muy probable que ya hayamos reparado uno igual.</p>
+          <a
+            href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-flex items-center gap-2 font-bold px-7 py-3 rounded-xl shadow-md"
+          >
+            Cotizar mi reparación →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #7 — FAQ
+         ============================================= -->
+    <section id="faq" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-3xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">Preguntas frecuentes sobre servicio técnico de laptops</h2>
+        <p class="text-center text-gray-500 mb-10">Todo lo que necesitas saber antes de traer tu equipo.</p>
+
+        <div class="space-y-3" id="faq-list">
+
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Cuánto cuesta reparar una laptop en Oaxaca?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                El costo depende de la falla. El diagnóstico general cuesta $150 MXN + IVA y el diagnóstico a nivel componente $250 MXN + IVA. El diagnóstico general se descuenta del total si autorizas la reparación. Las reparaciones van desde $350 MXN (limpieza térmica) hasta más de $1,200 MXN (pantalla rota), según el modelo y las refacciones necesarias.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Cuánto tiempo tarda la reparación?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                El diagnóstico tarda 48 horas hábiles (general) o 5 días hábiles (nivel componente). Una vez autorizada la reparación, el tiempo depende de las refacciones: nacionales 5–10 días hábiles, internacionales 30–40 días hábiles. Las reparaciones que no requieren refacciones externas (limpieza térmica, pasta, software) pueden ser más rápidas.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Pierdo mis datos si les llevo la laptop?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                En la mayoría de las reparaciones físicas (pantalla, teclado, bisagra, conector) no tocamos el disco duro. Tus archivos quedan intactos. Sin embargo, si la falla involucra el disco o el sistema operativo, siempre te avisamos antes y te recomendamos respaldar tu información. Nunca borramos datos sin autorización.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Reparan laptops que no encienden?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Sí. Las laptops que no encienden pasan al diagnóstico a nivel componente ($250 MXN + IVA), donde analizamos la tarjeta madre, los circuitos de encendido y los componentes dañados. Tras el diagnóstico te damos un presupuesto detallado para que decidas si autorizar la reparación.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Trabajan con todas las marcas de laptop?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                Trabajamos con HP, Dell, Lenovo, Asus, Acer, Toshiba, Samsung, Sony, MSI, Gateway, Compaq y la mayoría de las marcas del mercado. No reparamos equipos Apple/MacBook.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <button class="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-gray-900 hover:bg-gray-50 transition-colors faq-btn" aria-expanded="false">
+              <span>¿Ofrecen servicio a domicilio?</span>
+              <svg class="w-5 h-5 flex-shrink-0 text-gray-400 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-body">
+              <p class="px-6 pb-5 text-sm text-gray-600 leading-relaxed">
+                No. Para garantizar la calidad del diagnóstico y la reparación, necesitamos el equipo en nuestro taller con las herramientas adecuadas. Puedes traerlo sin cita de lunes a viernes 9:30–20:00 o sábados 10:00–15:00. Estamos en Leandro Valle 222, Centro, Oaxaca.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #8 — CTA DARK FINAL
+         ============================================= -->
+    <section class="dark-section py-16 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto text-center">
+
+        <div style="width:48px; height:4px; background:#C8272E; border-radius:2px; margin:0 auto 16px;"></div>
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">
+          ¿Tu laptop o computadora tiene un problema?
+        </h2>
+        <p class="text-base sm:text-lg mb-8 leading-relaxed" style="color:rgba(255,255,255,0.80);">
+          Diagnóstico desde $150 MXN + IVA —<br class="hidden sm:block" />
+          se descuenta si autorizas la reparación.
+        </p>
+
+        <a
+          href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-hero-primary inline-flex items-center gap-2 font-bold text-base px-8 py-4 rounded-xl shadow-lg"
+          style="background:#C8272E; color:#ffffff;"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="white">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Cotizar por WhatsApp →
+        </a>
+
+        <p class="mt-5 text-blue-200 text-sm">
+          O visítanos: Leandro Valle 222, Centro, Oaxaca &nbsp;·&nbsp; Lun–Vie 9:30–20:00 &nbsp;·&nbsp; Sáb 10:00–15:00
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #9 — TAMBIÉN REPARAMOS
+         ============================================= -->
+    <section class="bg-white py-16 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-2">También reparamos</h2>
+        <p class="text-center text-gray-500 mb-10">Más servicios especializados en Ciselaptop.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+          <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-900 text-sm group-hover:underline" style="color:#1D2E8C;">Bisagras y carcasas</p>
+              <p class="text-xs text-gray-400 mt-0.5">Desde $650 MXN</p>
+            </div>
+          </a>
+
+          <a href="/actualizacion" title="Actualización a SSD y RAM" class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Actualización SSD y RAM</p>
+              <p class="text-xs text-gray-400 mt-0.5">Haz tu equipo más rápido</p>
+            </div>
+          </a>
+
+          <a href="/impresoras" title="Reparación de impresoras" class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Reparación de impresoras</p>
+              <p class="text-xs text-gray-400 mt-0.5">Todas las marcas</p>
+            </div>
+          </a>
+
+          <a href="/nivel-componente" title="Reparación a nivel componente" class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Reparación nivel componente</p>
+              <p class="text-xs text-gray-400 mt-0.5">Placa base y más</p>
+            </div>
+          </a>
+
+        </div>
+
+        <p class="text-center text-gray-400 text-sm mt-6">
+          ¿Otro problema?
+          <a
+            href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-semibold hover:underline"
+            style="color:#1D2E8C;"
+          >Escríbenos</a>
+          — si no lo hacemos, te decimos honestamente.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         H2 #10 — VISÍTANOS EN EL TALLER
+         ============================================= -->
+    <section id="ubicacion" class="py-16 px-4 sm:px-6" style="background-color:#f5f6fc;">
+      <div class="max-w-5xl mx-auto">
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 text-center mb-10">Visítanos en el taller</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
+
+          <!-- Dirección -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Dirección</h3>
+            <p class="text-sm text-gray-600 mb-3 leading-relaxed">
+              Calle Leandro Valle 222, Centro, Oaxaca<br />
+              <span class="text-gray-400">(antes de la marisquería La RED,<br />entre Hidalgo y Guerrero, local azul)</span>
+            </p>
+            <a
+              href="https://maps.app.goo.gl/NqfJtXPDHGuxMCtD6"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-semibold text-sm hover:underline inline-flex items-center gap-1"
+              style="color:#1D2E8C;"
+            >
+              Ver en Google Maps →
+            </a>
+          </div>
+
+          <!-- Horarios -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Horarios</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li class="flex justify-between"><span>Lunes – Viernes</span><span class="font-medium">9:30 – 20:00</span></li>
+              <li class="flex justify-between"><span>Sábados</span><span class="font-medium">10:00 – 15:00</span></li>
+              <li class="flex justify-between"><span>Domingos</span><span class="font-medium" style="color:#C8272E;">Cerrado</span></li>
+            </ul>
+          </div>
+
+          <!-- Métodos de pago -->
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-3 icon-bg">
+              <svg class="w-5 h-5" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2">Métodos de pago</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Efectivo
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                Transferencia bancaria (SPEI)
+              </li>
+              <li class="flex items-center gap-2 mt-2">
+                <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="#C8272E" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+                <span class="text-gray-400">No aceptamos tarjeta</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Google Maps embed -->
+        <div class="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" width="600" height="450" style="border:0; width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa Ciselaptop Oaxaca"></iframe>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="dark-section py-12 px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto">
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+
+        <!-- Logo + tagline -->
+        <div>
+          <span style="font-size: 22px; font-weight: 700; color: #FFFFFF; letter-spacing: -0.5px;">Cise<span style="color: #C8272E;">laptop</span></span>
+          <p class="text-sm text-gray-400 leading-relaxed mt-2">
+            Taller de cómputo en Oaxaca<br />desde hace más de 15 años.
+          </p>
+        </div>
+
+        <!-- Contacto -->
+        <div>
+          <h4 class="text-white font-semibold mb-3">Contacto</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li>
+              <a
+                href="https://wa.me/529518486056?text=Hola%20CISE%2C%20quiero%20un%20diagn%C3%B3stico" onclick="gtag('event','whatsapp_click',{'page':'reparacion-laptops'})"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white transition-colors"
+              >WhatsApp: +52 951 848 6056</a>
+            </li>
+            <li class="leading-relaxed">Calle Leandro Valle 222, Centro<br />Oaxaca de Juárez, Oax.</li>
+          </ul>
+        </div>
+
+        <!-- Horarios -->
+        <div>
+          <h4 class="text-white font-semibold mb-3">Horarios de atención</h4>
+          <ul class="space-y-1.5 text-sm text-gray-400">
+            <li class="flex justify-between gap-4"><span>Lun – Vie</span><span class="text-gray-300">9:30 – 20:00</span></li>
+            <li class="flex justify-between gap-4"><span>Sábados</span><span class="text-gray-300">10:00 – 15:00</span></li>
+            <li class="flex justify-between gap-4"><span>Domingos</span><span style="color:#C8272E;">Cerrado</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-gray-700 pt-6 text-center text-xs text-gray-500">
+        <nav class="flex flex-wrap justify-center gap-x-3 gap-y-1 mb-3">
+          <a href="/" class="hover:text-white transition-colors">Inicio</a>
+          <span aria-hidden="true">·</span>
+          <a href="/bisagras" title="Reparación de bisagras rotas de laptop" class="hover:text-white transition-colors">Bisagras</a>
+          <span aria-hidden="true">·</span>
+          <a href="/actualizacion" title="Actualización a SSD y RAM" class="hover:text-white transition-colors">Actualización</a>
+          <span aria-hidden="true">·</span>
+          <a href="/impresoras" title="Reparación de impresoras" class="hover:text-white transition-colors">Impresoras</a>
+          <span aria-hidden="true">·</span>
+          <a href="/nivel-componente" title="Reparación a nivel componente" class="hover:text-white transition-colors">Nivel Componente</a>
+          <span aria-hidden="true">·</span>
+          <a href="/blog" class="hover:text-white transition-colors">Blog</a>
+          <span aria-hidden="true">·</span>
+          <a href="/quienes-somos" class="hover:text-white transition-colors">Nosotros</a>
+        </nav>
+        © 2026 Ciselaptop · Todos los derechos reservados
+      </div>
+
+      <!-- Leyenda legal nombre comercial -->
+      <div class="border-t border-gray-700 mt-6 pt-4 text-center">
+        <p class="text-xs text-gray-400 leading-relaxed">
+          Ciselaptop es un nombre comercial operado por Juan López Hernández.
+          RFC: LOHJ710712I54. Domicilio fiscal: Leandro Valle 222, Centro,
+          Oaxaca de Juárez, Oax., C.P. 68000.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- =============================================
+       JS: Acordeón FAQ + Hamburguesa
+       ============================================= -->
+  <script>
+    (function () {
+      var buttons = document.querySelectorAll('.faq-btn');
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var body   = btn.nextElementSibling;
+          var arrow  = btn.querySelector('.faq-arrow');
+          var isOpen = body.classList.contains('open');
+          document.querySelectorAll('.faq-body').forEach(function (b) { b.classList.remove('open'); });
+          document.querySelectorAll('.faq-arrow').forEach(function (a) { a.classList.remove('open'); });
+          document.querySelectorAll('.faq-btn').forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+          if (!isOpen) {
+            body.classList.add('open');
+            arrow.classList.add('open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+    })();
+
+    (function () {
+      var btn = document.getElementById('menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', function () {
+          var hidden = menu.classList.toggle('hidden');
+          btn.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+        });
+      }
+    })();
+  </script>
+
+
+  <!-- =============================================
+       SCHEMA JSON-LD: BreadcrumbList + Service + FAQPage
+       ============================================= -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.ciselaptop.com"},
+        {"@type": "ListItem", "position": 2, "name": "Servicio Técnico de Laptops", "item": "https://www.ciselaptop.com/reparacion-laptops"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Servicio técnico de laptops y computadoras en Oaxaca",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Ciselaptop",
+        "telephone": "+529518486056",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle Leandro Valle 222",
+          "addressLocality": "Oaxaca de Juárez",
+          "addressRegion": "Oaxaca",
+          "addressCountry": "MX"
+        }
+      },
+      "areaServed": "Oaxaca de Juárez",
+      "offers": {
+        "@type": "Offer",
+        "price": "150",
+        "priceCurrency": "MXN",
+        "description": "Diagnóstico desde $150 MXN + IVA"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta reparar una laptop en Oaxaca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El costo depende de la falla. El diagnóstico general cuesta $150 MXN + IVA y el diagnóstico a nivel componente $250 MXN + IVA. El diagnóstico general se descuenta del total si autorizas la reparación. Las reparaciones van desde $350 MXN (limpieza térmica) hasta más de $1,200 MXN (pantalla rota), según el modelo y las refacciones necesarias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda la reparación de una laptop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El diagnóstico tarda 48 horas hábiles (general) o 5 días hábiles (nivel componente). Una vez autorizada la reparación, el tiempo depende de las refacciones: nacionales 5–10 días hábiles, internacionales 30–40 días hábiles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Pierdo mis datos si les llevo la laptop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la mayoría de las reparaciones físicas no tocamos el disco duro. Tus archivos quedan intactos. Si la falla involucra el disco o el sistema operativo, siempre avisamos antes y recomendamos respaldar la información. Nunca borramos datos sin autorización."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Reparan laptops que no encienden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Las laptops que no encienden pasan al diagnóstico a nivel componente ($250 MXN + IVA), donde analizamos la tarjeta madre, los circuitos de encendido y los componentes dañados. Tras el diagnóstico entregamos un presupuesto detallado para que el cliente decida si autorizar la reparación."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan con todas las marcas de laptop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trabajamos con HP, Dell, Lenovo, Asus, Acer, Toshiba, Samsung, Sony, MSI, Gateway, Compaq y la mayoría de las marcas del mercado. No reparamos equipos Apple/MacBook."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Ofrecen servicio a domicilio de reparación de laptops?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Para garantizar la calidad del diagnóstico y la reparación, necesitamos el equipo en nuestro taller. Puedes traerlo sin cita de lunes a viernes 9:30–20:00 o sábados 10:00–15:00. Estamos en Leandro Valle 222, Centro, Oaxaca de Juárez."
+          }
+        }
+      ]
+    }
+  ]
+  </script>
+
+</body>
+</html>
