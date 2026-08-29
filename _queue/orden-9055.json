@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "ordenId": "9055",
+  "fecha": "2026-08-29",
+  "slug": "reparacion-xerox-phaser-3020-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Xerox",
+  "modelo": "Phaser 3020",
+  "falla": "No jala las hojas",
+  "solucion": "Limpieza y se colocaron los tornillos de las gomas que no traia",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/recepcion/1784828472219-17848284342921964215426599214912.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=5fcb111eebc7b104c6d6d34a5c3ef68654587da74abdbda919656ae8117ee4ff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856851063-17848568451691970872246393262964.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=516c57aa21554e36997e73969cee169138e88494ae5962e19e8ac24ea8110cbe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856908563-17848568997018207177187445081186.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=c15cec466d26d4364e4a774182e0b3c0c82935737afc7a15b7399031b23e0c80&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856929710-17848569233841507059844974498460.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=4153f4976b6ed8c3db81b12a47b1b20fef9013f2789cf0c01f2ac09d4570a1cd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784858293269-17848582870977140304321002607550.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=dcbe8732505e89d76841c13b02e1ef095533ed9ea149b9de3a944aa53149b6ee&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784858287479-17848582794401039298065819475868.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=ff5f267a0db848017ec5a48c1be0d4eed7e0233a7fec4ec9adcd3c64af60b3d1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/refacciones/1784856745335-17848567386291679629559820494750.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=d0f259484ae05dd0b838890dcb63edd5cffa6d8944e4b3535b5ef8eb9924903c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
