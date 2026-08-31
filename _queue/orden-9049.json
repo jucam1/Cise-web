@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9049",
+  "fecha": "2026-08-31",
+  "slug": "reparacion-hp-248-oaxaca",
+  "categoria": "Actualización SSD",
+  "marca": "HP",
+  "modelo": "248",
+  "falla": "No entra windows rev actualizar",
+  "solucion": "Cambio de disco a SSD formateo y instalación de programas, activación y drivers ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9049/recepcion/1784570098246-17845700721883227714512970736916.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223752Z&X-Amz-Expires=172800&X-Amz-Signature=caac34ecbdcb5fe50f1167a2614a17e15f1e74f5b2cf8d233c0821938018502b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 248 — No entra windows rev actualizar — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9049/evidencias_general/1784585905609-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223752Z&X-Amz-Expires=172800&X-Amz-Signature=c9c01aba763558a3ca6785d1f0603755d5621ea03de463953ac1bb48a431147c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 248 — No entra windows rev actualizar — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9049/reingreso_1/1785198911935-17851987890972607625557294254406.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223752Z&X-Amz-Expires=172800&X-Amz-Signature=065d3652bf4c50d1ac0d646e5c3a34e7cd327c9468c0b4a0e85da5e55cb60e6d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 248 — No entra windows rev actualizar — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9049/reingreso_1/1785201482192-17852014746985266102276339968497.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223752Z&X-Amz-Expires=172800&X-Amz-Signature=d2bec9a2683cdc81b5047b36f896560e2e9c100aa47aee1ec44d23781d10098a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 248 — No entra windows rev actualizar — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9049/reingreso_1/1785209019727-17852090125461681547364018721059.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223752Z&X-Amz-Expires=172800&X-Amz-Signature=b451c7fa3a6c7a470875a0ed18c3282356f290010b4f9dd8e4abc820a4910b95&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 248 — No entra windows rev actualizar — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
