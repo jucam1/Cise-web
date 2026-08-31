@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9045",
+  "fecha": "2026-08-31",
+  "slug": "reparacion-hp-rosa-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "Rosa",
+  "falla": "Ventilador sucio y hacia ruido e instalar oficce",
+  "solucion": "Instalación y activación de Office ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9045/recepcion/1784399586912-17843995574101139981424621482706.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223309Z&X-Amz-Expires=172800&X-Amz-Signature=21e54a124edb0684ce6dcc402eecc0a5e0dfc141e74c5b9d9000594901360f2f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Rosa — Ventilador sucio y hacia ruido e instalar oficce — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9045/evidencias_general/1784409312973-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223309Z&X-Amz-Expires=172800&X-Amz-Signature=f5909e5aa5bd1a5cde0e8257a1be517442792c1de2ba9f8ffddebd7f2f352a4f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Rosa — Ventilador sucio y hacia ruido e instalar oficce — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9045/evidencias_general/1784409322027-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223309Z&X-Amz-Expires=172800&X-Amz-Signature=fd9bf7e2feea6d78d40e81e49e14cfcd80a817a880d184f34f4747a533d220f8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Rosa — Ventilador sucio y hacia ruido e instalar oficce — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9045/evidencias_general/1784409533100-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223309Z&X-Amz-Expires=172800&X-Amz-Signature=4c51522f66aa3b8db8b52f32aa76c5d523666d5e6aa2bff249aef6305b1d2806&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Rosa — Ventilador sucio y hacia ruido e instalar oficce — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9045/reingreso_2/1784855467680-17848554595042749826215383062352.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T223309Z&X-Amz-Expires=172800&X-Amz-Signature=7727210307feb29e8948aabfead8cfccd60a45da24d4499b0b112f3949859c1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Rosa — Ventilador sucio y hacia ruido e instalar oficce — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
