@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9066",
+  "fecha": "2026-08-31",
+  "slug": "reparacion-hp-580-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "580",
+  "falla": "No jala hojas",
+  "solucion": "Limpieza cambio de gomas ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9066/recepcion/1785257956189-17852578833234140928121876975158.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225327Z&X-Amz-Expires=172800&X-Amz-Signature=3e6af552a28ee2b2e9f5f41a9c4ccfa2f9c3b677d2bd007fe3b46cc9e989d4cf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 580 — No jala hojas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9066/evidencias_general/1785367070444-17853670643804991290191988633587.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225327Z&X-Amz-Expires=172800&X-Amz-Signature=b8274d103f6b1627d00b9088b631d84ba4fb10392c281db5df94e37ddffbbae8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 580 — No jala hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9066/evidencias_general/1785367100317-17853670932057221124724013300395.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225327Z&X-Amz-Expires=172800&X-Amz-Signature=30706f1f2bea08b51ea5cc9bb6cd2472021b3ef3abcbdaf27b2466914c5005d8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 580 — No jala hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9066/evidencias_general/1785545454204-1000198639.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225327Z&X-Amz-Expires=172800&X-Amz-Signature=7ea0bdf10d6cfb042dae89c5f6a868531d5ebb1b8e1bee43e51ec5d58eba32b6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 580 — No jala hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9066/evidencias_general/1785545454512-1000198637.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225327Z&X-Amz-Expires=172800&X-Amz-Signature=aa0de0705924578124dd9d21aa23811f3d079e6eb29f851800a6cbc7568e0b80&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 580 — No jala hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9066/evidencias_general/1785546135783-17855461291371074479447836626386.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225327Z&X-Amz-Expires=172800&X-Amz-Signature=1fc18e392cffc5d9bf9fea92a2b3fbf740debbb40faf2d9adbfcfc0566d19154&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 580 — No jala hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
