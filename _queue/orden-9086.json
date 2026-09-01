@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9086",
+  "fecha": "2026-09-01",
+  "slug": "reparacion-hp-107w-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "107w",
+  "falla": "No jala bien hojas",
+  "solucion": "Limpieza general ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9086/recepcion/1785528296621-1785528252610887122530302555101.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T003858Z&X-Amz-Expires=172800&X-Amz-Signature=491d8d5e61ee99580a2f4aa8a04c68e1b296eefe802b83ecd3f983f4b9a9d8a3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 107w — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9086/evidencias_general/1785803082107-1785803073142548492642592218601.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T003858Z&X-Amz-Expires=172800&X-Amz-Signature=2920f2ad19a3823c3b24f93440de93a38ea6760cb8d9c643dbad60809e898389&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 107w — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9086/evidencias_general/1785804093015-17858040874108963854680621014069.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T003858Z&X-Amz-Expires=172800&X-Amz-Signature=feeba342953fed1c072fee5cb8ef66ee5f196c4c7b5de8acd4c11c53bb09113c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 107w — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9086/evidencias_general/1785805904177-17858058972295347781202800456422.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T003858Z&X-Amz-Expires=172800&X-Amz-Signature=1d0b12372b19cfd5e64bbd1c1030f62f6515a593077774ab75fad6fe7659e77a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 107w — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9086/evidencias_general/1785806496577-17858064662567348175567251822498.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T003858Z&X-Amz-Expires=172800&X-Amz-Signature=08354f615a7a3ed2ba9fac88f67d75c4a41733c7cffa08c9c267a91f41e1d4ad&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 107w — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9086/evidencias_general/1785806585257-17858065723863026436055158538948.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T003858Z&X-Amz-Expires=172800&X-Amz-Signature=554d92f0a66828cec506a92fb0195ff566aaa197de882beff272e31d683feb2c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 107w — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
