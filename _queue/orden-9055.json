@@ -1,7 +1,7 @@
 {
   "version": "1",
   "ordenId": "9055",
-  "fecha": "2026-08-29",
+  "fecha": "2026-09-04",
   "slug": "reparacion-xerox-phaser-3020-oaxaca",
   "categoria": "Reparación",
   "marca": "Xerox",
@@ -12,37 +12,32 @@
   "garantia": "35 días en mano de obra",
   "fotos": [
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/recepcion/1784828472219-17848284342921964215426599214912.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=5fcb111eebc7b104c6d6d34a5c3ef68654587da74abdbda919656ae8117ee4ff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/recepcion/1784828472556-17848284489251484035188787097250.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021124Z&X-Amz-Expires=172800&X-Amz-Signature=ab90a4dc735e7f691998c961dbfc770364efc3d2160bccd69b1a7f870482b2c1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
       "esHero": true
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856851063-17848568451691970872246393262964.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=516c57aa21554e36997e73969cee169138e88494ae5962e19e8ac24ea8110cbe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/recepcion/1784828472219-17848284342921964215426599214912.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021124Z&X-Amz-Expires=172800&X-Amz-Signature=9286caf0946704846f5ba1365f8d7b4e5a143295b38a2778f125acc7a40582a9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856908563-17848568997018207177187445081186.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=c15cec466d26d4364e4a774182e0b3c0c82935737afc7a15b7399031b23e0c80&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856851063-17848568451691970872246393262964.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021124Z&X-Amz-Expires=172800&X-Amz-Signature=1cd60ff704afc7d8ee77e807a4b8e7c3d3b8528c4093bcdf27ef394e88b1b794&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856929710-17848569233841507059844974498460.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=4153f4976b6ed8c3db81b12a47b1b20fef9013f2789cf0c01f2ac09d4570a1cd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856929710-17848569233841507059844974498460.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021124Z&X-Amz-Expires=172800&X-Amz-Signature=a7a14691f70704054db2cc782d7e0bffe4ca6f9baa37cc6d639eb2f626fa36f5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784858293269-17848582870977140304321002607550.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=dcbe8732505e89d76841c13b02e1ef095533ed9ea149b9de3a944aa53149b6ee&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784856908563-17848568997018207177187445081186.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021124Z&X-Amz-Expires=172800&X-Amz-Signature=f69185e90c03364aa8c5d75f09c70fdc6bcd1bcd69602588e80f29db82a542b9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784858287479-17848582794401039298065819475868.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=ff5f267a0db848017ec5a48c1be0d4eed7e0233a7fec4ec9adcd3c64af60b3d1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
-      "esHero": false
-    },
-    {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/refacciones/1784856745335-17848567386291679629559820494750.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T190412Z&X-Amz-Expires=172800&X-Amz-Signature=d0f259484ae05dd0b838890dcb63edd5cffa6d8944e4b3535b5ef8eb9924903c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9055/evidencias_general/1784858287479-17848582794401039298065819475868.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021124Z&X-Amz-Expires=172800&X-Amz-Signature=f032734a04c90aec4ae1b14a39cf8edf85db3330bac4d79f9e8621b705d0d2a5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Xerox Phaser 3020 — No jala las hojas — Ciselaptop Oaxaca",
       "esHero": false
     }
