@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "ordenId": "9091",
+  "fecha": "2026-09-04",
+  "slug": "reparacion-hp-pavilion-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "Pavilion",
+  "falla": "Touch",
+  "solucion": "Se deshabilita touch panel de control",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9091/recepcion/1785540850972-1785540804311804484448340621549.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021644Z&X-Amz-Expires=172800&X-Amz-Signature=19600f5aee698e90b345d5c291f42eb520038eb0948a351595781373d8624c17&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Pavilion — Touch — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9091/evidencias_general/1785544571312-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021644Z&X-Amz-Expires=172800&X-Amz-Signature=5ae6f8fb3aaf09085d8311149f13c5927a534c0b726e268bde3c08db4bf251a6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Pavilion — Touch — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
