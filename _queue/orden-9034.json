@@ -1,39 +1,54 @@
 {
   "version": "1",
   "ordenId": "9034",
-  "fecha": "2026-08-31",
-  "slug": "reparacion-hp-240-g4-oaxaca",
+  "fecha": "2026-09-04",
+  "slug": "reparacion-hp-240g4-oaxaca",
   "categoria": "Software y sistema",
   "marca": "HP",
-  "modelo": "240 g4",
+  "modelo": "240g4",
   "falla": "Lenta 8gb ram",
   "solucion": "Instalación de memoria ram 8gb instalación de controladores y actibacion de Windows y Office ",
   "precio": null,
   "garantia": "35 días en mano de obra",
   "fotos": [
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/recepcion/1783962349394-17839622990892232882701417489650.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T220937Z&X-Amz-Expires=172800&X-Amz-Signature=d7c0e066ad882f3b6e121192de8f639ee6ed1482142eea4039621c810bd10624&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "alt": "HP 240 g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/recepcion/1783962349394-17839622990892232882701417489650.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=74fd64421ac400c07c63a31cb3d6eae7e683d70709efc7773468b305afb314ca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
       "esHero": true
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/evidencias_general/1784678022773-17846780153617603514044684214454.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T220937Z&X-Amz-Expires=172800&X-Amz-Signature=17b0c431ae37125934daefa60a518cc947ef601a80bb16082ccfd0215a787279&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "alt": "HP 240 g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/evidencias_general/1784678022773-17846780153617603514044684214454.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=1c002e4302ba74c54d5b58d53cc201af5daceb704e69b5e7ed7f781aa6c73f96&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/evidencias_general/1784678603478-17846785691832525133750762977024.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T220937Z&X-Amz-Expires=172800&X-Amz-Signature=84dc26efb818ab8441f087a57b262053ac12563f8e6732a61f92713b7d933413&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "alt": "HP 240 g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/evidencias_general/1784678034256-17846780236427904682787794747574.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=6c445512dc4a8b3e636204adb1d0d91f0997d31bd6bcf958611b3d3c438df5ca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/refacciones/1784677972971-17846779248683538667546369137449.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T220937Z&X-Amz-Expires=172800&X-Amz-Signature=e38aee72984e6eb9d224a9d529dbd3941061a5b7abfd141c0ef20c86ec5dc775&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "alt": "HP 240 g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/evidencias_general/1784678603478-17846785691832525133750762977024.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=5deb685b87a455729b56e3b74668a12ace5de6eac5a75d1c525abaf2ced170a3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/refacciones/1784677990765-17846779795896125233021100036973.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T220937Z&X-Amz-Expires=172800&X-Amz-Signature=e3a83e629ed018a04397069b4739bbe52c20aa19f1ad794f7b75ec7e35457328&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "alt": "HP 240 g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/evidencias_general/1784679339846-17846793256593272430561329503551.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=6c3d3176198aa73e54811f0346ff3856c0402687dc3332fcab82f5d04df05a8d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/refacciones/1784677972971-17846779248683538667546369137449.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=f2c98bdf4b21819dad2e75a356c015667658bc8f53b8149da37d933f4a5c75d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/refacciones/1784678108559-17846780820932793969971011874365.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=58d5e9d86a43b591ffd06396bd458b691b6163fcc59049c9033a0ca38ed66e70&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9034/refacciones/1784677990765-17846779795896125233021100036973.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021235Z&X-Amz-Expires=172800&X-Amz-Signature=f0c7b13f0e79a5770bed031a37f51ab335cccb1678732443118221bec910e2c3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 240g4 — Lenta 8gb ram — Ciselaptop Oaxaca",
       "esHero": false
     }
   ]
