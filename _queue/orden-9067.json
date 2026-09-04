@@ -1,58 +1,58 @@
 {
   "version": "1",
   "ordenId": "9067",
-  "fecha": "2026-09-01",
+  "fecha": "2026-09-04",
   "slug": "reparacion-dell-ibspiron-15-oaxaca",
   "categoria": "Bisagras y carcasas",
   "marca": "Dell",
   "modelo": "Ibspiron 15",
   "falla": "No enciende y bisagras",
-  "solucion": "Problemas en las bisagras, no enciendia",
+  "solucion": "se reparan las bisagras",
   "precio": null,
   "garantia": "35 días en mano de obra",
   "fotos": [
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/recepcion/1785258515819-17852584614753285848416006732295.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=4019b0cb3f331f638ab10525223a17ec5102146713979720c5f3ddaa69fc00f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/recepcion/1785258515819-17852584614753285848416006732295.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=e2bce37875075716cad3b97d5ceee20af920802fb0f792922bcafc6b5503d23e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": true
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785344548164-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=e986b62a6657505b36106fe45f1b16b8294eaca4541da56651e66db2cf6d7382&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785344548164-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=ac582a645d11ef73653b72d8e935da1f4033d0e62caaba150f06f07e8d40f9fb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785344553818-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=382ed995be1f5598ab5d2fcd30d5234439506876834438ed452807723cd788cb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785344553818-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=6dab7db923d6d864cf63e1aa6ad565c20de5703ba7d18e6b82c9b4b7a1dd6745&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785344583130-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=b7ecd3b7584b819b22730c906b0248428c79920b5436c3902921431615883962&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785345000498-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=49408701be86d90b3b9310b7fe7316582eb46640fe42b03fde2ef55ea3bc6dfe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785345000498-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=6ca4e35653694a1007718aff0b928af2d2f8e4547e7a150d6a8323c155b524ba&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785345035179-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=ace0edc5224e6d63c399a6deeade25195b1e5858912c4840cb338539636ebddf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785345029429-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=b69d28a5a9b43aba223b47b4ed3ec75829010d094bbf337b84bde651944bcc82&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785456515478-17854565067345344090951334268693.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=93f9940a675693cbbb6ff64fea72e3110ae77059029661f47dd8f48d2a67cf4d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785454584346-17854545748518451342912210406840.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=918c1591cf4f9a144464c182ed3fde8f4cb5c114a4659d0dd0abd51f49eadca1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785455755739-17854557487291164691473542721644.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=f279b12fb04ac85f4b95f6c92b1539e49fb730a84c827eff05430b213d6d9d3a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785455755739-17854557487291164691473542721644.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=29b28d5a5eac92be0870c438351d53c025001fac2d032bbacb3a4f0f60c09335&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785457147790-17854571415558919343519673729284.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=4d17243cbd961558e30087d365d9013eed5ca9625540e5b52c814af7dd22cfb5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785457168231-17854571606278905255879294623412.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T002703Z&X-Amz-Expires=172800&X-Amz-Signature=dbfb0d824a01cacf9b5ada2759251a9d2c159d847a58d8793e8bab4548b9537a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9067/evidencias_general/1785457168231-17854571606278905255879294623412.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020920Z&X-Amz-Expires=172800&X-Amz-Signature=8d68a6009c50c59c6be75259345c6b45e178fb224632af1241f4c1175e5ca269&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Dell Ibspiron 15 — No enciende y bisagras — Ciselaptop Oaxaca",
       "esHero": false
     }
