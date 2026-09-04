@@ -1,4 +1,9 @@
 # Instrucciones de procesamiento — Cola del blog
+
+> **REGLA OBLIGATORIA:** Antes de listar o procesar la cola, siempre hacer
+> `git pull origin main` para sincronizar con GitHub. La cola local puede
+> estar desactualizada respecto al remoto.
+
 ## Cuando el usuario diga "procesa la cola del blog", sigue estos pasos.
 
 ---
