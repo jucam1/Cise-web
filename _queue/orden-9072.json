@@ -1,38 +1,48 @@
 {
   "version": "1",
   "ordenId": "9072",
-  "fecha": "2026-08-31",
+  "fecha": "2026-09-04",
   "slug": "reparacion-hp-ryzen-5-oaxaca",
   "categoria": "Reparación",
   "marca": "HP",
   "modelo": "Ryzen 5",
   "falla": "No enciende ruido ventilador",
-  "solucion": "Se remmplaza vwntilador se cambia pasta termica",
+  "solucion": "Se remmplaza vwntilador se cambia ostabtermica",
   "precio": null,
   "garantia": "35 días en mano de obra",
   "fotos": [
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/recepcion/1785339192282-17853391630781651710554868527044.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224255Z&X-Amz-Expires=172800&X-Amz-Signature=2f8f29425c8288ddffdc808d18e637cd60bfac47e097ba301041e20a8de71d59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/recepcion/1785339192282-17853391630781651710554868527044.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020836Z&X-Amz-Expires=172800&X-Amz-Signature=5762a39e54a6cb979c910ee437678ba8064d536722a1d14da7bfdc4520c0f9d3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Ryzen 5 — No enciende ruido ventilador — Ciselaptop Oaxaca",
       "esHero": true
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785343210279-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224255Z&X-Amz-Expires=172800&X-Amz-Signature=3c55f9bc1bbf4d8ed6b77fb19bdd6ebab8c220b15a80fb084b4cf0dd93c4504c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785343210279-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020836Z&X-Amz-Expires=172800&X-Amz-Signature=c6da6199c7fa8dd04b77978718ee74baabf4529e40948a5c7144caf44022ba54&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Ryzen 5 — No enciende ruido ventilador — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785343223151-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224255Z&X-Amz-Expires=172800&X-Amz-Signature=690ee2dbfce6a539f363b22c9209c0471acdb9bbd9aea70fbb8d764148f62955&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785343215272-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020836Z&X-Amz-Expires=172800&X-Amz-Signature=b34ac4fc12eb24a67a86f7510453680239451a5e2ad06193ed21927683122c92&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Ryzen 5 — No enciende ruido ventilador — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785449942613-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224255Z&X-Amz-Expires=172800&X-Amz-Signature=38acded468a141112ec34c97377fae82b65644e125222a0f1abcff759a3b6623&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785343248783-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020836Z&X-Amz-Expires=172800&X-Amz-Signature=a1e909862d61d80de90c38d610f98f5e3ae61e39d2eb08b4bfa0633f5ab3edf7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Ryzen 5 — No enciende ruido ventilador — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785449949111-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224255Z&X-Amz-Expires=172800&X-Amz-Signature=256e27903f0644cb2ab1548bbaa9776c1803a74cf663940497f30aef2a8c8238&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785449942613-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020836Z&X-Amz-Expires=172800&X-Amz-Signature=11e6b8274b39b474c535ecc3794086edd3df10d972c6ba1504d240061a28b9bd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Ryzen 5 — No enciende ruido ventilador — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785449949111-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020836Z&X-Amz-Expires=172800&X-Amz-Signature=43f20484e34bb30c278d1a80a0ec0c1f04fa28b46c9c43ecbc56d247eb286cb7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Ryzen 5 — No enciende ruido ventilador — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9072/evidencias_general/1785450924955-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T020836Z&X-Amz-Expires=172800&X-Amz-Signature=693e41a7d8ee8d963906900e04e9c10ff139cb4bebd8fd2654aefad7d64a369d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Ryzen 5 — No enciende ruido ventilador — Ciselaptop Oaxaca",
       "esHero": false
     }
