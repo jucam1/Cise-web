@@ -1,7 +1,7 @@
 {
   "version": "1",
   "ordenId": "9059",
-  "fecha": "2026-08-31",
+  "fecha": "2026-09-04",
   "slug": "reparacion-hyundai-i7-oaxaca",
   "categoria": "Reparación",
   "marca": "Hyundai",
@@ -12,32 +12,42 @@
   "garantia": "35 días en mano de obra",
   "fotos": [
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/recepcion/1784920591318-17849205380538938269638467133287.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224644Z&X-Amz-Expires=172800&X-Amz-Signature=e3eb056aeb758ef5e79d59a77f5c355899c5d7725fbe73db2cd4f0e84d5c0e8f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/recepcion/1784920591318-17849205380538938269638467133287.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=e7f200ef1b7edb094738cf98a44e4de0579cd333ee14a08146ceeb7371c2a1ca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
       "esHero": true
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785015334434-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224644Z&X-Amz-Expires=172800&X-Amz-Signature=8b089f098fcee5eaae902af782da219fb15a2054ac319e1bf18d744e287a22d3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785015334434-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=1105d8a8a7be925fa24b0d7d1eff32b4eeb14906d11418f58a4283ccdfaeac35&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785015348409-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224644Z&X-Amz-Expires=172800&X-Amz-Signature=a524390fe2e62f9284a99f3dca7e7840dabff8602bc5c4f5e6acb75466e07aef&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785015341104-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=f9b9c5481be52cd04d87acb591df521960afcd248a0ee63b86063730a50d2db2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785017022799-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224644Z&X-Amz-Expires=172800&X-Amz-Signature=7f1a4fedfd372425485004da24635ed2b2a001507c121d291c835bff25412e87&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785015348409-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=b38d1807cd793e2447d39a194fd9b47f2e56897416fb917920351eb9944f65d1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785017028244-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224644Z&X-Amz-Expires=172800&X-Amz-Signature=f9267e30eddbf60c903b728dfd8a0603504d183413687da3ecefcc71b96a33c2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785017028244-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=637f20ff70769ef3a39928f58b3cdb6466e46446302e7a093c90d79d2eb23837&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/reingreso_1/1785199309870-IMG_3152.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T224644Z&X-Amz-Expires=172800&X-Amz-Signature=7b09cc3abb578ad88ce11c779bada3da1d79ee3bf1c4d8402363838fe741e2ae&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/evidencias_general/1785017022799-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=7051a1484d33adcf58ba37877113c70faf7d7b7c7eddd29dabae79d618c44e10&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/reingreso_1/1785199309870-IMG_3152.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=675278f3055be724c9a19c0638a1688df9fe536fd1233aaf1142021687f23a70&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9059/reingreso_1/1785199310201-IMG_3151.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021020Z&X-Amz-Expires=172800&X-Amz-Signature=868ee110f73cb467d546e557f4a84b4daa69a7063b12c359ae0c31dc4aa6f3d8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "Hyundai I7 — No carga bateria , office — Ciselaptop Oaxaca",
       "esHero": false
     }
