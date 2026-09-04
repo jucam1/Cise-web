@@ -1,7 +1,7 @@
 {
   "version": "1",
   "ordenId": "9058",
-  "fecha": "2026-08-31",
+  "fecha": "2026-09-04",
   "slug": "reparacion-hp-omen-oaxaca",
   "categoria": "Actualización SSD",
   "marca": "HP",
@@ -12,22 +12,57 @@
   "garantia": "35 días en mano de obra",
   "fotos": [
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/recepcion/1784920021667-17849199844831461655683563195432.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225030Z&X-Amz-Expires=172800&X-Amz-Signature=aeac4ec54e34124aa2935234a3112618adcf31e2e1e41aeedfe56fa60906eab6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/recepcion/1784920021667-17849199844831461655683563195432.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=9e3c2a0bd80dcdcb80224e109d7ae824396650e94b603eb16fbc22eb677f9f28&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
       "esHero": true
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1784930197096-IMG_3132.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225030Z&X-Amz-Expires=172800&X-Amz-Signature=897aa9101cae6cdfb8b82a2eb2922683b76babd570f433f989bb120497b41ca0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1784930197096-IMG_3132.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=b5d951e55b9ae8abfc0623bf4d94faa9fda7da446b16f0ae5ff71e540621dfd7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1784930197025-IMG_3133.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225030Z&X-Amz-Expires=172800&X-Amz-Signature=19865fe2654ef75a35cb237767809bab894a9153103979838203454327f9c41a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1784930197025-IMG_3133.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=7e4feabddc5e31b2d07a5ae1dc340f35c93fece1c3ae1bab465160344b338d0a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
       "esHero": false
     },
     {
-      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785283874472-17852838665424948135459851738628.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260831T225030Z&X-Amz-Expires=172800&X-Amz-Signature=db83dd7bfffb47d5964c7d765e1e7d9bbfe943497fc0be97911f81dbda5a853b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785283510712-17852835040996935620656427048177.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=4005159ca98e50266b9fd58622b1ef185edbfd764ee7a36fb3ba5d3764e5161c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785283562251-1785283556017905401228817454822.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=281d537e0621d6addf76c6bf48308557466e0f3ff24ba5523c2672c117a8c4e1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785283874472-17852838665424948135459851738628.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=5d51f2f836120ae64b2a1d13e639bea420ce4ad40753038ec2d008ee9a79dc85&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785283912191-17852839022948044762189041893091.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=579cca6cff9f35a7ab8d33e56e5dec9f78aa4f9af6cd42474ac27ae997a0f1bf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785285824277-17852858157325714668082344612157.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=2e7b47600978395a591a13db54ead12a7f2d462ea45789d8e86ef8d59923d538&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785287076026-17852870651243777402733685360700.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=13dfb6a3e80da5eb5db32fdf7c1164521d6ef4fad2796e7a2f3dd10b6e003358&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785290922290-17852909104057902092765561241286.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=9cb58953b90e00ccf5c0ce149c0f9cc602cc5d5fdcff06b368007aca9fd01101&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9058/evidencias_general/1785290055662-1785290047916256187586476468945.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260904%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260904T021053Z&X-Amz-Expires=172800&X-Amz-Signature=d69e926b57822d5f6338e48d9f4160cc62743c44224fc262576d2e1da8dd42da&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "alt": "HP Omen — Lenta — Ciselaptop Oaxaca",
       "esHero": false
     }
