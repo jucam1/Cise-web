@@ -84,6 +84,7 @@ Esta es la única ruta válida del logo en el repo.
 **Diagnóstico:**
 - General (equipo que enciende): $150 MXN + IVA · 48 horas hábiles.
   Se descuenta del total si el cliente autoriza la reparación.
+- **Impresoras**: $150 MXN + IVA · 72 horas hábiles. Se descuenta si el cliente autoriza la reparación. Tiempo distinto al diagnóstico general de laptops/PCs (48 horas hábiles).
 - Nivel componente (no enciende o mojado): $250 MXN + IVA · 5 días hábiles.
   NO se descuenta — es trabajo de mayor profundidad.
 
