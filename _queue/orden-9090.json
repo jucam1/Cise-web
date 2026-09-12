@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "ordenId": "9090",
+  "fecha": "2026-09-12",
+  "slug": "reparacion-epson-l575-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Epson",
+  "modelo": "L575",
+  "falla": "Rev gomas almohadillas cabezal",
+  "solucion": "Limpieza y cambio de gomas y almohadillas ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/recepcion/1785536423576-17855363918246212645102524818319.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=3b42537ce683e44715d5d4bb5c4604250b5035177267d8f8b8bae1b627cd50a2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/evidencias_general/1785892001023-17858919951873944677333161603035.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=613eca8727121a8d0c00f3aec4374db454e2a1b5920aace007869e2ea85a82ea&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/evidencias_general/1785892010201-1000199276.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=c1d29ea10860e5538fad8a2f95101d692042bfd1baa182d46ec300e5dff325b1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/evidencias_general/1785892010101-1000199274.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=c4775309005bd6c436b4609e565ba770346ca6f0b347796ae7f6e7fdcee44ba6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/refacciones/1785891802150-17858917933766131095140269756826.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=0c93ebf2724fa89ef783c616ed2c21b61d768c4570a52bcf210b6de98b1abc5a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/refacciones/1785891842435-17858918363471069441119238793154.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=07ff97aa6c909b7e9e4cb57fb2e4d25f80590ce4fbee8f15e496d42540af7ce7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/refacciones/1785895879802-17858958738868760816179509708827.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=1287c43597c2f17e1a7aa5aba4fc10214cb207e31e68542afd9d809ffdae6f04&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9090/refacciones/1785895920570-17858959153455201635210561250862.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T171907Z&X-Amz-Expires=172800&X-Amz-Signature=ca034e3bfa96ada38d08518c9601ba59823b4efefa0953645477296a29367ba6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L575 — Rev gomas almohadillas cabezal — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
