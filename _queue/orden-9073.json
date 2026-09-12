@@ -1,0 +1,60 @@
+{
+  "version": "1",
+  "ordenId": "9073",
+  "fecha": "2026-09-12",
+  "slug": "reparacion-asus-fa507r-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "Asus",
+  "modelo": "Fa507r",
+  "falla": "Bisagras dañadas y mantenimiento pasta termica",
+  "solucion": "Se repara tapa rota se repara bisagra , se repara ventilador cambio pasta térmica ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/recepcion/1785342672496-17853426355444847937277485557074.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=c581151b9ffe3fe17868e23414daf998bab7eb9a160c17c365ce6488cfd60be2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1785348407628-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=4a57f068ce41e0287f7c4eaa93426795606a41b1b1ba6f4a740817daabaf4c4d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1785348411385-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=d1b26daa7c09bf3107b0deb955dd444559fad9421cd3c58bd6e3a92f59b264fb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1785348436193-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=f26e33b0a5e07a11c5d94b3837b2b53c07cfa9d9dc1345284d8e1462ec3b8cfa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1785348443477-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=778c7e84d643f4590ce146ad83e81c256f1bf18a5e13bf0a7ebeaaaf46c23e4d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1785348531307-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=835f40180b9d091a2963d3b8db5d434a7cb4b3377c6abdff91d26f260399ba91&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1786125835637-IMG_3215.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=dc239bb8c75e6b31ff71b5d0b29c33fa0207ce26246fef9cc4c832b6bd0924d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1786125835099-IMG_3178.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=598c9ee4f281532c7e4c61c662c00e532c3b557998adac9a8497f6f957df7bbf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9073/evidencias_general/1786125835192-IMG_3177.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260912T181021Z&X-Amz-Expires=172800&X-Amz-Signature=c824d31d4cccfbe3c3460217d987bc3d5f0e1f9c0d0b2ca5e91902e65c87c716&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Fa507r — Bisagras dañadas y mantenimiento pasta termica — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
