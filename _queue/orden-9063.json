@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9063",
+  "fecha": "2026-09-24",
+  "slug": "reparacion-hp-x360-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "X360",
+  "falla": "Teclado con problemas",
+  "solucion": "Se reemplaza teclado está remachado ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9063/recepcion/1785003982424-WIN_20260725_12_25_30_Pro.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260924T212454Z&X-Amz-Expires=172800&X-Amz-Signature=02bf74ab402134d928230d0283bdd0dae9ac342322de87639094504b44c7aac7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — Teclado con problemas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9063/evidencias_general/1786211290240-08ce1c21-ad17-4d0d-b005-17f27a1800ee.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260924T212454Z&X-Amz-Expires=172800&X-Amz-Signature=1787eee2a6212f00817a04beaf9d297e35124549759655f7c7bea0d6469c8953&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — Teclado con problemas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9063/evidencias_general/1786211290357-260e961f-e48e-4f70-82bb-e0db01d2146f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260924T212454Z&X-Amz-Expires=172800&X-Amz-Signature=0a075f1d32ed2e993552a70697a3b53d72b7a39bfc20102107c3d40fabd2f091&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — Teclado con problemas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
