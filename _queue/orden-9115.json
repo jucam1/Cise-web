@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "ordenId": "9115",
+  "fecha": "2026-09-24",
+  "slug": "reparacion-hp-2575-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "2575",
+  "falla": "Ruido no imprime",
+  "solucion": "Revición no presento ningún ruido extraño solo el cartucho de color no pinta ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9115/recepcion/1785951754601-17859517155731477658293512982985.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260924T213437Z&X-Amz-Expires=172800&X-Amz-Signature=e02ce6b909005d453980b289552701f782c550bd544a16c450f4dc70117e6ac7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 2575 — Ruido no imprime — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9115/evidencias_general/1786063980536-17860639730996526688914501403345.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260924T213437Z&X-Amz-Expires=172800&X-Amz-Signature=9563574b0f146dd152458a723f67d5dd96aa21c793bc2fc295a358d653984b6a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 2575 — Ruido no imprime — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9115/evidencias_general/1786064004795-17860640001754865038212571000474.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260924T213437Z&X-Amz-Expires=172800&X-Amz-Signature=d5acb543de36bf3cde88b7a8c8c75e3986c6cdf7244724b7414d8eb3a30deeb5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 2575 — Ruido no imprime — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9115/refacciones/1786063973267-17860639654761483558583675469496.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260924T213437Z&X-Amz-Expires=172800&X-Amz-Signature=159857da3b450a67b4cda732db499b0ba76c1ea90c7d3fb871acb35076e9866c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 2575 — Ruido no imprime — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
