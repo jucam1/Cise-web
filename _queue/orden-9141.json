@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9141",
+  "fecha": "2026-09-25",
+  "slug": "reparacion-lenovo-330-oaxaca",
+  "categoria": "Software y sistema",
+  "marca": "lenovo",
+  "modelo": "330",
+  "falla": "Office mantto revision",
+  "solucion": "Se respaldo la información está en la nube  se formateo se instaló Windows office . Se formateo con autorización vía telefónica. Se instala Windows 10 office drivers se cambias pasta termica",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9141/recepcion/1786751731519-17867516422428110334210883670305.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T053209Z&X-Amz-Expires=172800&X-Amz-Signature=f7e788497d09c493e0d9664c7ead1903026d6048b4de9e411aeb65237bc9f8f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "lenovo 330 — Office mantto revision — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9141/evidencias_general/1787101144143-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T053209Z&X-Amz-Expires=172800&X-Amz-Signature=fd4fa4c41be2c66b0101ae4ba2747f550a7c2340321d15015783aaec23cefc25&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "lenovo 330 — Office mantto revision — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9141/evidencias_general/1787101337571-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T053209Z&X-Amz-Expires=172800&X-Amz-Signature=39dbfbe84b156bd4af2d13637aa2fb92f0426356bea3233c2d7889c697821924&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "lenovo 330 — Office mantto revision — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
