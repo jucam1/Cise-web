@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9076",
+  "fecha": "2026-09-25",
+  "slug": "reparacion-hp-intel-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "HP",
+  "modelo": "Intel",
+  "falla": "Bisagras dañadas",
+  "solucion": "Se reparan bisagras del display y también se reparan bisagras de la base donde van el jack de carga ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9076/recepcion/1785436678729-17854366495992181730419246750692.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T042910Z&X-Amz-Expires=172800&X-Amz-Signature=b0ed3fe04f0f21a4b5b82dbea75b01291f718cae1acb454512f74c6900a40496&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Intel — Bisagras dañadas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9076/evidencias_general/1785453939942-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T042910Z&X-Amz-Expires=172800&X-Amz-Signature=0f698e511812900cae94b4cd376f24e4e35876c5511b6a7455329faa3b5b5f9f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Intel — Bisagras dañadas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9076/evidencias_general/1785453986252-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T042910Z&X-Amz-Expires=172800&X-Amz-Signature=d4bce333162b041f02d8d16072e93e2b92472b442d31ee97edba40002ebc7279&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Intel — Bisagras dañadas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9076/evidencias_general/1785454110302-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T042910Z&X-Amz-Expires=172800&X-Amz-Signature=ed2e5f637cbc04ec9e6a0487fc36d0676bc312a8296881a57c62a727652e52be&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Intel — Bisagras dañadas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9076/evidencias_general/1785454052339-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T042910Z&X-Amz-Expires=172800&X-Amz-Signature=4d4a93e8220829e73fd5100518d919ee47503da7172209be2a8f5223a5d8009a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Intel — Bisagras dañadas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9076/evidencias_general/1786561549747-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T042910Z&X-Amz-Expires=172800&X-Amz-Signature=807b21f7b67654a506de621ba31601cc74a03171477c41d74bfa40bf032fb900&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP Intel — Bisagras dañadas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
