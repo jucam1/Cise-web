@@ -1,5 +1,13 @@
 name: Publicar artículo del día
 
+# Fix 2026-09-25:
+#   1. check_today: grep devolvía exit 1 cuando no había commits "Auto-publish:" del día
+#      (set -eo pipefail lo convierte en fallo del step). Se añadió "|| true" para
+#      que el pipeline termine con exit 0 aunque grep no encuentre coincidencias.
+#   2. check_queue: "ls *.html" devuelve exit 1 cuando la cola está vacía; se reemplazó
+#      por "find ... | wc -l" que siempre termina con exit 0.
+#   3. Publicar artículo: se protegió el "git commit" con un guard de diff vacío.
+
 on:
   schedule:
     - cron: '0 16 * * *'  # 10:00 AM hora Ciudad de México (UTC-6)
@@ -22,24 +30,29 @@ jobs:
         run: |
           TODAY=$(TZ="America/Mexico_City" date +%Y-%m-%d)
           echo "Fecha hoy: $TODAY"
-          PUBLISHED=$(git log --oneline --after="$TODAY 00:00:00" --before="$TODAY 23:59:59" | grep "Auto-publish:" | wc -l)
+          # "|| true" evita que el exit 1 de grep (sin coincidencias) aborte el step
+          PUBLISHED=$(git log --oneline --after="$TODAY 00:00:00" --before="$TODAY 23:59:59" | grep "Auto-publish:" | wc -l || true)
           echo "Publicaciones hoy: $PUBLISHED"
-          echo "already_published=$([[ $PUBLISHED -gt 0 ]] && echo true || echo false)" >> $GITHUB_OUTPUT
+          echo "already_published=$([[ $PUBLISHED -gt 0 ]] && echo true || echo false)" >> "$GITHUB_OUTPUT"
 
       - name: Verificar si hay artículos en cola
         id: check_queue
         if: steps.check_today.outputs.already_published == 'false'
         run: |
-          COUNT=$(ls _queue/listos/*.html 2>/dev/null | wc -l)
+          # "find" siempre sale con exit 0 aunque no haya archivos (a diferencia de "ls *.html")
+          COUNT=$(find _queue/listos -name "*.html" 2>/dev/null | wc -l | tr -d ' ')
           echo "Artículos en cola: $COUNT"
-          echo "has_articles=$([[ $COUNT -gt 0 ]] && echo true || echo false)" >> $GITHUB_OUTPUT
-          if [ $COUNT -gt 0 ]; then
-            NEXT_HTML=$(ls _queue/listos/*.html 2>/dev/null | sort | head -1)
-            NEXT_JSON="${NEXT_HTML%.html}.json"
-            echo "Siguiente artículo: $NEXT_HTML"
-            echo "next_html=$NEXT_HTML" >> $GITHUB_OUTPUT
-            echo "next_json=$NEXT_JSON" >> $GITHUB_OUTPUT
+          if [[ $COUNT -eq 0 ]]; then
+            echo "Cola vacía — nada que publicar hoy."
+            echo "has_articles=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+          echo "has_articles=true" >> "$GITHUB_OUTPUT"
+          NEXT_HTML=$(find _queue/listos -name "*.html" 2>/dev/null | sort | head -1)
+          NEXT_JSON="${NEXT_HTML%.html}.json"
+          echo "Siguiente artículo: $NEXT_HTML"
+          echo "next_html=$NEXT_HTML" >> "$GITHUB_OUTPUT"
+          echo "next_json=$NEXT_JSON" >> "$GITHUB_OUTPUT"
 
       - name: Instalar dependencias Python
         if: |
@@ -76,16 +89,17 @@ jobs:
           # Eliminar archivos procesados de listos/
           rm "$NEXT_HTML" "$NEXT_JSON"
 
-          # Commit y push
+          # Commit y push — el guard evita exit 1 si no hay cambios reales
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add .
-          git commit -m "Auto-publish: $SLUG [$FECHA]"
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "Auto-publish: $SLUG [$FECHA]"
           git push
 
           # Exportar slug para el email
-          echo "slug=$SLUG" >> $GITHUB_OUTPUT
-          echo "titulo=$TITULO" >> $GITHUB_OUTPUT
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "titulo=$TITULO" >> "$GITHUB_OUTPUT"
 
       - name: Enviar notificación por email
         if: |
