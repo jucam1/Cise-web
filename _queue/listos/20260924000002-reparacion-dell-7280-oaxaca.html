@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+  <title>Dell 7280 sin encender por BIOS en Oaxaca | Ciselaptop</title>
+  <meta name="description" content="Dell Latitude 7280 que no cargaba y se bloqueaba por falla de BIOS. Reemplazo de BIOS y diagnóstico profundo en Oaxaca. Cotización tras diagnóstico. Garantía 35 días." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.ciselaptop.com/blog/reparacion-dell-7280-oaxaca" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Dell 7280 sin encender por BIOS en Oaxaca | Ciselaptop" />
+  <meta property="og:description" content="Dell Latitude 7280 que no cargaba y se bloqueaba. Reemplazo de BIOS en Oaxaca. Garantía 35 días." />
+  <meta property="og:url" content="https://www.ciselaptop.com/blog/reparacion-dell-7280-oaxaca" />
+  <meta property="og:image" content="https://www.ciselaptop.com/img/blog/reparacion-dell-7280-oaxaca/hero.webp" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dell 7280 sin encender por BIOS en Oaxaca | Ciselaptop" />
+  <meta name="twitter:description" content="Dell Latitude 7280 bloqueada por BIOS dañado. Reemplazo y diagnóstico en Oaxaca. Garantía 35 días." />
+  <meta name="twitter:image" content="https://www.ciselaptop.com/img/blog/reparacion-dell-7280-oaxaca/hero.webp" />
+  <meta name="author" content="Ciselaptop" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    :root { --brand-navy: #1D2E8C; --brand-red: #C8272E; }
+    @keyframes wa-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+      50%       { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+    }
+    .wa-float { animation: wa-pulse 2.4s ease-in-out infinite; }
+    header { background: #ffffff; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .dark-section {
+      background-color: #1D2E8C;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.10) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    footer.dark-section p, footer.dark-section a,
+    footer.dark-section li { color: rgba(255,255,255,0.70); }
+    footer.dark-section h3 { color: #ffffff; }
+    footer.dark-section a:hover { color: #ffffff !important; }
+    footer.dark-section .border-gray-700 { border-color: rgba(255,255,255,0.15) !important; }
+    .prose-article h2 { font-size: 1.5rem; font-weight: 700; color: #1D2E8C; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose-article h3 { font-size: 1.15rem; font-weight: 600; color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .prose-article p  { color: #4b5563; line-height: 1.75; margin-bottom: 1rem; }
+    .prose-article ul { list-style: disc; padding-left: 1.5rem; color: #4b5563; margin-bottom: 1rem; }
+    .prose-article ul li { margin-bottom: 0.35rem; line-height: 1.7; }
+    .answer-capsule {
+      border-left: 4px solid #1D2E8C;
+      background: #f0f2fc;
+      padding: 1rem 1.25rem;
+      border-radius: 0 0.75rem 0.75rem 0;
+      margin-bottom: 2rem;
+    }
+    .answer-capsule p { margin-bottom: 0; }
+  </style>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-36TPZGNZSN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-36TPZGNZSN');
+  </script>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+  <a href="https://wa.me/529518486056?text=Hola%20CISE%2C%20mi%20laptop%20Dell%207280%20no%20enciende%2C%20quiero%20informes"
+    onclick="gtag('event','whatsapp_click',{'page':'blog_dell7280'})"
+    target="_blank" rel="noopener noreferrer" aria-label="Escríbenos al WhatsApp"
+    class="wa-float fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform hover:scale-110"
+    style="background-color: #25D366;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30" height="30" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+    </svg>
+  </a>
+
+  <header id="header" class="sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
+      <a href="/" aria-label="Ciselaptop – Inicio">
+        <img src="/img/logo-ciselaptop.webp" alt="Ciselaptop" class="h-9 sm:h-12 w-auto" loading="eager" />
+      </a>
+      <nav class="hidden lg:flex items-center gap-5 text-sm font-medium flex-1" aria-label="Menú principal">
+        <a href="/" class="text-gray-500 hover:text-gray-900 transition-colors">Inicio</a>
+        <a href="/bisagras" class="text-gray-500 hover:text-gray-900 transition-colors">Bisagras</a>
+        <a href="/actualizacion" class="text-gray-500 hover:text-gray-900 transition-colors">Actualización</a>
+        <a href="/impresoras" class="text-gray-500 hover:text-gray-900 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" class="text-gray-500 hover:text-gray-900 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="font-semibold" style="color:#1D2E8C;">Blog</a>
+        <a href="/quienes-somos" class="text-gray-500 hover:text-gray-900 transition-colors">Nosotros</a>
+      </nav>
+      <div class="ml-auto flex items-center gap-3">
+        <button id="menu-btn" class="lg:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors" aria-label="Abrir menú" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <a href="https://wa.me/529518486056?text=Hola%20CISE%2C%20mi%20laptop%20Dell%207280%20no%20enciende%2C%20quiero%20informes"
+          onclick="gtag('event','whatsapp_click',{'page':'blog_dell7280'})"
+          target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18" height="18" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp
+        </a>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+      <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-1" aria-label="Menú móvil">
+        <a href="/" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Inicio</a>
+        <a href="/bisagras" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Bisagras</a>
+        <a href="/actualizacion" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Actualización</a>
+        <a href="/impresoras" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Impresoras</a>
+        <a href="/nivel-componente" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Nivel Componente</a>
+        <a href="/blog" class="py-2 px-3 rounded-lg text-sm font-semibold" style="color:#1D2E8C; background-color:#e8eaf6;">Blog</a>
+        <a href="/quienes-somos" class="py-2 px-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">Nosotros</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="dark-section pt-14 pb-12 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto">
+        <nav class="text-sm mb-4" aria-label="Ruta de navegación">
+          <ol class="flex flex-wrap gap-1 items-center" style="color:rgba(255,255,255,0.60);">
+            <li><a href="/" class="hover:text-white transition-colors">Inicio</a></li>
+            <li aria-hidden="true" class="mx-1">›</li>
+            <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+            <li aria-hidden="true" class="mx-1">›</li>
+            <li style="color:rgba(255,255,255,0.85);">Dell 7280 falla de BIOS</li>
+          </ol>
+        </nav>
+        <span class="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-4" style="background:rgba(255,255,255,0.15); color:#FFD700;">Reparación</span>
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white leading-tight mb-4">
+          Dell Latitude 7280 que no carga y se bloquea: reemplazo de BIOS en Oaxaca
+        </h1>
+        <p class="text-base sm:text-lg" style="color:rgba(255,255,255,0.80);">
+          Diagnóstico profundo y sustitución del chip de BIOS corrupto para restablecer el arranque del sistema
+        </p>
+        <div class="flex items-center gap-2 mt-4 text-sm" style="color:rgba(255,255,255,0.60);">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 flex-shrink-0" style="color:#FFD700;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.88 6.196M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <a href="/quienes-somos" class="font-medium hover:underline" style="color:#FFD700;">Ciselaptop</a>
+          <span>·</span><time datetime="2026-09-24">24 de septiembre de 2026</time>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto">
+
+        <img src="/img/blog/reparacion-dell-7280-oaxaca/hero.webp"
+          alt="Dell Latitude 7280 — Falla de BIOS — Ciselaptop Oaxaca"
+          class="w-full rounded-2xl mb-8 object-cover" style="max-height:360px;"
+          loading="eager" width="1200" height="900" />
+
+        <div class="prose-article">
+
+          <div class="answer-capsule">
+            <p><strong>Caso real:</strong> Dell Latitude 7280 llegó al taller sin cargar correctamente y con bloqueos durante el arranque. El diagnóstico confirmó BIOS corrupto. Se realizó reemplazo del chip de BIOS y pruebas con componentes externos. El servicio continúa pendiente de prueba final con el disco duro del cliente. Cotización tras diagnóstico.</p>
+          </div>
+
+          <h2>Falla reportada</h2>
+          <p>
+            La Dell Latitude 7280 no completaba el ciclo de carga y se bloqueaba durante el arranque. Este tipo de comportamiento, cuando no responde a actualizaciones de software ni a reinstalación de sistema, apunta a una falla en el firmware de bajo nivel: el BIOS.
+          </p>
+
+          <h2>¿Qué es el BIOS y por qué falla?</h2>
+          <p>
+            El BIOS (Basic Input/Output System) es el firmware que inicializa el hardware antes de que arranque el sistema operativo. Una corrupción en este chip impide que la laptop complete el POST (Power-On Self-Test) y puede manifestarse como pantalla negra, bloqueos en el logo del fabricante, o arranques que nunca terminan.
+          </p>
+          <p>
+            Las causas más comunes de corrupción de BIOS son: actualización interrumpida, descarga eléctrica, falla del chip de almacenamiento o simplemente deterioro con el tiempo en equipos de uso intensivo como los Latitude de Dell.
+          </p>
+
+          <h2>Síntomas de falla de BIOS en laptops Dell</h2>
+          <ul>
+            <li>La laptop enciende pero se queda en pantalla negra o en el logo de Dell</li>
+            <li>Reinicios automáticos repetidos sin llegar al sistema operativo</li>
+            <li>Mensajes de error como "No bootable device" o "BIOS ROM checksum error"</li>
+            <li>La laptop no responde a teclas de acceso al BIOS (F2, F12)</li>
+            <li>El equipo carga con batería pero no con cargador, o viceversa</li>
+          </ul>
+
+          <h2>Proceso de diagnóstico y reparación</h2>
+
+          <h3>1. Diagnóstico inicial</h3>
+          <p>
+            Se evaluó el comportamiento del equipo al encender: la laptop iniciaba pero se bloqueaba antes de llegar al sistema operativo. Se descartaron fallas de RAM y disco mediante pruebas con componentes externos conocidos.
+          </p>
+
+          <h3>2. Identificación de la falla de BIOS</h3>
+          <p>
+            Las pruebas con otros discos duros y módulos de RAM confirmaron que el problema estaba en el firmware. El chip de BIOS presentaba corrupción en el sector de arranque.
+          </p>
+
+          <h3>3. Reemplazo del chip de BIOS</h3>
+          <p>
+            Se realizó la sustitución del chip de BIOS por una unidad programada con el firmware original correspondiente al modelo Dell Latitude 7280. Este proceso requiere equipo especializado de reprogramación y soldadura de precisión.
+          </p>
+
+          <h3>4. Prueba con componentes externos</h3>
+          <p>
+            Tras el reemplazo se verificó el arranque con disco duro de prueba. El equipo arrancó correctamente. La prueba final con el disco original del cliente queda pendiente para confirmar que el sistema operativo instalado es compatible y arranca sin errores.
+          </p>
+
+          <!-- Galería -->
+          <h2>Galería del servicio</h2>
+          <div class="grid grid-cols-2 sm:grid-cols-2 gap-3 my-6 not-prose">
+            <img src="/img/blog/reparacion-dell-7280-oaxaca/hero.webp" alt="Dell Latitude 7280 ingreso al taller" class="rounded-xl w-full object-cover aspect-square" loading="lazy" />
+            <img src="/img/blog/reparacion-dell-7280-oaxaca/foto-1.webp" alt="Dell Latitude 7280 diagnóstico de placa" class="rounded-xl w-full object-cover aspect-square" loading="lazy" />
+          </div>
+
+          <!-- Tabla de referencia -->
+          <h2>Referencia del servicio</h2>
+          <div class="overflow-x-auto my-6">
+            <table class="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
+              <thead>
+                <tr style="background-color:#1D2E8C; color:#fff;">
+                  <th class="text-left px-4 py-3 font-semibold">Concepto</th>
+                  <th class="text-right px-4 py-3 font-semibold">Detalle</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-100">
+                <tr class="hover:bg-gray-50"><td class="px-4 py-3 text-gray-800">Modelo</td><td class="px-4 py-3 text-right text-gray-700">Dell Latitude 7280</td></tr>
+                <tr class="hover:bg-gray-50"><td class="px-4 py-3 text-gray-800">Falla</td><td class="px-4 py-3 text-right text-gray-700">No cargaba, se bloqueaba al arrancar</td></tr>
+                <tr class="hover:bg-gray-50"><td class="px-4 py-3 text-gray-800">Causa</td><td class="px-4 py-3 text-right text-gray-700">BIOS corrupto</td></tr>
+                <tr class="hover:bg-gray-50"><td class="px-4 py-3 text-gray-800">Servicio realizado</td><td class="px-4 py-3 text-right text-gray-700">Reemplazo de chip de BIOS</td></tr>
+                <tr class="hover:bg-gray-50"><td class="px-4 py-3 text-gray-800">Diagnóstico</td><td class="px-4 py-3 text-right text-gray-700">$250 MXN + IVA · 5 a 8 días hábiles</td></tr>
+                <tr class="hover:bg-gray-50"><td class="px-4 py-3 text-gray-800">Garantía en mano de obra</td><td class="px-4 py-3 text-right text-gray-700">35 días naturales</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="text-xs text-gray-400 mt-2">* El diagnóstico a nivel componente ($250 MXN + IVA) no se descuenta de la reparación — implica desmontaje y análisis profundo de placa base.</p>
+
+          <!-- CTA intermedio -->
+          <div class="my-6 p-6 rounded-2xl text-center not-prose" style="background-color:#f0f2fc;">
+            <p class="font-bold text-gray-900 mb-2">¿Tu laptop no enciende o se bloquea al arrancar?</p>
+            <p class="text-sm text-gray-500 mb-4">Diagnóstico a nivel componente $250 MXN + IVA · 5 a 8 días hábiles</p>
+            <a href="https://wa.me/529518486056?text=Hola%20CISE%2C%20mi%20laptop%20Dell%207280%20no%20enciende%2C%20quiero%20informes"
+              onclick="gtag('event','whatsapp_click',{'page':'blog_dell7280'})"
+              target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl" style="background:#1D2E8C; color:#fff;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18" height="18" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+              </svg>
+              Pedir diagnóstico →
+            </a>
+          </div>
+
+          <h2>Preguntas frecuentes</h2>
+
+          <h3>¿Cómo sé si el problema de mi laptop es el BIOS?</h3>
+          <p>
+            Si la laptop enciende pero no llega al sistema operativo, se congela en el logo, o muestra errores de POST (prueba de encendido), el BIOS es uno de los sospechosos. El diagnóstico a nivel componente descarta RAM, disco y otros elementos para llegar a la causa raíz.
+          </p>
+
+          <h3>¿Cuánto cuesta reparar un BIOS dañado?</h3>
+          <p>
+            El diagnóstico a nivel componente cuesta $250 MXN + IVA con un tiempo de 5 a 8 días hábiles. Este costo no se descuenta de la reparación porque implica desmontaje completo y análisis profundo. La cotización de la reparación se entrega una vez terminado el diagnóstico.
+          </p>
+
+          <h3>¿Se puede recuperar información si el BIOS está dañado?</h3>
+          <p>
+            Sí, en la mayoría de los casos el disco duro no está afectado por una falla de BIOS. Una vez restaurado el arranque, el sistema operativo y los datos siguen intactos. Si hay sospecha de daño en el disco, se evalúa por separado.
+          </p>
+
+          <h3>¿Qué diferencia hay entre diagnóstico general y diagnóstico a nivel componente?</h3>
+          <p>
+            El diagnóstico general ($150 MXN + IVA, 48 horas) es para equipos que sí encienden: revisa software, sistema operativo y configuración. El diagnóstico a nivel componente ($250 MXN + IVA, 5 a 8 días hábiles) es para equipos que no encienden o tienen fallas de hardware profundo: implica desmontaje total, análisis de placa base y componentes. Este segundo tipo no se descuenta de la reparación.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-section py-14 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <div style="width:48px; height:4px; background:#C8272E; border-radius:2px; margin:0 auto 16px;"></div>
+        <h2 class="text-2xl font-extrabold text-white mb-3">¿Tu laptop no enciende o se bloquea?</h2>
+        <p class="mb-6" style="color:rgba(255,255,255,0.80);">Diagnóstico a nivel componente $250 MXN + IVA · Presupuesto antes de reparar · Garantía 35 días</p>
+        <a href="https://wa.me/529518486056?text=Hola%20CISE%2C%20mi%20laptop%20Dell%207280%20no%20enciende%2C%20quiero%20informes"
+          onclick="gtag('event','whatsapp_click',{'page':'blog_dell7280'})"
+          target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 font-bold text-base px-8 py-4 rounded-xl shadow-lg"
+          style="background:#C8272E; color:#ffffff;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="white" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.107 1.523 5.832L.057 23.55a.75.75 0 0 0 .906.921l5.876-1.54A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 0 1-5.006-1.372l-.36-.213-3.49.916.929-3.4-.234-.375A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Escríbenos al WhatsApp →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="dark-section py-12 px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+        <div>
+          <span style="font-size: 22px; font-weight: 700; color: #FFFFFF; letter-spacing: -0.5px;">Cise<span style="color: #C8272E;">laptop</span></span>
+          <p class="text-sm text-gray-400 leading-relaxed mt-1">Taller de cómputo en Oaxaca<br />desde hace más de 15 años.</p>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Contacto</h3>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="https://wa.me/529518486056" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">WhatsApp: +52 951 848 6056</a></li>
+            <li class="leading-relaxed">Calle Leandro Valle 222, Centro<br />Oaxaca de Juárez, Oax.</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="space-y-1 text-sm text-gray-400">
+            <li class="flex justify-between gap-4"><span>Lun – Vie</span><span class="text-gray-300">9:30 – 20:00</span></li>
+            <li class="flex justify-between gap-4"><span>Sábados</span><span class="text-gray-300">10:00 – 15:00</span></li>
+            <li class="flex justify-between gap-4"><span>Domingos</span><span style="color:#C8272E;">Cerrado</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-6 text-center text-xs text-gray-500">
+        <nav class="flex flex-wrap justify-center gap-x-3 gap-y-1 mb-3">
+          <a href="/" class="hover:text-white transition-colors">Inicio</a>
+          <span aria-hidden="true">·</span>
+          <a href="/nivel-componente" class="hover:text-white transition-colors">Nivel Componente</a>
+          <span aria-hidden="true">·</span>
+          <a href="/blog" class="hover:text-white transition-colors">Blog</a>
+          <span aria-hidden="true">·</span>
+          <a href="/quienes-somos" class="hover:text-white transition-colors">Nosotros</a>
+        </nav>
+        © 2026 Ciselaptop · Todos los derechos reservados
+      </div>
+      <div class="border-t border-gray-700 mt-6 pt-4 text-center">
+        <p class="text-xs text-gray-400 leading-relaxed">Ciselaptop es un nombre comercial operado por Juan López Hernández. RFC: LOHJ710712I54. Domicilio fiscal: Leandro Valle 222, Centro, Oaxaca de Juárez, Oax., C.P. 68000.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', function () {
+          var hidden = menu.classList.toggle('hidden');
+          btn.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+        });
+      }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Dell Latitude 7280 que no carga y se bloquea: reemplazo de BIOS en Oaxaca",
+        "description": "Dell Latitude 7280 bloqueada al arrancar por BIOS corrupto. Diagnóstico profundo y reemplazo del chip en Oaxaca. Garantía 35 días.",
+        "url": "https://www.ciselaptop.com/blog/reparacion-dell-7280-oaxaca",
+        "datePublished": "2026-09-24",
+        "dateModified": "2026-09-24",
+        "author": { "@type": "Organization", "name": "Ciselaptop" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Ciselaptop",
+          "logo": { "@type": "ImageObject", "url": "https://www.ciselaptop.com/img/logo-ciselaptop.webp" }
+        },
+        "image": "https://www.ciselaptop.com/img/blog/reparacion-dell-7280-oaxaca/hero.webp"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cómo sé si el problema de mi laptop es el BIOS?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Si la laptop enciende pero no llega al sistema operativo, se congela en el logo, o muestra errores de POST, el BIOS es uno de los sospechosos. El diagnóstico a nivel componente descarta RAM, disco y otros elementos." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta reparar un BIOS dañado?",
+            "acceptedAnswer": { "@type": "Answer", "text": "El diagnóstico a nivel componente cuesta $250 MXN + IVA con un tiempo de 5 a 8 días hábiles. Este costo no se descuenta de la reparación. La cotización de reparación se entrega tras el diagnóstico." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se puede recuperar información si el BIOS está dañado?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí, en la mayoría de los casos el disco duro no está afectado por una falla de BIOS. Una vez restaurado el arranque, el sistema operativo y los datos siguen intactos." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué diferencia hay entre diagnóstico general y diagnóstico a nivel componente?",
+            "acceptedAnswer": { "@type": "Answer", "text": "El diagnóstico general ($150 MXN + IVA, 48 horas) es para equipos que sí encienden. El diagnóstico a nivel componente ($250 MXN + IVA, 5 a 8 días hábiles) es para equipos que no encienden — implica desmontaje total y no se descuenta de la reparación." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+</body>
+</html>
