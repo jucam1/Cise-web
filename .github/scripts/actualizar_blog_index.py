@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-import json, sys
+import json, sys, shutil
 from datetime import datetime
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
 meta_path = sys.argv[1]
@@ -8,11 +9,26 @@ meta_path = sys.argv[1]
 with open(meta_path) as f:
     meta = json.load(f)
 
-slug      = meta["slug"]
-titulo    = meta["titulo"]
-categoria = meta["categoria"]
-excerpt   = meta["excerpt"]
-imagen    = meta["imagenHero"]
+# Campos obligatorios — mover a _queue/errores/ si alguno falta
+slug      = meta.get("slug")
+categoria = meta.get("categoria")
+
+if not slug or not categoria:
+    missing = [k for k in ("slug", "categoria") if not meta.get(k)]
+    errores_dir = Path("_queue/errores")
+    errores_dir.mkdir(parents=True, exist_ok=True)
+    json_src = Path(meta_path)
+    html_src = json_src.with_suffix(".html")
+    shutil.move(str(json_src), str(errores_dir / json_src.name))
+    if html_src.exists():
+        shutil.move(str(html_src), str(errores_dir / html_src.name))
+    print(f"✗ Campos obligatorios faltantes ({', '.join(missing)}): artículo movido a _queue/errores/")
+    sys.exit(0)
+
+# Campos opcionales con valores de respaldo
+titulo  = meta.get("titulo", f"{slug} — Ciselaptop Oaxaca")
+excerpt = meta.get("excerpt", "")
+imagen  = meta.get("imagenHero", f"/img/blog/{slug}/hero.webp")
 
 # Fecha real del día en que corre el script (zona horaria CDMX)
 meses = {1:"enero",2:"febrero",3:"marzo",4:"abril",5:"mayo",6:"junio",
