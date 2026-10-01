@@ -36,7 +36,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- Tailwind CSS via CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
 
   <style>
     body { font-family: 'Inter', sans-serif; }
@@ -116,7 +116,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
 
       <a href="/" aria-label="Ciselaptop – Inicio">
-        <img src="/img/logo-ciselaptop.webp" alt="Ciselaptop" class="h-9 sm:h-12 w-auto" loading="eager" />
+        <img src="/img/logo-ciselaptop.webp" alt="Ciselaptop" class="h-9 sm:h-12 w-auto" loading="eager" width="1200" height="301" />
       </a>
 
       <nav class="hidden lg:flex items-center gap-5 text-sm font-medium flex-1" aria-label="Menú principal">
@@ -221,7 +221,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
 
           <!-- Juan -->
-          <div class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm text-center card-lift">
+          <div id="juan" class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm text-center card-lift">
             <div class="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center" style="background-color:#e8eaf6;">
               <svg viewBox="0 0 80 80" width="80" height="80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <circle cx="40" cy="40" r="40" fill="#e8eaf6"/>
@@ -237,7 +237,7 @@
           </div>
 
           <!-- Luis -->
-          <div class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm text-center card-lift">
+          <div id="luis" class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm text-center card-lift">
             <div class="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center" style="background-color:#e8eaf6;">
               <svg viewBox="0 0 80 80" width="80" height="80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <circle cx="40" cy="40" r="40" fill="#e8eaf6"/>
@@ -253,7 +253,7 @@
           </div>
 
           <!-- Ismael -->
-          <div class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm text-center card-lift">
+          <div id="ismael" class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm text-center card-lift">
             <div class="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center" style="background-color:#e8eaf6;">
               <svg viewBox="0 0 80 80" width="80" height="80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <circle cx="40" cy="40" r="40" fill="#e8eaf6"/>
@@ -459,6 +459,7 @@
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
+  [
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -493,7 +494,26 @@
       "https://wa.me/529518486056",
       "https://www.facebook.com/Ciselaptop"
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://www.ciselaptop.com/quienes-somos#juan",
+    "name": "Juan López Hernández",
+    "jobTitle": "Fundador y Jefe de Taller",
+    "description": "Ingeniero Industrial en Electrónica egresado del Instituto Tecnológico de Veracruz. Más de 30 años de experiencia en electrónica y más de 15 al frente de Ciselaptop.",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Instituto Tecnológico de Veracruz"
+    },
+    "worksFor": {
+      "@type": "LocalBusiness",
+      "name": "Ciselaptop",
+      "url": "https://www.ciselaptop.com"
+    },
+    "url": "https://www.ciselaptop.com/quienes-somos#juan"
   }
+  ]
   </script>
 
 </body>

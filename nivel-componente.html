@@ -37,7 +37,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- Tailwind CSS via CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
 
   <style>
     body { font-family: 'Inter', sans-serif; }
@@ -276,6 +276,7 @@
           alt="Ciselaptop"
           class="header-logo h-9 sm:h-12 w-auto"
           loading="eager"
+          width="1200" height="301"
         />
       </a>
 
@@ -626,7 +627,7 @@
             <figure>
               <img src="img/reparacion-placa-base-microscopio.webp"
                 alt="Reparación de placa base de laptop a nivel componente con microscopio en Ciselaptop"
-                loading="lazy" class="w-full h-48 object-cover rounded-lg">
+                loading="lazy" width="1200" height="670" class="w-full h-48 object-cover rounded-lg">
               <figcaption class="text-xs text-gray-500 mt-2 text-center">
                 Reparación de placa base con microscopio
               </figcaption>
@@ -634,7 +635,7 @@
             <figure>
               <img src="img/diagnostico-laptop-no-enciende-oaxaca.webp"
                 alt="Diagnóstico de laptop que no enciende mediante microscopio digital en Ciselaptop Oaxaca"
-                loading="lazy" class="w-full h-48 object-cover rounded-lg">
+                loading="lazy" width="1200" height="670" class="w-full h-48 object-cover rounded-lg">
               <figcaption class="text-xs text-gray-500 mt-2 text-center">
                 Diagnóstico con microscopio digital
               </figcaption>
@@ -1014,6 +1015,22 @@
             </div>
           </a>
 
+          <!-- Servicio técnico general -->
+          <a
+            href="/reparacion-laptops"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-gray-200 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 icon-bg">
+              <svg class="w-6 h-6" fill="none" stroke="#1D2E8C" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-sm group-hover:underline" style="color:#1D2E8C;">Servicio técnico general</p>
+              <p class="text-xs text-gray-400 mt-0.5">Diagnóstico $150 MXN + IVA</p>
+            </div>
+          </a>
+
         </div>
 
         <p class="text-center text-gray-400 text-sm mt-6">
@@ -1107,7 +1124,7 @@
 
         <!-- Google Maps embed -->
         <div class="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" title="Mapa de ubicación de Ciselaptop — Leandro Valle 222, Centro, Oaxaca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
 
       </div>

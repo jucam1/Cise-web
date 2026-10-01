@@ -1,48 +1,36 @@
 # Ciselaptop
 
-> Taller especializado en reparación de laptops, PCs e impresoras con más de 15 años de experiencia en Oaxaca de Juárez, México.
+> Taller de reparación de laptops, PCs e impresoras en Oaxaca de Juárez con más de 15 años de experiencia. Diagnóstico honesto, garantía real, precios sin letras chiquitas. Centro histórico de Oaxaca.
 
 ## Servicios
 
-- **Actualización a SSD**: Cambio de disco duro a SSD con instalación de Windows y paquetería básica incluida. Desde $1,400 MXN + IVA. Se incluye revisión de RAM sin costo adicional.
-- **Reparación de bisagras y carcasa**: Reconstrucción especializada de bisagras usando resinas estructurales cuando no existe refacción en el mercado. Desde $650 MXN + IVA. Garantía 35 días.
-- **Formateo y reinstalación de Windows**: $350 MXN. Solución para equipos con virus, sistema dañado o lentos por software.
-- **Diagnóstico general** (equipos que encienden): $150 MXN + IVA. Se descuenta del costo si el cliente autoriza la reparación. Tiempo: hasta 48 horas hábiles.
-- **Diagnóstico electrónico** (equipos sin encender o mojados): $250 MXN + IVA fijo. Tiempo: 5 días hábiles.
-- **Reparación de impresoras**: Diagnóstico $150 MXN + IVA. Atiende rayas, atascos, errores de sistema.
+- [Reparación de laptops y computadoras en Oaxaca](https://www.ciselaptop.com/): Servicio técnico general para laptops HP, Dell, Lenovo, Asus, Acer, Toshiba, Samsung y Sony. Diagnóstico desde $150 MXN + IVA con descuento si se autoriza reparación. Garantía 35 días.
+- [Reparación de bisagras y carcasas](https://www.ciselaptop.com/bisagras): Especialistas en bisagras rotas o trabadas. Reconstrucción sin refacción disponible. Desde $650 MXN + IVA. Entrega en 1 día hábil.
+- [Actualización de laptop a SSD](https://www.ciselaptop.com/actualizacion): Solución para laptops lentas. SSD instalado con Windows y paquetería básica desde $1,400 MXN + IVA.
+- [Reparación de impresoras](https://www.ciselaptop.com/impresoras): HP, Epson, Canon, Brother y más. Atascos, rayas, errores de sistema. Diagnóstico $150 MXN + IVA.
+- [Reparación a nivel componente](https://www.ciselaptop.com/nivel-componente): Laptops que no encienden o con daño por líquidos. Diagnóstico profundo $250 MXN + IVA (costo fijo, no se descuenta).
+- [Servicio técnico general de laptops](https://www.ciselaptop.com/reparacion-laptops): Pantallas, teclados, conectores de carga, lentitud, virus. Diagnóstico $150 MXN + IVA.
 
-## Marcas atendidas
+## Información del taller
 
-HP, Dell, Lenovo, Asus, Acer, Toshiba, Samsung, Sony.
-No se atienden equipos Apple (MacBook, iMac, iPhone, iPad).
+- [Quiénes somos](https://www.ciselaptop.com/quienes-somos): Juan López Hernández, fundador. Ingeniero Industrial en Electrónica del Instituto Tecnológico de Veracruz. Más de 30 años en electrónica, 15 al frente del taller.
+- [Blog de reparación de laptops](https://www.ciselaptop.com/blog): Guías prácticas y casos reales del taller en Oaxaca.
 
-## Garantía
+## Precios de referencia
 
-35 días naturales en mano de obra. Refacciones según política del fabricante.
+- Diagnóstico general (equipo que enciende): $150 MXN + IVA — se descuenta si se autoriza la reparación
+- Diagnóstico nivel componente (no enciende o mojado): $250 MXN + IVA — costo fijo
+- Formateo + instalación de Windows: $350 MXN
+- Actualización SSD 240GB + Windows + paquetería: desde $1,400 MXN + IVA
+- Reparación de bisagras: desde $650 MXN + IVA
+- Garantía en mano de obra: 35 días naturales
 
 ## Ubicación y contacto
 
-Calle Leandro Valle 222, Centro, Oaxaca de Juárez, Oaxaca, México.
-Entre calles Hidalgo y Guerrero. Local azul, antes de La Marisquería La RED.
-
-- WhatsApp ventas: 951 848 6056
-- Horario: Lunes a Viernes 9:30–20:00, Sábado 10:00–15:00
-- Web: https://www.ciselaptop.com
-- Google Maps: https://maps.app.goo.gl/NqfJtXPDHGuxMCtD6
-
-## Diferenciadores
-
-- Más de 15 años de experiencia establecidos en Oaxaca
-- Única opción local que reconstruye bisagras sin refacción disponible
-- El diagnóstico se descuenta de la reparación — el cliente no paga doble
-- Precios publicados abiertamente antes de iniciar cualquier trabajo
-- Tres técnicos especializados: Luis, Ismael y Juan
-
-## Páginas del sitio
-
-- https://www.ciselaptop.com/ — Inicio y servicios generales
-- https://www.ciselaptop.com/bisagras — Reparación de bisagras y carcasas
-- https://www.ciselaptop.com/actualizacion — Actualización a SSD
-- https://www.ciselaptop.com/impresoras — Reparación de impresoras
-- https://www.ciselaptop.com/nivel-componente — Diagnóstico electrónico
-- https://www.ciselaptop.com/blog — Artículos de ayuda
+- Dirección: Leandro Valle 222, Centro, Oaxaca de Juárez, Oaxaca. C.P. 68000
+- WhatsApp (ventas y cotizaciones): +52 951 848 6056
+- WhatsApp (soporte post-venta y garantías): +52 951 547 3068
+- Horarios: Lunes a Viernes 9:30–20:00 h · Sábados 10:00–15:00 h · Domingos cerrado
+- Pago: Efectivo y transferencia bancaria (SPEI). No se acepta tarjeta.
+- No se reparan equipos Apple (MacBook, iMac, iPhone, iPad)
+- No se hace recuperación de datos ni reballing de GPU

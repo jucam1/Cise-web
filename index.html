@@ -33,13 +33,16 @@
   <meta property="og:image" content="https://www.ciselaptop.com/img/logo-ciselaptop.webp" />
   <meta name="author"              content="Ciselaptop" />
 
+  <!-- Preload imagen hero (LCP) -->
+  <link rel="preload" as="image" href="/img/Local.webp" fetchpriority="high">
+
   <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- Tailwind CSS via CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
 
   <style>
     body { font-family: 'Inter', sans-serif; }
@@ -271,6 +274,7 @@
           alt="Ciselaptop"
           class="header-logo h-9 sm:h-12 w-auto"
           loading="eager"
+          width="1200" height="301"
         />
       </a>
 
@@ -807,7 +811,7 @@
           </h2>
           <div class="flex items-center justify-center gap-2 mt-3">
             <span class="text-4xl font-bold text-gray-900">5.0</span>
-            <div class="flex text-yellow-400 text-2xl" aria-label="5 de 5 estrellas">
+            <div class="flex text-2xl" style="color:#B8860B;" aria-label="5 de 5 estrellas">
               ★★★★★
             </div>
           </div>
@@ -831,7 +835,7 @@
               </div>
               <div>
                 <p class="font-semibold text-gray-900 text-sm leading-tight">Kaled Ram Agui</p>
-                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+                <div class="flex text-xs" style="color:#B8860B;" aria-label="5 estrellas">★★★★★</div>
               </div>
             </div>
             <p class="text-gray-600 text-sm leading-relaxed">
@@ -849,7 +853,7 @@
                 <p class="font-semibold text-gray-900 text-sm leading-tight">Adriana M.
                   <span class="font-normal text-gray-400 text-xs">· Local Guide</span>
                 </p>
-                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+                <div class="flex text-xs" style="color:#B8860B;" aria-label="5 estrellas">★★★★★</div>
               </div>
             </div>
             <p class="text-gray-600 text-sm leading-relaxed">
@@ -865,7 +869,7 @@
               </div>
               <div>
                 <p class="font-semibold text-gray-900 text-sm leading-tight">Mildred Ivonne Ricardez Reyes</p>
-                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+                <div class="flex text-xs" style="color:#B8860B;" aria-label="5 estrellas">★★★★★</div>
               </div>
             </div>
             <p class="text-gray-600 text-sm leading-relaxed">
@@ -881,7 +885,7 @@
               </div>
               <div>
                 <p class="font-semibold text-gray-900 text-sm leading-tight">Hilda Concepción López</p>
-                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+                <div class="flex text-xs" style="color:#B8860B;" aria-label="5 estrellas">★★★★★</div>
               </div>
             </div>
             <p class="text-gray-600 text-sm leading-relaxed">
@@ -899,7 +903,7 @@
                 <p class="font-semibold text-gray-900 text-sm leading-tight">Medardo
                   <span class="font-normal text-gray-400 text-xs">· Local Guide</span>
                 </p>
-                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+                <div class="flex text-xs" style="color:#B8860B;" aria-label="5 estrellas">★★★★★</div>
               </div>
             </div>
             <p class="text-gray-600 text-sm leading-relaxed">
@@ -915,7 +919,7 @@
               </div>
               <div>
                 <p class="font-semibold text-gray-900 text-sm leading-tight">Betzabe Vicente Martinez</p>
-                <div class="flex text-yellow-400 text-xs" aria-label="5 estrellas">★★★★★</div>
+                <div class="flex text-xs" style="color:#B8860B;" aria-label="5 estrellas">★★★★★</div>
               </div>
             </div>
             <p class="text-gray-600 text-sm leading-relaxed">
@@ -1124,7 +1128,7 @@
 
         <!-- Google Maps embed -->
         <div class="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" title="Mapa de ubicación de Ciselaptop — Leandro Valle 222, Centro, Oaxaca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
 
       </div>

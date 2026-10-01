@@ -37,7 +37,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- Tailwind CSS via CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
 
   <style>
     body { font-family: 'Inter', sans-serif; }
@@ -276,6 +276,7 @@
           alt="Ciselaptop"
           class="header-logo h-9 sm:h-12 w-auto"
           loading="eager"
+          width="1200" height="301"
         />
       </a>
 
@@ -588,7 +589,7 @@
         <div class="mt-8 text-center">
           <img src="img/mantenimiento-actualizacion-laptop-samsung.webp"
             alt="Laptop Samsung encendida y optimizada en mesa de trabajo de Ciselaptop Oaxaca"
-            loading="lazy"
+            loading="lazy" width="1200" height="670"
             class="w-full max-w-lg mx-auto h-64 object-cover rounded-xl">
           <p class="text-sm text-gray-500 mt-2">
             Resultado final — laptop lista para entregar al cliente
@@ -1072,7 +1073,7 @@
 
         <!-- Google Maps embed -->
         <div class="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.289527569714!2d-96.71915512579818!3d17.058484912198814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72248639fcb6b%3A0xd88aaf117075cf02!2sCiseLaptop!5e0!3m2!1ses-419!2smx!4v1786574504088!5m2!1ses-419!2smx" title="Mapa de ubicación de Ciselaptop — Leandro Valle 222, Centro, Oaxaca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
 
       </div>
@@ -1335,7 +1336,8 @@
       color: #9ca3af;
       font-size: 0.88rem;
       cursor: pointer;
-      padding: 10px 0 0;
+      padding: 12px 8px;
+      min-height: 44px;
       text-align: center;
     }
     .cise-popup-btn-close:hover { color: #6b7280; }
