@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9121",
+  "fecha": "2026-10-05",
+  "slug": "reparacion-canon-g3110-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Canon",
+  "modelo": "G3110",
+  "falla": "No imprime negro",
+  "solucion": "Revición y purgado de mangueras y se puso tinta directo Alos cabezales pero los tanques están vacíos se necesita tinta para realizar purgado completo ya está lista se cambiaron las almohadas se reseteo y se pusieron la tintas",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9121/recepcion/1786149605885-17861494887324843588700058487363.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T191449Z&X-Amz-Expires=172800&X-Amz-Signature=bb91ede0e48ef58b0cc7999c8f12468fd713346d9c489412da89b94d4c388ba9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G3110 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9121/evidencias_general/1786490661414-17864906554633218625669342044496.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T191449Z&X-Amz-Expires=172800&X-Amz-Signature=9cf83e9bb2c822fcf91f1f18a708d95129a5b6c03affaec14fdf662cbdba82d3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G3110 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9121/evidencias_general/1787015342422-1787015336857921410839438751809.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T191449Z&X-Amz-Expires=172800&X-Amz-Signature=adac8ad0044a192c85f13799af37550ec97c418db8648ab9d707dd1ef3650ed9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G3110 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9121/evidencias_general/1787015358258-17870153517422652638558552746852.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T191449Z&X-Amz-Expires=172800&X-Amz-Signature=ceb4a934eba3055caf0cb98baff4ab2ac5f4e44941626ddd8e4b791ca1d3963d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G3110 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9121/refacciones/1787014457787-17870144503977491849037563692571.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T191449Z&X-Amz-Expires=172800&X-Amz-Signature=d00d9a24b04bcefe4af1ab8599340ebd985fc9ab64143c311745d6fd1c296c2d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Canon G3110 — No imprime negro — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
