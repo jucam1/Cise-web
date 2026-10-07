@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9295",
+  "fecha": "2026-10-07",
+  "slug": "reparacion-epson-l380-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Epson",
+  "modelo": "L380",
+  "falla": "Almohadillas llenas / saturadas",
+  "solucion": "Limpieza reseteo y cambio de almohadas gomas purgado de mangueras y válvulas y cabezales ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9295/recepcion/1790697122158-img_20260929_095134_5958408491089388230.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T140121Z&X-Amz-Expires=172800&X-Amz-Signature=21bf7b52d1e0146b06eb2871a2db633cfdf1c6652402271de7dc9079508d48c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L380 — Almohadillas llenas / saturadas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9295/evidencias_general/1790813539198-17908135251948750110581045944690.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T140121Z&X-Amz-Expires=172800&X-Amz-Signature=878ec5981e5c4e15440964b35e70ef38012f64354cf67b17beba42c93025e0d1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L380 — Almohadillas llenas / saturadas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9295/evidencias_general/1790815140080-17908151302097907351291097176631.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T140121Z&X-Amz-Expires=172800&X-Amz-Signature=1351d29c7a8d73261663a484a040dfcf43358106a5d7b7b87b391ca7469fbc27&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L380 — Almohadillas llenas / saturadas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9295/evidencias_general/1790816132097-17908161161221318774527818682128.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T140121Z&X-Amz-Expires=172800&X-Amz-Signature=26d9a7fe4c9ca374eebb86781746715c8389e476074a12360c096d7d15734516&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L380 — Almohadillas llenas / saturadas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9295/refacciones/1790815130474-17908151232853068979135111618592.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T140121Z&X-Amz-Expires=172800&X-Amz-Signature=4cde49914d9cffb3d0d477f8a79fc90b4fc8fd31c6478089cdf3b06178d66639&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L380 — Almohadillas llenas / saturadas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
