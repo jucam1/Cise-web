@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9146",
+  "fecha": "2026-10-07",
+  "slug": "reparacion-lenovo-y50-oaxaca",
+  "categoria": "Software y sistema",
+  "marca": "Lenovo",
+  "modelo": "Y50",
+  "falla": "No carga windows Formatear",
+  "solucion": "Se respaldó y formateo office ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9146/evidencias_general/1787086234534-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T195649Z&X-Amz-Expires=172800&X-Amz-Signature=f258c06e1b66fbb5780e661ce2c2775407563e28dfe68edca33de763fbf742c7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo Y50 — No carga windows Formatear — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9146/evidencias_general/1787086947431-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T195649Z&X-Amz-Expires=172800&X-Amz-Signature=4b6270e8037410b1dfd9bda9f296630305b54ecc64edd458997fa67eea803bf5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo Y50 — No carga windows Formatear — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9146/evidencias_general/1787159446416-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261007T195649Z&X-Amz-Expires=172800&X-Amz-Signature=ebadfd553e03f86ed1a7beec2fe038062ce5f7f679e4419e71a27c9bed0e2a7e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo Y50 — No carga windows Formatear — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
