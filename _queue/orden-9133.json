@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9133",
+  "fecha": "2026-11-06",
+  "slug": "reparacion-epson-l3251-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Epson",
+  "modelo": "L3251",
+  "falla": "No jala bien hojas",
+  "solucion": "Limpieza cambio de gomas y se puso un resorte que no traía ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9133/recepcion/1786580792436-17865807326512540124811166133869.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T200744Z&X-Amz-Expires=172800&X-Amz-Signature=d4293b4d242fba0ccb40c51f356852b303f2742394f318e42640b34874f5b6ae&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L3251 — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9133/evidencias_general/1786668431185-17866684256777181504377598286740.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T200744Z&X-Amz-Expires=172800&X-Amz-Signature=fa59ca4cd0875aa908436e166f9eeaec83b5de3ae8af6b389dfb591341354e98&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L3251 — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9133/evidencias_general/1786670756191-17866707492585751564701047976879.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T200744Z&X-Amz-Expires=172800&X-Amz-Signature=1f25ba915342ba265ee0a2b2c38d1f6262a144e386acd262033883a8209e1d55&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L3251 — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9133/evidencias_general/1786670805992-17866707999003261744825238550150.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T200744Z&X-Amz-Expires=172800&X-Amz-Signature=2229bd7e9e7f0ed2dda96b6c1291f4a69d1ce10c6b356cab70de3d7c1de8909e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L3251 — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9133/refacciones/1786668424621-17866684165187004530423789645780.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T200744Z&X-Amz-Expires=172800&X-Amz-Signature=51b9aee62495636df51fad26c55cbb3f54370a8c79a098276c596a1cf0443c64&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L3251 — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9133/refacciones/1786669524064-17866695138701358254399891642796.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T200744Z&X-Amz-Expires=172800&X-Amz-Signature=3ce114cbd761841581384786c68a7a72cf698cb1eb2499084c524694612d4813&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L3251 — No jala bien hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
