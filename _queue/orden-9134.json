@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "ordenId": "9134",
+  "fecha": "2026-11-06",
+  "slug": "reparacion-brother-t300-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Brother",
+  "modelo": "T300",
+  "falla": "Almohadillas",
+  "solucion": "Reseteo de contador de almohadillas limpieza y cambio de almohadillas ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9134/recepcion/1786580945592-17865808792624467662550746508186.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T201036Z&X-Amz-Expires=172800&X-Amz-Signature=2aedd90b778f3260d38c5854974ce2df9c6659bca77cb322da06d469145b9ceb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T300 — Almohadillas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9134/refacciones/1786673602508-17866735957165131341475637056628.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T201036Z&X-Amz-Expires=172800&X-Amz-Signature=edd3cc6e326377101df5ce5c4ef2306f4cf35f747231a9cb3f8a353380ec7440&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T300 — Almohadillas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9134/evidencias_general/1786673615350-17866736019305345922339251413248.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T201036Z&X-Amz-Expires=172800&X-Amz-Signature=a7de63edcd27011f40c22a498ac4f865397849f9ccd0100349b82c9ea7968596&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T300 — Almohadillas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9134/evidencias_general/1786675782633-17866757758563524724223445700739.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T201036Z&X-Amz-Expires=172800&X-Amz-Signature=b84a3f808f424b93a290edbf5ab1d8f31da3bafda10b5ba9df60f0cbb90ddcde&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T300 — Almohadillas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
