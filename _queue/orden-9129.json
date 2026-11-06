@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9129",
+  "fecha": "2026-11-06",
+  "slug": "reparacion-epson-l4150-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Epson",
+  "modelo": "L4150",
+  "falla": "No jala las hojas",
+  "solucion": "Reseteo de contador de almohadillas limpieza y purgado de mangueras, válvulas y cabezales",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9129/recepcion/1786481173410-17864811401784801463610473802991.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T185952Z&X-Amz-Expires=172800&X-Amz-Signature=05021825887596dd15cebbaf0677912836794413e410bef07e3dc8ebb12daf99&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L4150 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9129/refacciones/1786501328039-17865013214609006130004552040094.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T185952Z&X-Amz-Expires=172800&X-Amz-Signature=ec8850f8079c20ce6a4da1ba32d2f9dc70734c911d8cd33c3ebf2c3cf5787a5a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L4150 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9129/refacciones/1786578204896-17865781970775279788725278044282.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T185952Z&X-Amz-Expires=172800&X-Amz-Signature=ede94a7bedfc033a85f9437828ed430d7878f7f8bba2f5a4159d2b35bb3b4377&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L4150 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9129/evidencias_general/1786578215333-17865782068784770815015298002945.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T185952Z&X-Amz-Expires=172800&X-Amz-Signature=13e240f5c215abfa4ca7513d8be8a7dec2e87f738d6ce54f5ef943814c6175cb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L4150 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9129/evidencias_general/1786581407523-17865814012736539173559642854483.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T185952Z&X-Amz-Expires=172800&X-Amz-Signature=08c1a78f13be5feb255cfb0a1e3a5cbfec4e442f0541b8ff4c3e216fce9a8701&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L4150 — No jala las hojas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
