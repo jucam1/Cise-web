@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9145",
+  "fecha": "2026-11-09",
+  "slug": "reparacion-toshiba-c855-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "Toshiba",
+  "modelo": "C855",
+  "falla": "Bisagra dañada",
+  "solucion": "Bisagras rotas se reparan , se quita módulo de 2 y se pone uno de 4  disco mecánico  se reemplaza pasta térmica  y mantto",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9145/recepcion/1786985211009-17869851776363373946772391350090.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T190205Z&X-Amz-Expires=172800&X-Amz-Signature=e2cce3503426de7ec823019125616164b95491ab5db9188790eb63408b0a978d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Toshiba C855 — Bisagra dañada — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9145/evidencias_general/1787166845294-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T190205Z&X-Amz-Expires=172800&X-Amz-Signature=f1b897ec14afbd0d1ddadffab046c5109b53681eba4f2aa3a47d082c7abdb3ed&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Toshiba C855 — Bisagra dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9145/evidencias_general/1787166851039-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T190205Z&X-Amz-Expires=172800&X-Amz-Signature=24744527bbce422489912966afdcf2a9d11a0e3e393eb8aabea3bf8e3ba1057e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Toshiba C855 — Bisagra dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9145/evidencias_general/1787166813285-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T190205Z&X-Amz-Expires=172800&X-Amz-Signature=1cf4907f168f5aa839f03d5f345fcc4bba3d51de0392c56f4f942664907a7836&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Toshiba C855 — Bisagra dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9145/evidencias_general/1787166778412-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T190205Z&X-Amz-Expires=172800&X-Amz-Signature=eb06c0dbea616648f744e6ba2e16314ddb9655810a0d3271f1ca81f38c3d9338&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Toshiba C855 — Bisagra dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9145/evidencias_general/1787166773830-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T190205Z&X-Amz-Expires=172800&X-Amz-Signature=4f8d262ff11c95cbb97cef3828904fc06b1d5d6a0e8e9af96636b65cd99b0751&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Toshiba C855 — Bisagra dañada — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
