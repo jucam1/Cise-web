@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9130",
+  "fecha": "2026-11-09",
+  "slug": "reparacion-hp-x360-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "HP",
+  "modelo": "X360",
+  "falla": "No da video solo prende reclado",
+  "solucion": "Se prueba ram valida con otra memoria problemas de Bios  batería barrida bisagra barrida acepta un módulo de 8 y uno de 4 total 12 gb",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9130/recepcion/1786563544340-1786563515953575749121893092531.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T182126Z&X-Amz-Expires=172800&X-Amz-Signature=1c79787255d49e7ab3bdbc16bd7fc987301b3f01d4a5da60ee919f54a127d77e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — No da video solo prende reclado — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9130/evidencias_general/1786578609842-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T182126Z&X-Amz-Expires=172800&X-Amz-Signature=117212e353cf9ba1e742846022f82c343b9dae4889122b702e2a3fffa8cb98de&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — No da video solo prende reclado — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9130/evidencias_general/1786578619197-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T182126Z&X-Amz-Expires=172800&X-Amz-Signature=fe976c6cca8f3b411c84eb5247f3865a1c7548f7ed3973baaab7bb953bd79811&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — No da video solo prende reclado — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9130/evidencias_general/1786578629568-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T182126Z&X-Amz-Expires=172800&X-Amz-Signature=6fc2884fffa3dcffacc50a60ff004a664af8ca102caf0108dd331cb3180e49e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — No da video solo prende reclado — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9130/evidencias_general/1786835265245-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T182126Z&X-Amz-Expires=172800&X-Amz-Signature=53901d1adac063d0dd37d283926201b21b5b5a5f2aa10569164cff6fb2423a54&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — No da video solo prende reclado — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9130/evidencias_general/1786578636273-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T182126Z&X-Amz-Expires=172800&X-Amz-Signature=26c989117a736d707939e0f181a8007d66ea75e0164ec58bcb96281ae95523ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP X360 — No da video solo prende reclado — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
