@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "ordenId": "9132",
+  "fecha": "2026-11-09",
+  "slug": "reparacion-brother-t710e-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Brother",
+  "modelo": "T710e",
+  "falla": "No imprime correctamente",
+  "solucion": "Limpieza y purgado de cabezales en modo servicio la más fuerte ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9132/recepcion/1786578245685-17865782108087981446784530471921.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T180743Z&X-Amz-Expires=172800&X-Amz-Signature=a93f96c901ec3c8d816546d66e291da2b754bcac2cc2d2705e40cc01430066fa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T710e — No imprime correctamente — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9132/evidencias_general/1786663481104-17866634734227922627082157587652.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T180743Z&X-Amz-Expires=172800&X-Amz-Signature=2e8f2b27cb8791831c44ce409934c5eb33cd97ed4ab40fbf9a66d58c257f67f7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T710e — No imprime correctamente — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9132/evidencias_general/1786664884816-17866648734671716286578627269142.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T180743Z&X-Amz-Expires=172800&X-Amz-Signature=097a28e8b3cc4433a86ef8b3ede8f6f6b692fbd7a7fa9d3e99d569ba0d5f4b18&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T710e — No imprime correctamente — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9132/evidencias_general/1786667545110-17866675381226413603071484078379.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T180743Z&X-Amz-Expires=172800&X-Amz-Signature=37c8b4326758f4eafb25877cd8cc5323b5103307c07781255e0936bb5fe96d8a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T710e — No imprime correctamente — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
