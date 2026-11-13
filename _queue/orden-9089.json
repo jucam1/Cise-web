@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9089",
+  "fecha": "2026-11-13",
+  "slug": "reparacion-gateway-427bk-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Gateway",
+  "modelo": "427bk",
+  "falla": "Teclado",
+  "solucion": "Se revisa teclado remachado no tiene número de parte no sirve la letra a y otras cambio de teclado",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9089/recepcion/1785532821062-17855327940474856422017750063777.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T172426Z&X-Amz-Expires=172800&X-Amz-Signature=3f62e8c45484ae643686e842c5e8ff7ad41e584ccebf5086fb3ff9db80cef850&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Gateway 427bk — Teclado — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9089/evidencias_general/1785788245453-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T172426Z&X-Amz-Expires=172800&X-Amz-Signature=bb01ecd412c1b2683f6bd9d9081a6b6ced90c452700c14881dc5e563d857b56c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Gateway 427bk — Teclado — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9089/evidencias_general/1787099412814-17870994055144775309892691244452.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T172426Z&X-Amz-Expires=172800&X-Amz-Signature=870be076207fc07daf2bb6f17e19d95b03bc40007de9e0f0becaa4b7d9407e00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Gateway 427bk — Teclado — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9089/evidencias_general/1787104678340-17871046681587684603989338971362.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T172426Z&X-Amz-Expires=172800&X-Amz-Signature=556fa8489b84e66ca2059222647f08dcafdf55e14b6355c19e92c922da060295&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Gateway 427bk — Teclado — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9089/refacciones/1787098874157-17870988655753792505760258683093.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T172426Z&X-Amz-Expires=172800&X-Amz-Signature=8d269a97312374ce2f84ecfbc8e2f232c5de646fa47d0c41fd8513b2507d47e5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Gateway 427bk — Teclado — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
