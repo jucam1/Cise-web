@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "ordenId": "9165",
+  "fecha": "2026-11-13",
+  "slug": "reparacion-asus-ryzen7-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Asus",
+  "modelo": "Ryzen7",
+  "falla": "Office licencia",
+  "solucion": "Se activa licencia se quita basura de Office se abren archivos de validación ok",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9165/recepcion/1787604821067-17876048000396202454075948567483.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T172719Z&X-Amz-Expires=172800&X-Amz-Signature=3e70a9f11143cfb678307f1a8d832c2475ebd13986db5b32e3b3bbff2d047a3b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Ryzen7 — Office licencia — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9165/evidencias_general/1787617441953-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T172719Z&X-Amz-Expires=172800&X-Amz-Signature=57e6986ea7e1541f4763e4ac32c7d797f61fd1b8c3b1a3b6a23448664f02cbe1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Asus Ryzen7 — Office licencia — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
