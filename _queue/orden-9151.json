@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9151",
+  "fecha": "2026-11-13",
+  "slug": "reparacion-kyocera-m2040-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "Kyocera",
+  "modelo": "m2040",
+  "falla": "Bisagras mantto general",
+  "solucion": "Las gomas están muy gastadas se meditan reemplazar , bisagra izquierda rota ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9151/recepcion/1787155698606-17871556632031486685317518277142.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173856Z&X-Amz-Expires=172800&X-Amz-Signature=f2ca461bbad9b0cd8d3b9a2c69e1581db26fe67435c8fe81bc97fdaa5d355f2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyocera m2040 — Bisagras mantto general — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9151/evidencias_general/1787332222665-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173856Z&X-Amz-Expires=172800&X-Amz-Signature=d6f53afd09170c9492c950d234ef06aa3762f4423ebe2fe56b275fc09510e6bd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyocera m2040 — Bisagras mantto general — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9151/evidencias_general/1787332375990-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173856Z&X-Amz-Expires=172800&X-Amz-Signature=3c5816f687c46514dc5f75b79c295e55fcfcf3281f87efeb3738c384145756b7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyocera m2040 — Bisagras mantto general — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9151/evidencias_general/1787968578027-17879685679522179814333610919567.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173856Z&X-Amz-Expires=172800&X-Amz-Signature=e2c47f18e5fde58c34f6d1041070e5923b43a598679b69ccc674f8afa4259985&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyocera m2040 — Bisagras mantto general — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9151/refacciones/1787967836023-1787967830490275479411155296427.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173856Z&X-Amz-Expires=172800&X-Amz-Signature=3dbf70990ff02513fe9eecee4cb33a476c007bedc7843dcf966120f49ccca95c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyocera m2040 — Bisagras mantto general — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9151/refacciones/1787967856549-17879678483108402994428870274986.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173856Z&X-Amz-Expires=172800&X-Amz-Signature=665602aca01f3bc6a8f6fd851b228291ad9e24693c905957b9470ecf231357db&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyocera m2040 — Bisagras mantto general — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
