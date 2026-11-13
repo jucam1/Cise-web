@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9160",
+  "fecha": "2026-11-13",
+  "slug": "reparacion-epson-l392-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Epson",
+  "modelo": "L392",
+  "falla": "Truena",
+  "solucion": "Limpieza engrasado reseteo de contador de almohadillas cambio de gomas y almohadillas purgado de mangueras y cabezales y válvulas ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9160/recepcion/1787333731968-17873337075307441092736064554068.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T221805Z&X-Amz-Expires=172800&X-Amz-Signature=7eed6142386887ee3770cc4021b2afe26612027186056073fb5b523e674b38ff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L392 — Truena — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9160/evidencias_general/1787702091893-17877020830156611922066918298520.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T221805Z&X-Amz-Expires=172800&X-Amz-Signature=4dac552f1b42c7ba5c3f700c8c3607115ebf9f2caf0d5e1ee729da4a0a353bca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L392 — Truena — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9160/evidencias_general/1787706982790-17877069728686836255529362164221.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T221805Z&X-Amz-Expires=172800&X-Amz-Signature=f917072cc1baea58b65db92fc3d6f647f6cee87f7f60cc1c93f2d84915c99569&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L392 — Truena — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9160/refacciones/1787704071664-17877040659728159660794517077548.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T221805Z&X-Amz-Expires=172800&X-Amz-Signature=b4de2efce1d57d01c6208b3f069f1feb049326e9c29376146180dcb463d45974&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L392 — Truena — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9160/refacciones/1787706479638-17877064698712578658493718653047.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T221805Z&X-Amz-Expires=172800&X-Amz-Signature=24d727d1dff8c745bc7fe2aa761aa412f177d06387d88657812c8dcdd935ad68&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Epson L392 — Truena — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
