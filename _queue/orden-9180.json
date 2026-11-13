@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9180",
+  "fecha": "2026-11-13",
+  "slug": "reparacion-brother-t720dw-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Brother",
+  "modelo": "T720dw",
+  "falla": "Impresión borrosa o con líneas, Imprime torcido / desalineado, Atasco de papel",
+  "solucion": "Limpieza y purgado no tiene tinta se recomienda usar en alta calidad ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9180/recepcion/1787786379840-17877863196956058564972968811415.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173649Z&X-Amz-Expires=172800&X-Amz-Signature=01ec405b34578b6e550217d0da7114aca9a03c62dbd93bf155aed5a04845324a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T720dw — Impresión borrosa o con líneas, Imprime torcido / desalineado, Atasco de papel — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9180/evidencias_general/1787798832608-17877988258285293614087629938431.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173649Z&X-Amz-Expires=172800&X-Amz-Signature=08a9eabac7dedb2e118cb8986f09041658ff847ed8ec2f230a2d3b1598fecc59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T720dw — Impresión borrosa o con líneas, Imprime torcido / desalineado, Atasco de papel — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9180/evidencias_general/1787798883288-17877988621833230895807129431408.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173649Z&X-Amz-Expires=172800&X-Amz-Signature=21e175519c345253a9271ef762b10744f4ea6a81a0a850d4b3681149ed68998c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T720dw — Impresión borrosa o con líneas, Imprime torcido / desalineado, Atasco de papel — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9180/evidencias_general/1787876654301-17878766462962524400973130831451.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173649Z&X-Amz-Expires=172800&X-Amz-Signature=1af26969f885d874401534ab25eb66e331e7b4629a12841f153b554c3db9ce28&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T720dw — Impresión borrosa o con líneas, Imprime torcido / desalineado, Atasco de papel — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9180/evidencias_general/1787876663038-17878766571905557966331321659494.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173649Z&X-Amz-Expires=172800&X-Amz-Signature=bd80bac17a86e5784fd49581c54549921603f5f0a374d6866efdb7782ada3764&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T720dw — Impresión borrosa o con líneas, Imprime torcido / desalineado, Atasco de papel — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
