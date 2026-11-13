@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9140",
+  "fecha": "2026-11-13",
+  "slug": "reparacion-brother-hl-2135w-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Brother",
+  "modelo": "Hl-2135w",
+  "falla": "Toner no jala hohas",
+  "solucion": "Ya está lista limpieza y correctivo a engrane que no se activa al meter la charola ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9140/recepcion/1786736710119-17867366807456427414046804099362.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173007Z&X-Amz-Expires=172800&X-Amz-Signature=bd796017d1537f796287067a9ddf86a00b1120b32febd89b14ff632ead8ec816&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother Hl-2135w — Toner no jala hohas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9140/evidencias_general/1787106847659-17871068367153075808127146405128.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173007Z&X-Amz-Expires=172800&X-Amz-Signature=2a748a13751bf198e398be9f9226d9d8589627372480e8a17ff386ce7cd59a99&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother Hl-2135w — Toner no jala hohas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9140/evidencias_general/1787185686672-17871856660824003580548950554867.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T173007Z&X-Amz-Expires=172800&X-Amz-Signature=45e6be99f13c4eccc4cd7e9dc681938ac1584da1690373fc8ce7b78dc0bbadff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother Hl-2135w — Toner no jala hohas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
