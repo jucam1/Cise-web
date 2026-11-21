@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "ordenId": "9179",
+  "fecha": "2026-11-21",
+  "slug": "reparacion-acer-a515-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "Acer",
+  "modelo": "A515",
+  "falla": "Bisagras rotas",
+  "solucion": "Las bisagras están rotas y oxidadas Se tiene que lubricar y reconstruir base en la carcasa",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9179/recepcion/1787770150548-17877701180862402751130796997660.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T172816Z&X-Amz-Expires=172800&X-Amz-Signature=2a81b5f55048727e33375a5eb45a3c3ef3745f6ff5ada807a10abf60e9419086&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer A515 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9179/evidencias_general/1788027768672-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T172816Z&X-Amz-Expires=172800&X-Amz-Signature=53a5ca4372a4fadabe798d8e71f5a755f737c727f5c6c5e7bd288ded0a39df78&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer A515 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9179/evidencias_general/1788027782741-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T172816Z&X-Amz-Expires=172800&X-Amz-Signature=c9047efdf65389566f8a51ec4c424af769cfaaae2656c1dd0a8595a52dbaee5a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer A515 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9179/evidencias_general/1788305996040-29666.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T172816Z&X-Amz-Expires=172800&X-Amz-Signature=b3c33b4f11dd201cc62ac92ca4cc1c8f47d075315341ebb0442af62b333e8c64&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer A515 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9179/evidencias_general/1788305996147-29669.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T172816Z&X-Amz-Expires=172800&X-Amz-Signature=56871caaf02695c55bca165444174ade16d513f525adfa949254e54fb8660092&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Acer A515 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
