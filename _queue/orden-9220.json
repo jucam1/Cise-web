@@ -1,0 +1,20 @@
+{
+  "version": "1",
+  "ordenId": "9220",
+  "fecha": "2026-11-21",
+  "slug": "reparacion-hp-15-cw100-oaxaca",
+  "categoria": "Software y sistema",
+  "marca": "HP",
+  "modelo": "15 cw100",
+  "falla": "Formateo",
+  "solucion": "No trae batería no se prende elBotón de carga se instala office y Windows 11 ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9220/recepcion/1788542239686-img_20260904_111253_6646142417686173802.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T173820Z&X-Amz-Expires=172800&X-Amz-Signature=93370eb7f18154f5ebee9ffd3721b30f4d906aca6402133d3e05d7d02f58c3f0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP 15 cw100 — Formateo — Ciselaptop Oaxaca",
+      "esHero": true
+    }
+  ]
+}
