@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9162",
+  "fecha": "2026-11-21",
+  "slug": "reparacion-hp-i5-oaxaca",
+  "categoria": "Reparación",
+  "marca": "HP",
+  "modelo": "I5",
+  "falla": "No da video",
+  "solucion": "Reprogramación de Bios y configuracion",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9162/recepcion/1787340225404-17873401921292170261600577718822.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T165920Z&X-Amz-Expires=172800&X-Amz-Signature=fd0e91a5dfab520cd51db36f2270aef1ce4a3aa4d1fb58ec50d7f48e7dff3a52&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — No da video — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9162/evidencias_general/1787688163710-WIN_20260825_14_02_12_Pro.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T165920Z&X-Amz-Expires=172800&X-Amz-Signature=7048a4cf2568b17583d5e9e74015f31567eb7b6ba82b22b9bd14d5e88544d60a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — No da video — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9162/evidencias_general/1788390880714-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T165920Z&X-Amz-Expires=172800&X-Amz-Signature=4cbcf65aea5a8f217bd28154eb5bfe20d1905389414083f40580967f87813609&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — No da video — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9162/evidencias_general/1788391406931-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T165920Z&X-Amz-Expires=172800&X-Amz-Signature=01baa8563a420736ccc9f227b6f4ba9f7a800a8937e3c66f313d7f47a5fe8da9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — No da video — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9162/evidencias_general/1788391490056-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T165920Z&X-Amz-Expires=172800&X-Amz-Signature=05abc8253c8dfc37401eb4012b40107b5b8ff14584aa1f7b108ed76461a4d679&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — No da video — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9162/evidencias_general/1788397120863-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T165920Z&X-Amz-Expires=172800&X-Amz-Signature=e837b94a8e95064b6593d3b7040dec257289232ffd0ceaba97ef3e040836773b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "HP I5 — No da video — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
