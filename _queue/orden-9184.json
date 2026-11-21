@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9184",
+  "fecha": "2026-11-21",
+  "slug": "reparacion-lenovo-ideapad-17-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "Lenovo",
+  "modelo": "IdeaPad 17",
+  "falla": "Bisagras rotas",
+  "solucion": "Bisagras rotas base rota Se reconstruye bisagras se reconstruye base de display",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9184/recepcion/1787849640546-17878496125178522808901233123503.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203416Z&X-Amz-Expires=172800&X-Amz-Signature=c7212607e3e680f1c144c683b2027e6f35314cc11c29179323487c50107bd52c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo IdeaPad 17 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9184/evidencias_general/1788034790983-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203416Z&X-Amz-Expires=172800&X-Amz-Signature=8b5e0b2be6c0893b50e8359951a24af669681ca692ead062eb0b4198e9b11940&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo IdeaPad 17 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9184/evidencias_general/1788034795766-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203416Z&X-Amz-Expires=172800&X-Amz-Signature=4e4cad9cd9765b17784b524b6cc2ac8b8430f75d474cf6dc0bcb1b0c38171224&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo IdeaPad 17 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9184/evidencias_general/1788035218780-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203416Z&X-Amz-Expires=172800&X-Amz-Signature=acae179c56fd4c99b17c629414cd4bc1e9f1d2546eb021738fd6b4bbbc59a719&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo IdeaPad 17 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9184/evidencias_general/1788036666584-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203416Z&X-Amz-Expires=172800&X-Amz-Signature=2fc915b1858c5d236e3faf9fa12b572a522cb41c3483f3ae6502f206fca8fd60&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo IdeaPad 17 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9184/evidencias_general/1788545209453-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203416Z&X-Amz-Expires=172800&X-Amz-Signature=a8e7730d1eed54b9e31762914902b11aaaee0bf28ad1ab49774cd53ceaa17a59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo IdeaPad 17 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
