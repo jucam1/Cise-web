@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "ordenId": "9192",
+  "fecha": "2026-11-21",
+  "slug": "reparacion-lenovo-80k5-oaxaca",
+  "categoria": "Bisagras y carcasas",
+  "marca": "Lenovo",
+  "modelo": "80k5",
+  "falla": "Bisagras rotas",
+  "solucion": "Reconstruccion de bisagras y mantenimiento ventiladores y pasta termica",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9192/recepcion/1787939894239-17879398579753376473969386215938.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T170705Z&X-Amz-Expires=172800&X-Amz-Signature=9c1c9ebd2d6cd1ff6f254f58eec6ccd633dc7144646ce3afb55afb8b20f7f9eb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo 80k5 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9192/evidencias_general/1788193193817-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T170705Z&X-Amz-Expires=172800&X-Amz-Signature=acf0904dc24bceebcdf728b9f22a91e716bc6f5b3af5a9019a1692e696b63bfc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo 80k5 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9192/evidencias_general/1788193206518-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T170705Z&X-Amz-Expires=172800&X-Amz-Signature=4fba50f5e1944df98d2f43cfbf089f642823a69c687802bb42b08ecfb09368db&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo 80k5 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9192/evidencias_general/1788383175117-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T170705Z&X-Amz-Expires=172800&X-Amz-Signature=8d2dc7dae3e47287352e2ade9e2718df5cd2eada093e499907adb974b6016202&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo 80k5 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9192/evidencias_general/1788383145701-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T170705Z&X-Amz-Expires=172800&X-Amz-Signature=cd992458d574609cf933b244b01dcde3f7f97cd971ed13b5dfa3bc8738bf3602&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo 80k5 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9192/evidencias_general/1788383126677-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T170705Z&X-Amz-Expires=172800&X-Amz-Signature=ea50eaef52db8e5b5e87afebad31d55154f1d5cbc699a1025da48d5c8b93c39e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Lenovo 80k5 — Bisagras rotas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
