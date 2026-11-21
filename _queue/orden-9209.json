@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "ordenId": "9209",
+  "fecha": "2026-11-21",
+  "slug": "reparacion-kyosrea-m5521cdn-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Kyosrea",
+  "modelo": "M5521cdn",
+  "falla": "Al escanear el documento muestra una línea",
+  "solucion": "Limpieza el cristal de el escáner tenía pegamento negro por eso salía la línea se realizaron pruebas de copias de ADF y cama plana sin problemas las gomas estan bien ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9209/recepcion/1788385304094-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203805Z&X-Amz-Expires=172800&X-Amz-Signature=6f72edf2f5dbffe64399349daec029e02657b771127fcde73d91f3b1f3995bd7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyosrea M5521cdn — Al escanear el documento muestra una línea — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9209/recepcion/1788385304497-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203805Z&X-Amz-Expires=172800&X-Amz-Signature=81d36b6022b02fb311a41a05828381dcf73fbf1139e797ffc78150667844f45b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyosrea M5521cdn — Al escanear el documento muestra una línea — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9209/evidencias_general/1788486423470-17884864156502221407827011499130.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203805Z&X-Amz-Expires=172800&X-Amz-Signature=623d8b985be4b382df4a3bd280f70c117a41c2cc8bfb827b5553335a8b5bd056&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyosrea M5521cdn — Al escanear el documento muestra una línea — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9209/evidencias_general/1788487417011-17884874012642596761148099610954.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T203805Z&X-Amz-Expires=172800&X-Amz-Signature=6f9d5784cd46d4171f1335c0011cf3c8de1a238a3965b547a189907afcd54b34&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Kyosrea M5521cdn — Al escanear el documento muestra una línea — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
