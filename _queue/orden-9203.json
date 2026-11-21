@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ordenId": "9203",
+  "fecha": "2026-11-21",
+  "slug": "reparacion-brother-t72002-oaxaca",
+  "categoria": "Reparación",
+  "marca": "Brother",
+  "modelo": "T72002",
+  "falla": "Impresión borrosa o con líneas",
+  "solucion": "Purgado de mangueras y cabezales pero el cabezal está muy tapado color magenta y amarillo ",
+  "precio": null,
+  "garantia": "35 días en mano de obra",
+  "fotos": [
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9203/recepcion/1788280018203-image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T173457Z&X-Amz-Expires=172800&X-Amz-Signature=2a3519813ba4c5705f4bb31e19fbf1086eeb6f550f87b6159230b2d856eea875&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T72002 — Impresión borrosa o con líneas — Ciselaptop Oaxaca",
+      "esHero": true
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9203/evidencias_general/1788402909724-17884029030475151623902142293855.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T173457Z&X-Amz-Expires=172800&X-Amz-Signature=adc5ad681dd7c98787cccc7e286b45b5e8012f6c8443705bd076f3a27241d0ca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T72002 — Impresión borrosa o con líneas — Ciselaptop Oaxaca",
+      "esHero": false
+    },
+    {
+      "url": "https://ciseflow-evidencias.sfo3.digitaloceanspaces.com/ordenes/9203/evidencias_general/1788404427589-17884044204791845842394947216047.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00NTEX8KWL26GHUZ84%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261121T173457Z&X-Amz-Expires=172800&X-Amz-Signature=2f9e01760e66032960e1cf04326cf93b87fe89be22921a2e02d7b080ce378fb0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "alt": "Brother T72002 — Impresión borrosa o con líneas — Ciselaptop Oaxaca",
+      "esHero": false
+    }
+  ]
+}
